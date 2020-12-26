@@ -1,12 +1,14 @@
-import React from 'react'
-import {Link } from 'react-router-dom'
+import React from 'react';
+import {Link } from 'react-router-dom';
+import Button from '@material-ui/core/Button';
+import './All.css';
 
 
 const Functions = () => (
     <div>
         <ul>
-            <li><Link to='/funkcje/znajdz'>Znajdź przepis</Link></li>
-            <li><Link to='/funkcje/jak'>Jak ugotować</Link></li>
+            <Button component={ Link } to="/funkcje/znajdz" variant="contained" color="primary" >Znajdź przepis</Button>
+            <Button component={ Link } to="/funkcje/jak" variant="contained" color="primary" >Jak ugotować</Button>
         </ul>
     </div>
 )
