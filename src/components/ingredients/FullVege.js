@@ -1,5 +1,5 @@
 import React from 'react'
-import Api from '../Api'
+import ApiVeg from '../../Api'
 import { Link } from 'react-router-dom'
 
 
@@ -7,9 +7,9 @@ const FullVege = () => (
     <div>
         <ul>
             {
-                Api.all().map(p => (
-                    <li key={p.number}>
-                        <Link to={`/funkcje/jak/warzywa/${p.number}`}>{p.name}</Link>
+                ApiVeg.all().map(v => (
+                    <li key={v.number}>
+                        <Link to={`/funkcje/jak/warzywa/${v.number}`}>{v.name}</Link>
                     </li>
                 ))
             }

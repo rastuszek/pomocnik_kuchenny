@@ -1,7 +1,7 @@
 import React from 'react';
-import Button from '@material-ui/core/Button';
+import Button from 'react-bootstrap/Button';
 import { Switch, Route, Link } from 'react-router-dom';
-import Vegetables from './Vegetables';
+import Vegetables from './ingredients/Vegetables';
 
 const How = () => (
     <div>
@@ -9,7 +9,7 @@ const How = () => (
     <h1>Co chcesz ugotować?</h1>
 
     <ul>
-        <Button component={ Link } to="/funkcje/jak/warzywa" variant="contained" color="primary" >Warzywa</Button>
+        <Link to="/funkcje/jak/warzywa"> <Button variant="primary">Warzywa</Button></Link>
     </ul>
 
     <Switch>
