@@ -1,6 +1,9 @@
-import React from 'react'
+import React, {useContext, useState} from 'react';
+import {Redirect} from 'react-router-dom';
 import TextField from '@material-ui/core/TextField';
-import { makeStyles } from '@material-ui/core/styles';
+import {makeStyles} from '@material-ui/core/styles';
+import {firebaseAuth} from "../provider/authProvider";
+import {Button} from "@material-ui/core";
 
 const useStyles = makeStyles((theme) => ({
     root: {
@@ -14,54 +17,54 @@ const useStyles = makeStyles((theme) => ({
 
 const Login = () => {
     const classes = useStyles();
+    const {handleSingIn, inputs, setInputs} = useContext(firebaseAuth);
+    const [redirect, setRedirect] = useState(false)
+
+    const handleChange = (event) => {
+        const {name, value} = event.target;
+        setInputs(prev => ({...prev, [name]: value}));
+    }
+
+    const handleSubmit = (event) => {
+        event.preventDefault();
+        handleSingIn();
+    }
+    const handleRedirect = () => {
+        console.log('Zalogowano')
+        setRedirect(true);
+    }
 
     return (
-        <form className={classes.root} noValidate autoComplete="off">
-            <div>
-                <TextField error id="standard-error" label="Error" defaultValue="Hello World" />
-                <TextField
-                    error
-                    id="standard-error-helper-text"
-                    label="Error"
-                    defaultValue="Hello World"
-                    helperText="Incorrect entry."
-                />
-            </div>
-            <div>
-                <TextField
-                    error
-                    id="filled-error"
-                    label="Error"
-                    defaultValue="Hello World"
-                    variant="filled"
-                />
-                <TextField
-                    error
-                    id="filled-error-helper-text"
-                    label="Error"
-                    defaultValue="Hello World"
-                    helperText="Incorrect entry."
-                    variant="filled"
-                />
-            </div>
-            <div>
-                <TextField
-                    error
-                    id="outlined-error"
-                    label="Error"
-                    defaultValue="Hello World"
-                    variant="outlined"
-                />
-                <TextField
-                    error
-                    id="outlined-error-helper-text"
-                    label="Error"
-                    defaultValue="Hello World"
-                    helperText="Incorrect entry."
-                    variant="outlined"
-                />
-            </div>
-        </form>
+        <>
+            <form className={classes.root} noValidate autoComplete="off">
+                <div>
+                    <TextField
+                        error
+                        onChange={handleChange}
+                        name="password"
+                        type="password"
+                        value={inputs.password}
+                        id="standard-error"
+                        label="Hasło:"
+                    />
+
+                    <TextField
+                        error
+                        value={inputs.email}
+                        onChange={handleChange}
+                        name="email"
+                        type="email"
+                        id="standard-error"
+                        label="Adres e-mail:"
+                    />
+
+                    <Button onClick={handleSubmit} variant="contained">Zaloguj</Button>
+                </div>
+            </form>
+            {redirect && <Redirect to="/register"/>}
+
+            <Button onClick={handleRedirect} variant="contained">Zarejestruj</Button>
+        </>
     );
 }
 
