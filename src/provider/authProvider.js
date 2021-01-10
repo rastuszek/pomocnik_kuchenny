@@ -18,7 +18,7 @@ const AuthProvider = (props) => {
     }
 
     const handleSingIn = () => {
-        console.log("handleSingUp");
+        console.log("handleSingIn");
         console.log(inputs);
         authMethods.singin(inputs.email, inputs.password, setToken, setErrors);
         console.log(errors, token)

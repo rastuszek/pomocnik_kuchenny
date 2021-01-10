@@ -11,6 +11,7 @@ import How from "./components/How";
 import {firebaseAuth} from "./provider/authProvider";
 import Login from "./components/Login";
 import PrivateRoute from "./components/PrivateRoute";
+import SingleVegetable from "./components/ingredients/SingleVegetable";
 
 
 const App = () => {
@@ -19,19 +20,25 @@ const {token} = useContext(firebaseAuth);
     return (
         <div className="App">
 
+            <div>
+                <Route path='/logowanie'  component={Login}/>
+                <Route path='/rejestracja'  component={Register}/>
+            </div>
+
             <Header />
 
-            <main>
+            <div>
                 <Switch>
                     <PrivateRoute exact path='/' component={Intro}/>
                     <PrivateRoute exact path='/funkcje' component={Functions}/>
                     <PrivateRoute path='/inne'  component={Other}/>
-                    <Route path='/login'  component={Login}/>
-                    <Route path='/register'  component={Register}/>
                     <PrivateRoute path='/funkcje/znajdz' component={Seek}/>
                     <PrivateRoute path='/funkcje/jak' component={How}/>
+                    {/*<PrivateRoute path="/funkcje/jak/warzywa/:slug" component={SingleVegetable}/>*/}
+
                 </Switch>
-            </main>
+            </div>
+
 
 
         </div>

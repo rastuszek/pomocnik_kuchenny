@@ -42,10 +42,10 @@ return (
             />
             <TextField
                 error
-                value={inputs.email}
                 onChange={handleChange}
                 name="email"
                 type="email"
+                value={inputs.email}
                 id="standard-error"
                 label="Adres e-mail:"
             />

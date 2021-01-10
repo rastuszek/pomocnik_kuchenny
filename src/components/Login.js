@@ -61,9 +61,9 @@ const Login = () => {
                     <Button onClick={handleSubmit} variant="contained">Zaloguj</Button>
                 </div>
             </form>
-            {redirect && <Redirect to="/register"/>}
+            {redirect && <Redirect to="/rejestracja"/>}
 
-            <Button onClick={handleRedirect} variant="contained">Zarejestruj</Button>
+            {/*<Button onClick={handleRedirect} variant="contained">Zarejestruj</Button>*/}
         </>
     );
 }
