@@ -11,8 +11,10 @@ import How from "./components/How";
 import {firebaseAuth} from "./provider/authProvider";
 import Login from "./components/Login";
 import PrivateRoute from "./components/PrivateRoute";
-import SingleVegetable from "./components/ingredients/SingleVegetable";
 import FullVege from "./components/ingredients/FullVege";
+import SingleVege from "./components/ingredients/SingleVege";
+import FullPasta from "./components/ingredients/FullPasta";
+import SinglePasta from "./components/ingredients/SinglePasta";
 
 
 const App = () => {
@@ -22,10 +24,10 @@ const {token} = useContext(firebaseAuth);
 
         <div className="App">
 
-            <div>
-                <Route path='/logowanie'  component={Login}/>
-                <Route path='/rejestracja'  component={Register}/>
-            </div>
+            {/*<div>*/}
+            {/*    <Route path='/logowanie'  component={Login}/>*/}
+            {/*    <Route path='/rejestracja'  component={Register}/>*/}
+            {/*</div>*/}
 
             <Header />
 
@@ -36,10 +38,10 @@ const {token} = useContext(firebaseAuth);
                     <PrivateRoute path='/inne'  component={Other}/>
                     <PrivateRoute path='/funkcje/znajdz' component={Seek}/>
                     <PrivateRoute exact path='/funkcje/jak' component={How}/>
-                    <PrivateRoute path='/funkcje/jak/warzywa' component={FullVege}/>
-                    {/*<PrivateRoute path='/funkcje/jak/warzywa/:slug' component={FullVege}/>*/}
-
-
+                    <PrivateRoute exact path='/funkcje/jak/warzywa' component={FullVege}/>
+                    <PrivateRoute  path='/funkcje/jak/warzywa/:slug' component={SingleVege}/>
+                    <PrivateRoute exact path='/funkcje/jak/makarony' component={FullPasta}/>
+                    <PrivateRoute  path='/funkcje/jak/makarony/:slug' component={SinglePasta}/>
                 </Switch>
             </div>
 

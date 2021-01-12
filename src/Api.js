@@ -11,13 +11,13 @@ export function getVegetables() {
     return vegetables;
 }
 
-// export function getPasta() {
-//     let pasta = [];
-//     firebase.database().ref("pasta").on("value", data => {
-//         data.forEach(pas => {
-//             pasta.push(pas.val());
-//         })
-//     })
-//     return pasta;
-// }
+export function getPasta() {
+    let pasta = [];
+    firebase.database().ref("pasta").on("value", data => {
+        data.forEach(pas => {
+            pasta.push(pas.val());
+        })
+    })
+    return pasta;
+}
 
