@@ -1,22 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="ca7d999f-2173-4b68-b612-f7220dbb22eb" name="Default Changelist" comment="rejestracja i login - firebase">
-      <change afterPath="$PROJECT_DIR$/src/components/ingredients/SingleVegetable.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/example.json" afterDir="false" />
+    <list default="true" id="ca7d999f-2173-4b68-b612-f7220dbb22eb" name="Default Changelist" comment="pierwsza funkcja - start">
       <change beforePath="$PROJECT_DIR$/.eslintcache" beforeDir="false" afterPath="$PROJECT_DIR$/.eslintcache" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Api.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Api.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/App.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Functions.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Functions.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/Header.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Header.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/How.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/How.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Login.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Login.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Main.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/PrivateRoute.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/PrivateRoute.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Register.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Register.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/ingredients/FullVege.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/ingredients/FullVege.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/ingredients/Vegeta.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/ingredients/Vegeta.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/ingredients/Vegetables.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/ingredients/Vegetables.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/provider/authProvider.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/provider/authProvider.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -101,7 +95,10 @@
       <workItem from="1609926282302" duration="7710000" />
       <workItem from="1610185903290" duration="6216000" />
       <workItem from="1610286883135" duration="816000" />
-      <workItem from="1610305424631" duration="8617000" />
+      <workItem from="1610305424631" duration="13474000" />
+      <workItem from="1610385280342" duration="2910000" />
+      <workItem from="1610398835939" duration="7787000" />
+      <workItem from="1610476296552" duration="1524000" />
     </task>
     <task id="LOCAL-00001" summary="ok">
       <created>1608942873427</created>
@@ -152,7 +149,21 @@
       <option name="project" value="LOCAL" />
       <updated>1609710885112</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="pierwsza funkcja - start">
+      <created>1610318710950</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1610318710951</updated>
+    </task>
+    <task id="LOCAL-00009" summary="pierwsza funkcja - start">
+      <created>1610318726254</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1610318726254</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -174,17 +185,7 @@
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="ok" />
     <MESSAGE value="rejestracja i login - firebase" />
-    <option name="LAST_COMMIT_MESSAGE" value="rejestracja i login - firebase" />
-  </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="javascript">
-          <url>file://$PROJECT_DIR$/src/components/How.js</url>
-          <line>2</line>
-          <option name="timeStamp" value="1" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
+    <MESSAGE value="pierwsza funkcja - start" />
+    <option name="LAST_COMMIT_MESSAGE" value="pierwsza funkcja - start" />
   </component>
 </project>

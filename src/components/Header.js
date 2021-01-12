@@ -16,7 +16,6 @@ const Header = () => {
                 <div>
 
                         <Button component={ Link } to="/" variant="contained" color="primary" >Wprowadzenie</Button>
-
                         <Button component={ Link } to="/funkcje" variant="contained" color="primary">Funkcje</Button>
                         <Button component={ Link } to="/inne" variant="contained" color="primary">Inne</Button>
 
