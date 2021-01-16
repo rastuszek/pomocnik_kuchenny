@@ -3,7 +3,7 @@ import {getPasta} from '../../Api';
 import {Link} from "react-router-dom";
 import How from "../How";
 
-const FullPasta = () => {
+const Pasta = () => {
     const [pasta, setPasta] = useState([]);
 
     useEffect(() => {
@@ -22,4 +22,4 @@ const FullPasta = () => {
     )
 }
 
-export default FullPasta
+export default Pasta

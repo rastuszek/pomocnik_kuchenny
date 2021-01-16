@@ -3,7 +3,7 @@ import {getVegetables} from "../Api";
 import {Link, Switch} from "react-router-dom";
 import Button from "react-bootstrap/Button";
 import PrivateRoute from "./PrivateRoute";
-import FullVege from "./ingredients/FullVege";
+import Vegetables from "./ingredients/Vegetables";
 
 
 const How = (props) => {
