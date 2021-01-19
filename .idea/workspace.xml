@@ -1,18 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="ca7d999f-2173-4b68-b612-f7220dbb22eb" name="Default Changelist" comment="pierwsza funkcja">
-      <change afterPath="$PROJECT_DIR$/src/components/ingredients/SingleVarious.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/ingredients/Various.js" afterDir="false" />
+    <list default="true" id="ca7d999f-2173-4b68-b612-f7220dbb22eb" name="Default Changelist" comment="problem">
+      <change afterPath="$PROJECT_DIR$/src/components/ingredients/Recipes.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.eslintcache" beforeDir="false" afterPath="$PROJECT_DIR$/.eslintcache" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Api.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Api.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/How.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/How.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Seek.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Seek.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/ingredients/FullPasta.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/ingredients/Pasta.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/ingredients/FullVege.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/ingredients/Vegetables.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/firebase/firebaseIndex.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/firebase/firebaseIndex.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/ingredients/Pasta.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/ingredients/Pasta.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/ingredients/SinglePasta.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/ingredients/SinglePasta.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/ingredients/SingleVarious.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/ingredients/SingleVarious.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/ingredients/SingleVege.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/ingredients/SingleVege.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/ingredients/Various.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/ingredients/Various.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/ingredients/Vegetables.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/ingredients/Vegetables.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -102,7 +102,10 @@
       <workItem from="1610398835939" duration="7787000" />
       <workItem from="1610476296552" duration="6739000" />
       <workItem from="1610655991956" duration="5791000" />
-      <workItem from="1610785364213" duration="3858000" />
+      <workItem from="1610785364213" duration="4527000" />
+      <workItem from="1610829036629" duration="1314000" />
+      <workItem from="1610901243540" duration="7108000" />
+      <workItem from="1611091249864" duration="3052000" />
     </task>
     <task id="LOCAL-00001" summary="ok">
       <created>1608942873427</created>
@@ -181,7 +184,14 @@
       <option name="project" value="LOCAL" />
       <updated>1610482767992</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="problem">
+      <created>1610790842127</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1610790842128</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -206,6 +216,7 @@
     <MESSAGE value="pierwsza funkcja - start" />
     <MESSAGE value="przed usuwaniem" />
     <MESSAGE value="pierwsza funkcja" />
-    <option name="LAST_COMMIT_MESSAGE" value="pierwsza funkcja" />
+    <MESSAGE value="problem" />
+    <option name="LAST_COMMIT_MESSAGE" value="problem" />
   </component>
 </project>

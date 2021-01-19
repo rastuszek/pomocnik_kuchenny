@@ -8,7 +8,6 @@ import Vegetables from "./ingredients/Vegetables";
 
 const How = (props) => {
     return (
-
             <div>
                 <h1> Co chcesz ugotować? </h1>
 

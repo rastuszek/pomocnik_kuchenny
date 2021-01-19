@@ -5,14 +5,17 @@ const SinglePasta = (props) => {
     const [pasta, setPasta] = useState([]);
     let slug = parseInt(props.match.params.slug);
 
-    useEffect(() => {
-        setPasta(getPasta());
+    useEffect(async () => {
+        let result = await getPasta();
+        setPasta(result);
     }, [])
 
     return (
-        <div>{pasta.filter(pasta => pasta.number === slug).map(pasta => {
-            return (<div key={slug}>{pasta.description}</div>)
-        })}</div>
+        <div>
+            {pasta.filter(pasta => pasta.number === slug).map(pasta => {
+            return(<div key={slug}>{pasta.description}</div>)
+            })}
+        </div>
     )
 }
 

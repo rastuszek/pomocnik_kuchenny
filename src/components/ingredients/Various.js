@@ -6,8 +6,9 @@ import How from "../How";
 const Various = () => {
     const [various, setVarious] = useState([]);
 
-    useEffect(() => {
-        setVarious(getVarious());
+    useEffect(async () => {
+        let result = await getVarious();
+        setVarious(result);
     }, [])
 
     return (

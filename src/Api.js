@@ -3,31 +3,37 @@ import firebaseConfig from "./firebase/firebaseIndex";
 
 export async function getVegetables() {
     let vegetables = [];
-    let data = await firebase.database().ref("vegetables").on("value", data => {
-        data.forEach(veg => {
-           vegetables.push(veg.val());
-        })
+    const database = firebase.database().ref('vegetables');
+    const snapshot = await database.once('value');
+
+    snapshot.forEach(veg => {
+        vegetables.push(veg.val());
     })
-    return vegetables;
+
+    return  vegetables;
 }
 
-export function getPasta() {
+export async function getPasta() {
     let pasta = [];
-    firebase.database().ref("pasta").on("value", data => {
-        data.forEach(pas => {
-            pasta.push(pas.val());
-        })
+    const database = firebase.database().ref('pasta');
+    const snapshot = await database.once('value');
+
+    snapshot.forEach(pas => {
+        pasta.push(pas.val());
     })
+
     return pasta;
 }
 
-export function getVarious() {
+export async function getVarious() {
     let various = [];
-    firebase.database().ref("other").on("value", data => {
-        data.forEach(vario => {
-            various.push(vario.val());
-        })
+    const database = firebase.database().ref('other');
+    const snapshot = await database.once ('value');
+
+    snapshot.forEach(vario => {
+        various.push(vario.val());
     })
+
     return various;
 }
 

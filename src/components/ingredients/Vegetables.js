@@ -4,13 +4,16 @@ import {Link} from "react-router-dom";
 import How from "../How";
 
 const Vegetables = () => {
-    const [vegetables, setVegetables] = useState(getVegetables());
+    const [vegetables, setVegetables] = useState([]);
 
     useEffect(() => {
+        async function fetchData() {
+            let result = await getVegetables();
+            setVegetables(result);
+        }
+        fetchData().then();
+    },[])
 
-            getVegetables().then((data) => setVegetables(data));
-
-    }, [])
     console.log(vegetables)
 
     return (

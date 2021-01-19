@@ -6,8 +6,9 @@ import How from "../How";
 const Pasta = () => {
     const [pasta, setPasta] = useState([]);
 
-    useEffect(() => {
-        setPasta(getPasta());
+    useEffect(async () => {
+        let result = await getPasta();
+        setPasta(result);
     }, [])
 
     return (
