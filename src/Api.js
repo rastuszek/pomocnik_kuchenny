@@ -37,13 +37,13 @@ export async function getVarious() {
     return various;
 }
 
-export function getRecipes() {
+export async function getRecipes() {
     let recipes = [];
-    firebase.database().ref("recipes").on("value", data => {
-        data.forEach(recipe => {
+    const database = firebase.database().ref("recipes");
+    const snapshot =  await database.once ("value");
+        snapshot.forEach(recipe => {
             recipes.push(recipe.val());
         })
-    })
     return recipes;
 }
 

@@ -17,6 +17,8 @@ import Pasta from "./components/ingredients/Pasta";
 import SinglePasta from "./components/ingredients/SinglePasta";
 import Various from "./components/ingredients/Various";
 import SingleVarious from "./components/ingredients/SingleVarious";
+import Recipes from "./components/ingredients/Recipes";
+import SingleRecipe from "./components/ingredients/SingleRecipe";
 
 
 
@@ -25,7 +27,7 @@ const {token} = useContext(firebaseAuth);
 
     return (
 
-        <div className="App">
+        <div className="header">
 
             {/*<div>*/}
             {/*    <Route path='/logowanie'  component={Login}/>*/}
@@ -39,7 +41,9 @@ const {token} = useContext(firebaseAuth);
                     <PrivateRoute exact path='/' component={Intro}/>
                     <PrivateRoute exact path='/funkcje' component={Functions}/>
                     <PrivateRoute path='/inne'  component={Other}/>
-                    <PrivateRoute path='/funkcje/znajdz' component={Seek}/>
+                    <PrivateRoute exact path='/funkcje/znajdz' component={Seek}/>
+                    <PrivateRoute exact path='/funkcje/znajdz/przepisy' component={Recipes}/>
+                    <PrivateRoute path='/funkcje/znajdz/przepisy/:slug/' component={SingleRecipe}/>
                     <PrivateRoute exact path='/funkcje/jak' component={How}/>
                     <PrivateRoute exact path='/funkcje/jak/warzywa' component={Vegetables}/>
                     <PrivateRoute  path='/funkcje/jak/warzywa/:slug' component={SingleVege}/>

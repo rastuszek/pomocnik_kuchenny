@@ -1,18 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="ca7d999f-2173-4b68-b612-f7220dbb22eb" name="Default Changelist" comment="problem">
-      <change afterPath="$PROJECT_DIR$/src/components/ingredients/Recipes.js" afterDir="false" />
+    <list default="true" id="ca7d999f-2173-4b68-b612-f7220dbb22eb" name="Default Changelist" comment="przerobione">
+      <change afterPath="$PROJECT_DIR$/src/components/ingredients/SingleRecipe.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.eslintcache" beforeDir="false" afterPath="$PROJECT_DIR$/.eslintcache" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Api.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Api.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/App.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/All.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/All.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Header.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Header.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/How.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/How.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/ingredients/Pasta.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/ingredients/Pasta.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/ingredients/SinglePasta.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/ingredients/SinglePasta.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/ingredients/SingleVarious.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/ingredients/SingleVarious.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/ingredients/SingleVege.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/ingredients/SingleVege.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/ingredients/Various.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/ingredients/Various.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/ingredients/Vegetables.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/ingredients/Vegetables.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Seek.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Seek.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/ingredients/Recipes.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/ingredients/Recipes.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -105,7 +105,11 @@
       <workItem from="1610785364213" duration="4527000" />
       <workItem from="1610829036629" duration="1314000" />
       <workItem from="1610901243540" duration="7108000" />
-      <workItem from="1611091249864" duration="3052000" />
+      <workItem from="1611091249864" duration="6057000" />
+      <workItem from="1611168304065" duration="595000" />
+      <workItem from="1611184544088" duration="403000" />
+      <workItem from="1611192830201" duration="608000" />
+      <workItem from="1611260161725" duration="3121000" />
     </task>
     <task id="LOCAL-00001" summary="ok">
       <created>1608942873427</created>
@@ -191,7 +195,14 @@
       <option name="project" value="LOCAL" />
       <updated>1610790842128</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="przerobione">
+      <created>1611094356430</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1611094356430</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -217,6 +228,7 @@
     <MESSAGE value="przed usuwaniem" />
     <MESSAGE value="pierwsza funkcja" />
     <MESSAGE value="problem" />
-    <option name="LAST_COMMIT_MESSAGE" value="problem" />
+    <MESSAGE value="przerobione" />
+    <option name="LAST_COMMIT_MESSAGE" value="przerobione" />
   </component>
 </project>

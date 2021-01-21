@@ -4,11 +4,11 @@ import {Link, Switch} from "react-router-dom";
 import Button from "react-bootstrap/Button";
 import PrivateRoute from "./PrivateRoute";
 import Vegetables from "./ingredients/Vegetables";
-
+import './All.css';
 
 const How = (props) => {
     return (
-            <div>
+            <div  >
                 <h1> Co chcesz ugotować? </h1>
 
                 <Link to="/funkcje/jak/warzywa"> <Button variant="success">Warzywa</Button></Link>

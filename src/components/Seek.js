@@ -1,17 +1,17 @@
-import React, {useState, useEffect} from 'react';
-import {getRecipes} from "../Api";
+import React from 'react';
+import Button from "react-bootstrap/Button";
+import {Link} from "react-router-dom";
+import './All.css';
 
 const Seek = () => {
-    const [recipes, setRecipes] = useState([]);
 
-    useEffect( () => {
-        setRecipes(getRecipes());
-    }, [])
-    console.log(recipes);
     return (
-    <div>
-        <h1>Tutaj będzie funkcja wyszukania przepisu.</h1>
-    </div>
+        <div className='seekbutton'>
+        <h1>Tutaj będą listy składników do wyboru i przycisk wyszukaj</h1>
+        <Link to="/funkcje/znajdz/przepisy"> <Button  variant="success">Wyszukaj przepisy</Button></Link>
+        </div>
+
+
     )
 }
 
