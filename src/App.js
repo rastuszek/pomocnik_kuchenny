@@ -1,5 +1,5 @@
 import React, {useContext} from "react";
-import './App.css';
+import './components/All.css';
 import Header from './components/Header'
 import Register from "./components/Register";
 import {Route, Switch} from "react-router-dom";

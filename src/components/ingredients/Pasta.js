@@ -13,7 +13,7 @@ const Pasta = () => {
 
     return (
         <>
-            <How/>
+            <How />
             <ul>
                 {pasta.map((data, index) => (<Link key={index} to={"/funkcje/jak/makarony/" + data.number}>
                     <li>{data.name}</li>

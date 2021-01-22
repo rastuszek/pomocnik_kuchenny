@@ -1,5 +1,6 @@
 import React, {useEffect, useState} from 'react';
 import {getVegetables} from "../../Api";
+import "../All.css";
 
 const SingleVege = (props) => {
     const [vegetables, setVegetables] = useState([]);
@@ -13,7 +14,7 @@ const SingleVege = (props) => {
     return (
         <div>
             {vegetables.filter(vege => vege.number === slug).map(vege => {
-            return (<div key={slug}>{vege.description}</div>)
+            return (<div className='description' key={slug}>{vege.description}</div>)
         })}
         </div>
     )

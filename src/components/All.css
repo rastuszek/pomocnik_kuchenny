@@ -1,13 +1,26 @@
-.recipe {
+.description {
     text-align: center;
-    color: #0f3e04;
     margin-left: auto;
     margin-right: auto;
-    width: 40em;
 }
 
 .seekbutton {
-    text-align: center !important;
-    width: 4045em;
+    text-align: center;
 
 }
+
+.header {
+    background-color: #9ab8ec;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-size: calc(10px + 2vmin);
+    color: red;
+}
+
+a:hover {
+    text-decoration: none !important;
+}
+

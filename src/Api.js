@@ -39,7 +39,7 @@ export async function getVarious() {
 
 export async function getRecipes() {
     let recipes = [];
-    const database = firebase.database().ref("recipes");
+    const database = firebase.database().ref("recipes1");
     const snapshot =  await database.once ("value");
         snapshot.forEach(recipe => {
             recipes.push(recipe.val());

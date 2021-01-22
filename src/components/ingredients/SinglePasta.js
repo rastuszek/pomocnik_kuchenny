@@ -1,5 +1,6 @@
 import React, {useEffect, useState} from 'react';
 import {getPasta} from "../../Api";
+import "../All.css";
 
 const SinglePasta = (props) => {
     const [pasta, setPasta] = useState([]);
@@ -11,7 +12,7 @@ const SinglePasta = (props) => {
     }, [])
 
     return (
-        <div>
+        <div className='description'>
             {pasta.filter(pasta => pasta.number === slug).map(pasta => {
             return(<div key={slug}>{pasta.description}</div>)
             })}

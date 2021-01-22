@@ -3,6 +3,7 @@ import {getVarious} from '../../Api';
 import {Link} from "react-router-dom";
 import How from "../How";
 
+
 const Various = () => {
     const [various, setVarious] = useState([]);
 

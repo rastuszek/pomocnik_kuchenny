@@ -1,5 +1,6 @@
 import React, {useEffect, useState} from 'react';
 import {getVarious} from "../../Api";
+import "../All.css";
 
 const SingleVarious = (props) => {
     const [various, setVarious] = useState([]);
@@ -11,7 +12,7 @@ const SingleVarious = (props) => {
     }, [])
 
     return (
-        <div>
+        <div className='description'>
             {various.filter(various => various.number === slug).map(various => {
             return (<div key={slug}>{various.description}</div>)
         })}

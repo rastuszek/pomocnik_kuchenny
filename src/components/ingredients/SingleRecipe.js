@@ -15,9 +15,9 @@ const SingleRecipe = (props) => {
     }, [])
 
     return (
-        <div>
+        <div className='description'>
             {recipes.filter(recipe => recipe.number === slug).map(recipe => {
-                return (<div className='recipe' key={slug}>{recipe.description}</div>)
+                return (<div key={slug}>{recipe.description}</div>)
             })}
         </div>
     )
