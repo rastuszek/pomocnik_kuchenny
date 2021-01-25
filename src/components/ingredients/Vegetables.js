@@ -15,8 +15,6 @@ const Vegetables = () => {
         fetchData();
     },[])
 
-    console.log(vegetables)
-
     return (
         <div>
             <How/>

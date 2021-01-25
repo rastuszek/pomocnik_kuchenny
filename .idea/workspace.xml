@@ -1,23 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="ca7d999f-2173-4b68-b612-f7220dbb22eb" name="Default Changelist" comment="okej">
-      <change afterPath="$PROJECT_DIR$/src/components/a" afterDir="false" />
+    <list default="true" id="ca7d999f-2173-4b68-b612-f7220dbb22eb" name="Default Changelist" comment="funkcja glowna">
+      <change afterPath="$PROJECT_DIR$/src/components/ingredients/RecipesAll.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/ingredients/SingleGroat.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.eslintcache" beforeDir="false" afterPath="$PROJECT_DIR$/.eslintcache" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Api.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Api.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App.css" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/All.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/All.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/How.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/How.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/Seek.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Seek.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/ingredients/Pasta.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/ingredients/Pasta.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/ingredients/SinglePasta.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/ingredients/SinglePasta.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/ingredients/SingleRecipe.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/ingredients/SingleRecipe.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/ingredients/SingleVarious.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/ingredients/SingleVarious.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/ingredients/SingleVege.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/ingredients/SingleVege.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/ingredients/Various.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/ingredients/Various.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/a" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/ingredients/Groats.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/ingredients/Recipes.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/ingredients/Recipes.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/ingredients/Vegetables.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/ingredients/Vegetables.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/example.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/example.json" afterDir="false" />
     </list>
@@ -58,7 +54,7 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/components/ingredients" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -68,6 +64,9 @@
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\skoru\Desktop\pomocnik_kuchenny\src\components\ingredients" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\Tomek\Desktop\pomocnik_kuchenny\src\components\ingredients" />
       <recent name="C:\Users\Tomek\Desktop\pomocnik_kuchenny\src\components" />
@@ -125,7 +124,11 @@
       <workItem from="1611184544088" duration="403000" />
       <workItem from="1611192830201" duration="608000" />
       <workItem from="1611260161725" duration="3121000" />
-      <workItem from="1611323420443" duration="5363000" />
+      <workItem from="1611323420443" duration="7464000" />
+      <workItem from="1611340328872" duration="14416000" />
+      <workItem from="1611411796683" duration="20269000" />
+      <workItem from="1611493178483" duration="597000" />
+      <workItem from="1611581093609" duration="4761000" />
     </task>
     <task id="LOCAL-00001" summary="ok">
       <created>1608942873427</created>
@@ -218,7 +221,14 @@
       <option name="project" value="LOCAL" />
       <updated>1611094356430</updated>
     </task>
-    <option name="localTasksCounter" value="14" />
+    <task id="LOCAL-00014" summary="funkcja glowna">
+      <created>1611329779293</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1611329779294</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -255,6 +265,7 @@
     <MESSAGE value="pierwsza funkcja" />
     <MESSAGE value="problem" />
     <MESSAGE value="przerobione" />
-    <option name="LAST_COMMIT_MESSAGE" value="przerobione" />
+    <MESSAGE value="funkcja glowna" />
+    <option name="LAST_COMMIT_MESSAGE" value="funkcja glowna" />
   </component>
 </project>

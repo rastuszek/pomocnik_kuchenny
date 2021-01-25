@@ -1,5 +1,4 @@
 import firebase from 'firebase'
-import firebaseConfig from "./firebase/firebaseIndex";
 
 export async function getVegetables() {
     let vegetables = [];
@@ -39,12 +38,22 @@ export async function getVarious() {
 
 export async function getRecipes() {
     let recipes = [];
-    const database = firebase.database().ref("recipes1");
+    const database = firebase.database().ref("recipes");
     const snapshot =  await database.once ("value");
         snapshot.forEach(recipe => {
             recipes.push(recipe.val());
         })
     return recipes;
+}
+
+export async function getGroats() {
+    let groats = [];
+    const database = firebase.database().ref("groats");
+    const snapshot =  await database.once ("value");
+    snapshot.forEach(groat => {
+        groats.push(groat.val());
+    })
+    return groats;
 }
 
 

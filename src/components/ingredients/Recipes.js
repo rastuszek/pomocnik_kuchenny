@@ -1,23 +1,14 @@
-import React, {useState, useEffect} from 'react'
-import {getRecipes} from '../../Api'
+import React from 'react'
 import {Link} from "react-router-dom";
 
 
-const Recipes = () => {
-    const [recipes, setRecipes] = useState([]);
+const Recipes = (props) => {
 
-    useEffect(() => {
-        async function fetchData() {
-            let result = await getRecipes();
-            setRecipes(result);
-        }
-        fetchData().then();
-    }, [])
 
     return (
         <>
             <ul>
-                {recipes && recipes.map((data, index) => (
+                {props.recipes && props.recipes.map((data, index) => (
                     <Link key={index} to={"/funkcje/znajdz/przepisy/" + data.number}>
                         <li>{data.name}</li>
                     </Link>))}

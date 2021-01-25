@@ -8,7 +8,8 @@ import FormControlLabel from '@material-ui/core/FormControlLabel';
 import Checkbox from '@material-ui/core/Checkbox';
 
 import './All.css';
-import {getRecipes, getVegetables} from "../Api";
+import {getRecipes} from "../Api";
+import Recipes from "./ingredients/Recipes";
 
 const GreenCheckbox = withStyles({
     root: {
@@ -28,6 +29,7 @@ const Seek = () => {
         Czosnek: false,
     });
     const [recipes, setRecipes] = useState([]);
+    const [alert, setAlert] = useState(false);
     const [recipesShow, setRecipesShow] = useState([]);
 
     useEffect(() => {
@@ -39,22 +41,32 @@ const Seek = () => {
         fetchData();
     }, []);
 
-    const handleClick = () => {
-        let helpTab =[];
+    const handleClick = (e) => {
+        e.preventDefault();
+        let helpTab = [];
         recipes.forEach(recipe => {
-            recipe.ingredients.forEach(ingredient => {
-                Object.entries(state).map(data => {
-                    if (data[1] === true) {
-                       if(ingredient.indexOf(data[0]) !== -1){
-                           helpTab.push(recipe)
-                       }
+            let count = 0;
+            Object.entries(state).map(data => {
+                if (data[1] === true) {
+                    if (recipe.ingredients.indexOf(data[0]) > -1) {
+                        count++;
                     }
-                })
+                    if (count >= 2 && helpTab.indexOf(recipe) < 0) {
+                        helpTab.push(recipe);
+                    }
+                }
+
             })
         })
-        setRecipesShow(helpTab)
+        if (helpTab.length < 1) {
+            setAlert(true)
+            setRecipesShow(helpTab)
+        } else {
+            setAlert(false)
+            setRecipesShow(helpTab)
+        }
     }
-console.log(recipesShow);
+    console.log(recipesShow);
     const handleChange = (event) => {
         setState({...state, [event.target.name]: event.target.checked});
     };
@@ -89,7 +101,11 @@ console.log(recipesShow);
             <Button variant="contained" onClick={handleClick} color="primary">
                 Wyszukaj przepis
             </Button>
-            {/*<Link to="/funkcje/znajdz/przepisy"> <Button variant="success">Wyszukaj przepisy</Button></Link>*/}
+            <Link to="/funkcje/znajdz/przepisy"> <Button variant="success">Wyszukaj przepisy</Button></Link>
+            {recipesShow &&
+            <Recipes recipes={recipesShow}/>
+            }
+            {alert && window.alert('Za mało składników')}
         </div>
     )
 }
