@@ -2,19 +2,18 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ca7d999f-2173-4b68-b612-f7220dbb22eb" name="Default Changelist" comment="funkcja glowna">
-      <change afterPath="$PROJECT_DIR$/src/components/ingredients/RecipesAll.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/ingredients/SingleGroat.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/NavBar/index.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/ingredients/Sauces.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/ingredients/SingleSauce.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.eslintcache" beforeDir="false" afterPath="$PROJECT_DIR$/.eslintcache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Api.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Api.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/All.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/All.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/How.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/How.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Header.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Header.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/Seek.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Seek.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/a" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/ingredients/Groats.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/ingredients/Recipes.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/ingredients/Recipes.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/ingredients/Vegetables.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/ingredients/Vegetables.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/example.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/example.json" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -129,6 +128,8 @@
       <workItem from="1611411796683" duration="20269000" />
       <workItem from="1611493178483" duration="597000" />
       <workItem from="1611581093609" duration="4761000" />
+      <workItem from="1611614822524" duration="15597000" />
+      <workItem from="1611668438669" duration="3881000" />
     </task>
     <task id="LOCAL-00001" summary="ok">
       <created>1608942873427</created>

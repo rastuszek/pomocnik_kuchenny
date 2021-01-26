@@ -10,8 +10,6 @@ const Header = () => {
 
             <div>
 
-                <Button component={Link} to="/logowanie" variant="contained" color="primary">Logowanie </Button>
-                <Button component={Link} to="/rejestracja" variant="contained" color="primary">Rejestracja </Button>
 
             </div>
 

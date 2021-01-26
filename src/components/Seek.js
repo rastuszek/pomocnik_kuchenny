@@ -10,6 +10,11 @@ import Checkbox from '@material-ui/core/Checkbox';
 import './All.css';
 import {getRecipes} from "../Api";
 import Recipes from "./ingredients/Recipes";
+import Container from '@material-ui/core/Container';
+import Grid from '@material-ui/core/Grid';
+import Card from '@material-ui/core/Card';
+import CardContent from '@material-ui/core/CardContent'
+import Typography from '@material-ui/core/Typography';
 
 const GreenCheckbox = withStyles({
     root: {
@@ -27,6 +32,17 @@ const Seek = () => {
         Brokuł: false,
         Cebula: false,
         Czosnek: false,
+        Kurczak: false,
+        Wołowina: false,
+        Wieprzowina: false,
+        Mielone: false,
+        Papryka: false,
+        Marchew: false,
+        MąkaZiemniaczana: false,
+        MąkaPszenna: false,
+        Twaróg: false,
+        SerŻółty: false,
+        SerFeta: false,
     });
     const [recipes, setRecipes] = useState([]);
     const [alert, setAlert] = useState(false);
@@ -73,40 +89,153 @@ const Seek = () => {
 
 
     return (
-        <div className='seekbutton'>
+        <Container style={{marginTop: 50}} maxWidth="sm">
 
             <FormGroup row>
-                <FormControlLabel
-                    control={<Checkbox checked={state.Jajka} onChange={handleChange} name="Jajka"/>}
-                    label="Jajka"
-                />
-                <FormControlLabel
-                    control={<Checkbox checked={state.Ziemniaki} onChange={handleChange} name="Ziemniaki"/>}
-                    label="Ziemniaki"
-                />
-                <FormControlLabel
-                    control={<Checkbox checked={state.Brokuł} onChange={handleChange} name="Brokuł"/>}
-                    label="Brokuł"
-                />
-                <FormControlLabel
-                    control={<Checkbox checked={state.Czosnek} onChange={handleChange} name="Czosnek"/>}
-                    label="Czosnek"
-                />
-                <FormControlLabel
-                    control={<Checkbox checked={state.Cebula} onChange={handleChange} name="Cebula"/>}
-                    label="Cebula"
-                />
 
+                <Card style={{width: '100%', marginBottom: 30}}>
+                    <CardContent>
+                        <Typography style={{textAlign: 'center', marginBottom: 20}} variant="h5" component="h2">
+                            Warzywa
+                        </Typography>
+                        <Grid container spacing={3}>
+                            <Grid item xs={4}>
+                                <FormControlLabel
+                                    control={<Checkbox checked={state.Jajka} onChange={handleChange} name="Jajka"/>}
+                                    label="Jajka"
+                                />
+                            </Grid>
+                            <Grid item xs={4}>
+                                <FormControlLabel
+                                    control={<Checkbox checked={state.Ziemniaki} onChange={handleChange}
+                                                       name="Ziemniaki"/>}
+                                    label="Ziemniaki"
+                                />
+                            </Grid>
+                            <Grid item xs={4}>
+                                <FormControlLabel
+                                    control={<Checkbox checked={state.Brokuł} onChange={handleChange} name="Brokuł"/>}
+                                    label="Brokuł"
+                                />
+                            </Grid>
+                        </Grid>
+                        <Grid container spacing={3}>
+                            <Grid item xs={4}>
+                                <FormControlLabel
+                                    control={<Checkbox checked={state.Czosnek} onChange={handleChange} name="Czosnek"/>}
+                                    label="Czosnek"
+                                />
+                            </Grid>
+                            <Grid item xs={4}>
+                                <FormControlLabel
+                                    control={<Checkbox checked={state.Cebula} onChange={handleChange} name="Cebula"/>}
+                                    label="Cebula"
+                                />
+                            </Grid>
+                            <Grid item xs={4}>
+                                <FormControlLabel
+                                    control={<Checkbox checked={state.Kurczak} onChange={handleChange} name="Kurczak"/>}
+                                    label="Pierś z kurczaka"
+                                />
+                            </Grid>
+                        </Grid>
+                    </CardContent>
+                </Card>
+                <Card style={{width: '100%'}}>
+                    <CardContent>
+                        <Typography style={{textAlign: 'center', marginBottom: 20}} variant="h5" component="h2">
+                            Mięso
+                        </Typography>
+
+                        <Grid container spacing={3}>
+                            <Grid item xs={4}>
+                                <FormControlLabel
+                                    control={<Checkbox checked={state.Wołowina} onChange={handleChange}
+                                                       name="Wołowina"/>}
+                                    label="Wołowina"
+                                />
+                            </Grid>
+                            <Grid item xs={4}>
+                                <FormControlLabel
+                                    control={<Checkbox checked={state.Wieprzowina} onChange={handleChange}
+                                                       name="Wieprzowina"/>}
+                                    label="Wieprzowina"
+                                />
+                            </Grid>
+                            <Grid item xs={4}>
+                                <FormControlLabel
+                                    control={<Checkbox checked={state.Mielone} onChange={handleChange} name="Mielone"/>}
+                                    label="Mięso mielone"
+                                />
+                            </Grid>
+                        </Grid>
+                        <Grid container spacing={3}>
+                            <Grid item xs={4}>
+                                <FormControlLabel
+                                    control={<Checkbox checked={state.Papryka} onChange={handleChange} name="Papryka"/>}
+                                    label="Papryka"
+                                />
+                            </Grid>
+                            <Grid item xs={4}>
+                                <FormControlLabel
+                                    control={<Checkbox checked={state.Marchew} onChange={handleChange} name="Marchew"/>}
+                                    label="Marchew"
+                                />
+                            </Grid>
+                            <Grid item xs={4}>
+                                <FormControlLabel
+                                    control={<Checkbox checked={state.MąkaZiemniaczana} onChange={handleChange}
+                                                       name="MąkaZiemniaczana"/>}
+                                    label="Mąka ziemniaczana"
+                                />
+                            </Grid>
+                        </Grid>
+                        <Grid container spacing={3}>
+                            <Grid item xs={4}>
+                                <FormControlLabel
+                                    control={<Checkbox checked={state.MąkaPszenna} onChange={handleChange}
+                                                       name="MąkaPszenna"/>}
+                                    label="Mąka pszenna"
+                                />
+                            </Grid>
+                            <Grid item xs={4}>
+                                <FormControlLabel
+                                    control={<Checkbox checked={state.Twaróg} onChange={handleChange} name="Twaróg"/>}
+                                    label="Twaróg"
+                                />
+                            </Grid>
+                            <Grid item xs={4}>
+                                <FormControlLabel
+                                    control={<Checkbox checked={state.SerFeta} onChange={handleChange} name="SerFeta"/>}
+                                    label="Ser Feta"
+                                />
+                            </Grid>
+                            <Grid item xs={4}>
+                                <FormControlLabel
+                                    control={<Checkbox checked={state.SerŻółty} onChange={handleChange}
+                                                       name="SerŻółty"/>}
+                                    label="Ser Żółty"
+                                />
+                            </Grid>
+                        </Grid>
+                    </CardContent>
+                </Card>
             </FormGroup>
+
             <Button variant="contained" onClick={handleClick} color="primary">
-                Wyszukaj przepis
+                Wyszukaj przepisy
             </Button>
-            <Link to="/funkcje/znajdz/przepisy"> <Button variant="success">Wyszukaj przepisy</Button></Link>
+
+
+
             {recipesShow &&
-            <Recipes recipes={recipesShow}/>
-            }
+            <Recipes recipes={recipesShow}/>}
             {alert && window.alert('Za mało składników')}
-        </div>
+
+            <Link to='/funkcje/znajdz/sosy'> <Button variant="contained" color="primary">Sosy, ktore czesto wystepuja
+                jako baza w przepisach</Button></Link>
+
+        </Container>
     )
 }
 
