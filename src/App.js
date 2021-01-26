@@ -1,10 +1,8 @@
 import React, {useContext} from "react";
 import './components/All.css';
-import Header from './components/Header'
 import Register from "./components/Register";
 import {Route, Switch} from "react-router-dom";
 import Intro from "./components/Intro";
-import Functions from "./components/Functions";
 import Other from "./components/Other";
 import Seek from "./components/Seek";
 import How from "./components/How";
@@ -43,7 +41,6 @@ const App = () => {
                 <div>
                     <Switch>
                         <PrivateRoute exact path='/' component={Intro}/>
-                        <PrivateRoute exact path='/funkcje' component={Functions}/>
                         <PrivateRoute path='/inne' component={Other}/>
                         <PrivateRoute exact path='/funkcje/znajdz' component={Seek}/>
                         <PrivateRoute exact path='/funkcje/znajdz/przepisy' component={RecipesAll}/>

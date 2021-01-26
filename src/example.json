@@ -3,84 +3,84 @@
     {
       "composition": ["Mieszanka sałat (lub jeden rodzaj)", "2 jajka", "2 pomidory", "1 puszka kukurydzy", "1 opakowane małych cebulek w occie lub 1 średnia cebula", "Porcja sosu winegret"],
       "description": "Umyć sałaty, osuszyć i porwać na kawałki. Ugotować jajka na twardo, obrać ze skorupek i pokroić w ćwiartki. Sparzyć pomidory, obierać ze skórki, następnie pokroić w ósemki. Odsączyć cebulki i kukurydzę z zalewy. Wymieszać składniki sałatki, ćwiartki jajka ułóżyć na środku salaterki. Polać sałatke sosem winegret.",
-      "ingredients": ["Jajka", "Pomidor", "Sałata", "Kukurydza", "Cebula", "Sos winegret"],
+      "ingredients": ["Jajka", "Pomidor", "Salata", "Kukurydza", "Cebula", "SosWinegret"],
       "name": "Sałatka z jajkiem i kukurydzą",
       "number": 0
     },
     {
     "composition":  ["1kg ugotowanych ziemniaków", "Mąka ziemniaczana (ok. 180 g)", "1 jajko", "Sól"],
     "description": "Ugotowane i lekko przestudzone ziemniaki przeciśnij przez praskę. Zmielone ziemniaki uklep na płasko w misce. Podziel całość na cztery części, jedną z nich wyjmij, wsyp w to miejsce mąkę ziemniaczaną, następnie dodaj jajko, wyjęte wcześniej ziemniaki i opcjonalnie sól. Wymieszaj wszystko, ma powstać gładka, jednolita masa. Formuj małe kulki, delikatnie je rozpłaszczaj a następnie rób w środku mały dołek; W dużym garnku zagotuj wodę z łyżką soli, wrzucaj kluski i gotuj na małym ogniu ok. 3-4 min od wypłynięcia.",
-    "ingredients": ["Ziemniaki", "Jajka", "Mąka ziemniaczana"],
+    "ingredients": ["Ziemniaki", "Jajka", "MakaZiemniaczana"],
     "name": "Kluski śląskie",
     "number": 1
     },
     {
       "composition": ["180 g jogurtu naturalnego", "3 łyżki majonezu", "3 ząbki czosnku", "Zioła prowansalskie", "Pół łyżeczki cukru", "Sól, pieprz do smaku"],
       "description": "Do naczynia wlać jogurt naturalny, dodać majonez – konsystencja powinna być lejąca, niezbyt gęsta. Następnie dodać 3 ząbki czosnku przeciśnięte przez praskę. Można użyć więcej czosnku, jeśli lubimy bardziej intensywne smaki. Wsypać pół łyżeczki cukru i zioła prowansalskie. Na koniec sól, pieprz do smaku. Wymieszać dokładnie wszystkie składniki. Odstawić do lodówki na trochę, aby sos się przegryzł.",
-      "ingredients": ["Jogurt naturalny", "Majonez", "Czosnek"],
+      "ingredients": ["JogurtNaturalny", "Majonez", "Czosnek"],
       "name": "Sos czosnkowy",
       "number": 2
     },
     {
       "composition": ["3 łyżeczki masła","2 płaskie łyżki mąki", "300 ml mleka", "Szczypta gałki muszkatołowej", "Szczypta pieprzu cayenne", "Ząbek czosnku", "200g sera żółtego typu gouda "],
       "description": "Ser ścieramy na tarce o małych oczkach, czosnek przepuszczamy przez praskę. W rondelku, najlepiej o grubym dnie rozpuszczamy masło. Do całkowicie stopionego dodajemy mąkę, mieszamy, by nie było grudek. Powoli dolewamy mleko, przyprawy, czosnek i ser. Cały czas mieszając doprowadzamy do zagotowania i zgęstnienia sosu.",
-      "ingredients": ["Masło", "Mąka pszenna", "Mleko", "Ser żółty", "Czosnek"],
+      "ingredients": ["Maslo", "MakaPszenna", "Mleko", "SerZolty", "Czosnek"],
       "name": "Sos serowy",
       "number": 3
     },
     {
       "composition": ["Brokuł - 1 sztuka", "Porcja sosu czosnkowego", "4 jajka", "150 gramów wędzonej szynki", "2 łyżki majonezu"],
       "description": "Brokuł podzielić na różyczki i ugotować w osolonym wrzątku. Ostudzić w zimnej wodzie, aby nie stracił koloru. Jajka ugotować na twardo, schłodzić, następnie obierać i pokroić na cząstki. Szynkę pokroić w kostkę lub paski. Brokuły, szynkę oraz jajka wyłóżyć do salaterek, polać sosem czosnowym i podawać.",
-      "ingredients": ["Brokuł", "Sos czosnkowy", "Jajka", "Szynka", "Majonez"],
+      "ingredients": ["Brokul", "SosCzosnkowy", "Jajka", "Szynka", "Majonez"],
       "name": "Sałatka z brokułami i jajkiem",
       "number": 4
     },
     {
       "composition": ["Fasola czerwona - 1 puszka", "Porcja sosu winegret", "Kukurydza - 1 puszka", "Groszek zielony - 1 puszka", "Pieczarki marynowane - 1 słoiczek", "2 cebule", "2 łyżki ketchupu", "2 łyżki majonezu", "Kilka kropel tabasco", "1,5 szklanki makaronu Orzo", "Papryka zółta (lub inna) - 1 sztuka" ],
       "description": "Makaron ugotować al dente i wystudzić. Fasolę, kukurydzę, groszek i pieczarki odsączyć z zalewy. Paprykę pokroić w paski. Warzywa dodać do makaronu i wymieszać. Cebule pokroić w kostkę i zeszklić na patelni. Do cebuli dodać ketchup, sos winegret i kilka kropel tabasco - wszystko dokładnie wymieszać i ostudzić. Połączyć z majonezem. Połączone ze sobą wszystkie składniki sałatki, polać wystudzonym sosem, wymieszać i przełóżyć do salaterki.",
-      "ingredients": ["Fasola czerwona", "Porcja sosu winegret", "Kukurydza", "Groszek zielony", "Pieczarki marynowane", "Cebula", "Majonez", "Ketchup", "Makaron Orzo", "Papryka"],
+      "ingredients": ["FasolaCzerwona", "SosWinegret", "Kukurydza", "GroszekZielony", "PieczarkiMarynowane", "Cebula", "Majonez", "Ketchup", "Makaron", "Papryka"],
       "name": "Sałatka z czerwoną fasolą",
       "number": 5
     },
     {
       "composition": ["3 łyżki oliwy z oliwek", "1 łyżka soku z cytryny lub octu winnego"],
       "description": "Łyżkę soku z cytryny lub octu winnego wymieszaj z dużą szczyptą soli – tak, aby sól się rozpuściła. Dolać 3 łyżki oliwy z oliwek, wymieszać dokładnie, aż sos stanie się jednolity, nieco mętny, doprawić pieprzem.",
-      "ingredients": ["Oliwa z oliwek", "Sok z cytryny"],
+      "ingredients": ["OliwaZoliwek", "SokZcytryny"],
       "name": "Sos winegret",
       "number": 6
     },
     {
       "composition": ["1 kg ziemniaków truflowych (lub zwykłych)", "1 szklanka ugotowanej, drobnej, białej fasoli (ostatecznie może być z puszki)", "1 pęczek natki pietruszki", "Brokuł - 1 sztuka", "Zioła i przyprawy: sól, pieprz, ulubiona mieszanka ziół", "Porcja sosu tzatziki"],
       "description": "Fasolę moczyć przez całą noc, a następnie ugotować w świeżej wodzie do miękkości. Jeśli używasz fasoli z puszki to koniecznie przepłucz ją porządnie pod bieżącą wodą. Ziemniaki dokładnie wyczyścić, a następnie ugotować w mundurkach. Najlepiej wrzucić je na wrzącą wodę i gotować przez 20 minut, a następnie ostudzić. Pokroić w kostkę i umieścić w misce. Brokuły podzielić na pojedyncze różyczki. Gotować je na parze (pod przykryciem przez 7 minut). Ostudzić. Dodać do ziemniaków. Natkę pietruszki dokładnie umyć, posiekać, dodać do reszty składników. Do wszystkich składników dodać wyszczególnione zioła i przyprawy według uznania. Wymieszać. Podawać z sosem tzatziki. ",
-      "ingredients": ["Ziemniaki", " Fasola", "Natka pietruszki", "Brokuł", "Sos tzaziki"],
+      "ingredients": ["Ziemniaki", " Fasola", "NatkaPietruszki", "Brokul", "SosTzaziki"],
       "name": "Sałatka ziemniaczana podawana z tzatziki",
       "number": 7
     },
     {
       "composition": ["300 g jogurtu naturalnego", "200 g ogórków świeżych", "1-2 ząbki czosnku", "1 łyżka oliwy z oliwek", "Pęczek koperku", "Sól, pieprz"],
       "description": "Ogórek umyć, obierać i wykroić gniazda nasienne. Zetrzeć do miski na tarce o dużych oczkach. Do miski ze startym ogórkiem dodać jogurt grecki, przeciśnięty przez praskę czosnek, oliwę z oliwek, posiekany koperek. Wszystko dokładnie wymieszać.",
-      "ingredients": ["Jogurt naturalny", "Ogórek", "Czosnek", "Koperek"],
+      "ingredients": ["JogurtNaturalny", "Ogorek", "Czosnek", "Koperek"],
       "name": "Sos tzaziki",
       "number": 8
     },
     {
       "composition": ["Brokuł - 1 sztuka", "Kalafior - 1 sztuka", "Cebula - 1 sztuka", "Szynka gotowana - 5 plastrów", "Porcja sosu czosnkowego", "Ser zółty - 5 plastrów", "Natka pietruszki - 1 pęczek", "Majonez - łyżki", "Woda - 6 łyżek"],
       "description": "Z brokuła oraz kalafiora powycinać małe różyczki, następnie ugotować je w osolonej wodzie. Wystudzić. Szynkę, ser i cebulę pokroić w cienkie paski. Natkę posiekać drobno. Do sosu czosnkowego dodać pietruszkę. W misce wymieszaj wszystkie składniki wraz z przygotowanym sosem. Gotową sałatkę przełóżyć do salaterki i udekorować listkami pietruszki.",
-      "ingredients": ["Brokuł", "Kalafior", "Cebula", "Szynka", "Ser żółty", "Sos czosnkowy", "Natka pietruszki", "Majonez"],
+      "ingredients": ["Brokul", "Kalafior", "Cebula", "Szynka", "SerZolty", "SosCzosnkowy", "NatkaPietruszki", "Majonez"],
       "name": "Sałatka z brokułów i kalafiora",
       "number": 9
     },
     {
       "composition": ["Brokuł - 1 sztuka", "Porcja sosu serowego", "Śmietanka - 100 ml", "Ser feta - 150 gramów", "Koperek - 1 pęczek", "Czarne oliwki - 50 gramów"],
       "description": "Podzielić brokuły na małe części. Posiekać koperek. Ugotować brokuły na chrupko, we wrzącej wodzie, przez 3 min. Odsączyć i przelać zimną wodą. Wymieszać brokuły z oliwkami i pokruszonym serem feta. Polać sosem i pospyać koperkiem.",
-      "ingredients": ["Brokuł", "Sos serowy", "Śmietanka", "Ser feta", "Koperek", "Czarne oliwki"],
+      "ingredients": ["Brokul", "SosSerowy", "Smietanka", "SerFeta", "Koperek", "Oliwki"],
       "name": "Brokuły w sosie serowym",
       "number": 10
     },
     {
       "composition": ["Świeże drożdże - 25 gramów lub drożdze suche ", "Sól - 1 łyżeczka", "Cukier - 1 łyżeczka", "Mąka pszenna - 700 gramów", "Ciepła woda - 250 mililitrów", "Oliwa z oliwek- 50 mililitrów "],
       "description": "Do odpowiedniej miseczki nalej szklankę ciepłej wody, rozpuść w niej sól, cukier i drożdże, dodaj oliwę oraz mąkę. Delikatnie mieszając połącz wszystkie składniki. Ciasto wyrabiaj około 5 minut, aż przestanie kleić się do rąk, w razie potrzeby dodaj jeszcze trochę mąki. ",
-      "ingredients": ["Drożdze","Mąka pszenna"],
+      "ingredients": ["Drozdze","MakaPszenna"],
       "name": "Ciasto na pizzę",
       "number": 11
     },
@@ -94,98 +94,98 @@
     {
       "composition": ["Makaron penne - 250 gramów", "Cukinia - 2 sztuki", "Sos pomidorowy - 1 porcja", "Oliwa z oliwek - 1 łyżka", "Ser żółty - 50 gramów", "Bazylia - 1 łyżeczka", "Sól, pieprz"],
       "description": "Ugotować makaron według przepisu na opakowaniu. Pokroić cukinię w plastry lub w kostkę. Zetrzeć na tarce ser. Przesmażyć krótko cukinie z 1 łyżką oliwy, tak aby zmiękła i lekko zrumieniła się. Odstawić. W garnku podgrzać sos pomidorowy. Dodać cukinie i gotować jeszcze przez 1-2 minuty. Podawać makaron wymieszany z sosem i posypany serem i bazylią.",
-      "ingredients": ["Cukinia", "Sos pomidorowy", "Makaron", "Ser żółty"],
+      "ingredients": ["Cukinia", "SosPomidorowy", "Makaron", "SerZolty"],
       "name": "Makaron z sosem pomidorowym i cukinią",
       "number": 13
     },
     {
       "composition": ["Pierś z kurczaka - 200 gramów", "Przyprawy do mięsa (własna mieszanka) - 1 łyżka", "Ser feta feta - 1 opakowanie", "Sos winegret - 1 porcja", "Cukinia - 1 sztuka", "Bakłażan - 1 sztuka", "Cebula - 1 sztuka","Papryka - 2 sztuki", "Oliwa z oliwek - 3 łyżki"],
       "description": "Kurczaka oprósz przyprawą, usmaż na patelni. Ostudź, a następnie pokrój w kostkę. Warzywa umieść w żaroodpornym naczyniu i piecz 30 minut w temperaturze 180 °C. Odstaw do ostygnięcia. Warzywa pokrój w kostkę i połącz z kurczakiem. Na koniec dodaj pokruszony ser feta. Całość polać sosem winegret",
-      "ingredients": ["Sos winegret", "Kurczak", "Bakłażan", "Ser feta", "Cukinia", "Papryka", "Cebula"],
+      "ingredients": ["SosWinegret", "Kurczak", "Baklazan", "SerFeta", "Cukinia", "Papryka", "Cebula"],
       "name": "Sałatka z kurczakiem po grecku",
       "number": 14
     },
     {
       "composition": ["Pierś z kurczaka - 400 gramów", "Sos serowy - porcja", "Ziemniaki - 400 gramów", "Śmietana - 18% - 200 ml", "Żółty ser - 100 gramów", "Olej - 80 ml", "Cebula - 1 sztuka", "Natka pietruszki - 1 sztuka" ],
       "description": "Cebulę pokrój w piórka, podsmaż ją w garnku, dodaj pokrojonego w kostkę kurczaka, smaż chwilę, dodaj pokrojone w plastry ziemniaki. Całość smaż mieszając co jakiś czas, aż ziemniaki delikatnie się rozkleją. Dodaj wtedy śmietanę wymieszaną z sosem serowym, całość zagotuj, a następnie przełóż w żaroodporne naczynie uciskając wszystkie składniki razem. Zapiekankę z wierzchu posyp serem, zawiń w folię aluminiową, wstaw do nagrzanego do 190°C piekarnika na 40 minut. Dziesięć minut przed końcem pieczenia usuń folię, aby ser mógł się zapiec. Podawaj z posiekaną natką pietruszki.",
-      "ingredients": ["Kurczak", "Sos serowy", "Ziemniaki", "Śmietana", "Żółty ser", "Cebula"],
+      "ingredients": ["Kurczak", "SosSerowy", "Ziemniaki", "Smietana", "ZoltySer", "Cebula"],
       "name": "Ziemniaczana zapiekanka z kurczakiem",
       "number": 15
     },
     {
       "composition": ["Pierś z kurczaka - 100 gramów", "Sos czosnkowy - 1 porcja", "Brokuł - 200 gramów", "Kiełki słonecznika -  3 łyżki", "Olej do smażenia", "Czosnek - 2 ząbki", "Sos sojowy - 2-3 łyżki"],
       "description": "Z brokuła wytnij małe różyczki, następnie sparz je w osolonym wrzątku, aby były kruche. Kurczaka pokrój na małe paski, skrop sosem sojowym i usmaż na dobrze rozgrzanym oleju. Po zdjęciu kurczaka ponownie dobrze rozgrzej patelnię. Smaż brokuły i czosnek pokrojony w plasterki. Jak wszystko nabierze rumianych kolorów odstaw na talerzyk i poczekaj, aż przestygnie. Następnie połącz wszystkie składniki z sosem czosnkowym i posyp sałatkę kiełkami.",
-      "ingredients": ["Kurczak", "Sos czosnkowy", "Brokuł", "Czosnek", "Sos sojowy"],
+      "ingredients": ["Kurczak", "SosCzosnkowy", "Brokul", "Czosnek", "SosSojowy"],
       "name": "Sałatka z brokułami i kurczakiem",
       "number": 16
     },
     {
       "composition": ["Piersi z kurczaka - 4 sztuki", "Ziemniaki - 8 sztuk", "Cebula - 1 sztuka", "Sos serowy - porcja", "Czosnek - 1 ząbek", "Majeranek - 1 łyżeczka"],
       "description": "Piersi pokrój w szerokie paski i przełóż do rękawa do pieczenia. Ziemniaki pokrój na połówki lub ćwiartki (w zależności od wielkości). Razem z pokrojoną w piórka cebulą dołóż do woreczka z mięsem. Dodaj również rozgnieciony czosnek. Przygotowany sos serowy wlej do rękawa do pieczenia z pozostałymi składnikami i zepnij spinką. Całość wymieszaj. Woreczek włóż do nagrzanego do 180 °C piekarnika i piecz przez około 25 minut do momentu, gdy ziemniaki będą miękkie. Gotowe danie podawaj np. z brokułami.",
-      "ingredients": ["Kurczak", "Sos serowy", "Ziemniaki", "Cebula", "Czosnek"],
+      "ingredients": ["Kurczak", "SosSerowy", "Ziemniaki", "Cebula", "Czosnek"],
       "name": "Piersi z kurczaka zapiekane z ziemniakami",
       "number": 17
     },
     {
       "composition": ["Pierś z kurczaka - 450 gramów", "Cebula - 100 gramów", "Czerwona fasola - 1 opakowanie", "Kukurydza - 1 opakowanie", "Czerwona papryka - 1 sztuka", "Sos pomidorowy - porcja", "Mieszanka pokantnych przypraw", "Ryż - 100 gramów"],
       "description": "Piersi z kurczaka i cebulę pokrój w kostkę, podsmaż w garnku w małej ilości tłuszczu. Dodaj czerwoną fasolę, kukurydzę i pokrojoną w kostkę czerwoną paprykę. Następnie dodaj sos pomidorowy i przyprawy. Gotowe danie podawaj z ugotowanym ryżem.",
-      "ingredients": ["Kurczak", "Fasola czerwona", "Cebula", "Kukurydza", "Ryż", "Papryka", "Sos pomidorowy"],
+      "ingredients": ["Kurczak", "FasolaCzerwona", "Cebula", "Kukurydza", "Ryz", "Papryka", "SosPomidorowy"],
       "name": "Kurczak po meksykańsku",
       "number": 18
     },
     {
       "composition": ["Pierś z kurczaka - 1 sztuka", "Sos serowy - porcja", "Brokuł - 1 sztuka", "Ugotowany makaron penne - 400 gramów", "Śmietanka 36% - 200 ml", "Jajka - 2 sztuki", "Starty ser żółty - 100 gramów"],
       "description": "Sos serowy zmiksuj z jajkiem i śmietanką. Pierś pokrój w niedużą kostkę, brokuły podziel na mniejsze różyczki i sparz chwilę we wrzącej wodzie. W dużej misce wymieszaj makaron, kawałki kurczaka, brokuły oraz przygotowany sos. Natłuszczone naczynie żaroodporne wypełnij przygotowanym makaronem, posyp startym serem i wstaw do nagrzanego do 180 stopni C piekarnika. Zapiekaj przez 25 minut. Podawaj na ciepło.",
-      "ingredients": ["Pierś z kurczaka", "Sos serowy", "Brokuł", "Makaron", "Śmietanka", "Jajka", "Ser żółty"],
+      "ingredients": ["Kurczak", "SosSerowy", "Brokul", "Makaron", "Smietanka", "Jajka", "SerZolty"],
       "name": "Makaronowa zapiekanka z kurczakiem i brokułami",
       "number": 19
     },
     {
       "composition": ["Pierś z kurczaka - 4 sztuki", "Ser żółty tarty - 50 gramów", "Natka pietruszki - 2 łyżki", "Przyprawy do kurczaka", "Jajka - 3 sztuki", "Majonez - 5 łyżek", "Ketchup - 4 łyżki"],
       "description": "Filety oczyść i umyj, następnie pokrój w średniej grubości plastry. Ketchup, majonez, wodę i przyprawy połącz na gładką masę. Ser żółty wymieszaj z panierką i natką pietruszki. Pokrojone filety kurczaka obtocz w roztrzepanym jajku, a następnie w przygotowanej panierce. Układaj na blasze wyłożonej pergaminem i piecz w temperaturze 180 °C 15 minut. Podawaj z jakimś sosem, np. czosnkowym.",
-      "ingredients": ["Pierś z kurczaka","Ser żółty", "Majonez", "Jajka"],
+      "ingredients": ["Kurczak","SerZolty", "Majonez", "Jajka"],
       "name": "Nuggetsy z kurczaka w serze",
       "number": 20
     },
     {
       "composition": ["Mięso mielone - 40 dekagramów", "Przyprawy do mięsa (własna mieszanka ulubionych przypraw) - 2 łyżki","Kalafior 500 gramów", "Sos serowy - porcja", "Pieprz, sól", "Olej - 2 łyżki"],
       "description": "Kalafior podgotuj, mięso dopraw przyprawą Knorr i podsmaż na rozgrzanym oleju. Posmaruj naczynie żaroodporne masłem. Następnie ułóż w nim mięso i kalafiora. Całość zalej przygotowanym sosem serowym i zapiekaj około 15 minut w piekarniku nagrzanym do 180 stopni.",
-      "ingredients": ["Mielone", "Kalafior", "Sos serowy"],
+      "ingredients": ["Mielone", "Kalafior", "SosSerowy"],
       "name": "Kalafior zapiekany z mięsem mielonym",
       "number": 21
     },
     {
       "composition": ["Wołowina - 500 gramów", "Cebula - sztuka", "Własna mieszanka przypraw do gulaszu - 3 łyżki", "Czosnek - 2 ząbki", "Czerwone papryki - 2 sztuki", "Marchewki - 2 sztuki", "Liść laurowy - 2 sztuki", "Oliwa z oliwek - 1 łyżka", "Własne przyprawy"],
       "description": "Pokrój mięso w kostkę. Pokrój cebulę w półksiężyce. Pokrój czosnek w plasterki. Usuń z papryk gniazda nasienne i pokrój je w kostkę. Pokrój marchewkę w plasterki. Rozgrzej 0.5 łyżki oliwy w dużym garnku na średnim ogniu. Wrzuć pokrojone w kostkę mięso i poczekaj aż się zrumieni z każdej strony. Smaż ok. 5 min. Odstaw.Dodaj do garnka 0.5 łyżki oliwy. Podsmaż cebule i czosnek aż po 3-4 min. zaczną wydzielać aromat. Dodaj marchewki i papryki, gotuj dalej przez około 5 min. Wrzuć mięso z powrotem do garnka. Przyprawy wymieszaj z 500 ml wody, następnie wlej do mięsa z warzywami. Dodaj liście laurowe. Zagotuj, zmniejsz ogień i gotuj pod przykryciem przez około 1,5 h lub do momentu aż mięso zmięknie.",
-      "ingredients": ["Wołowina", "Cebula", "Czosnek", "Papryka", "Marchewka"],
+      "ingredients": ["Wolowina", "Cebula", "Czosnek", "Papryka", "Marchewka"],
       "name": "Wiosenny gulasz",
       "number": 22
     },
     {
       "composition": ["Duże ziemniaki - 4 sztuki", "Mięso mielone wieprzowe - 300 gramów", "Sos pomidorowy - porcja", "Cebula - 1 sztuka", "Czosnek  - 1 ząbek", "Natka pietruszki - 0.5 pęczka", "Ser żółty - 80 gramów"],
       "description": "Ziemniaki dokładnie umyj i ugotuj do miękkości. Następnie odcedź i odstaw, aby ostygły. Przekrój ziemniaki wzdłuż na pół i wydrąż część miąższu tak, aby powstały łódeczki. Na patelni podsmaż posiekaną cebulę i czosnek. Po chwili dodaj mięso i smaż około 8 minut. Następnie dodaj do mięsa posiekane pomidory z puszki razem z sokiem i przyprawami. Wrzuć również pozostały miąższ z ziemniaków. Wszystko wymieszaj i smaż, aż zgęstnieje. Farsz dopraw posiekaną natką pietruszki i gotowy nakładaj do ziemniaczanych łódeczek. Posyp ziemniaki startym serem i zapiekaj w temperaturze 220 °C przez 10 minut. Podawaj np. z gęstą kwaśną śmietaną.",
-      "ingredients": ["Mielone", "Ziemniaki", "Sos pomidorowy", "Cebula", "Czosnek", "Ser żółty"],
+      "ingredients": ["Mielone", "Ziemniaki", "SosPomidorowy", "Cebula", "Czosnek", "SerZolty"],
       "name": "Ziemniaki faszerowane mięsem i pomidorami",
       "number": 23
     },
     {
       "composition": ["Wołowina - 1 kilogram", "Własna mieszanka przypraw do gulaszu - 3-4 łyżki", "Cebula czerwona - 300 gramów", "Papryka czerwona - 1 sztuka", "Papryka żółta - 1 sztuka", "Ząbki czosnku - 4 sztuki", "Smalec - 100 gramów", "Kminek - według uznania", "Woda - 1 litr"],
       "description": "Wołowinę opłucz pod bieżącą zimną wodą. Osusz ręcznikiem papierowym i pokrój w kostkę ok. 2x2 cm. Cebulę pokrój w kostkę, czosnek wyciśnij przez praskę lub drobno posiekaj. Paprykę pokrój w kostkę ok. 1x1 cm. W garnku rozgrzej tłuszcz i zrumień mięso. Następnie dodaj cebulę, czosnek i paprykę. Dopraw kminkiem. Do obsmażonych składników wlej wodę i dodaj przyprawy. Całość mieszaj do momentu, aż się zagotuje, następnie duś na małym ogniu pod przykryciem przez około 60 minut, aż mięso zrobi się miękkie.",
-      "ingredients": ["Wołowina","Cebula", "Papryka", "Czosnek"],
+      "ingredients": ["Wolowina","Cebula", "Papryka", "Czosnek"],
       "name": "Bogracz tradycyjny",
       "number": 24
     },
     {
       "composition": ["Cukinia - 3 sztuki", "Mięso mielone - 400 gramów", "Własna mieszanka przypraw - 3-4 łyżki", "Pomidory z puszki - 1 opakowanie", "Żółty ser - 100 gramów", "Bulion (może być z kostki)"],
       "description": "Cukinie przekrój wzdłuż na pół i wydrąż ze środka pestki i cześć miąższu. Bulion połącz z mięsem mielonym. Powstały farsz umieść w cukinii. Faszerowane warzywa umieść w żaroodpornym naczyniu i posyp po wierzchu startym serem. Do naczynia dodaj pomidory z puszki oraz dobrze rozkruszoną kostkę bulionową Knorr. Całość piecz w piekarniku nagrzanym do 190*C przez około 30 minut.",
-      "ingredients": ["Cukinia", "Mięso mielone", "Pomidory z puszki", "Ser żółty"],
+      "ingredients": ["Cukinia", "Mielone", "PomidoryZpuszki", "SerZolty"],
       "name": "Faszerowana cukinia",
       "number": 25
     },
     {
       "composition": ["Schab wieprzowy - 500 gramów", "Bulion mięsny - około 300 ml", "Ogórek kiszony - 1 sztuka", "Przyprawy do mięs - 1 łyżka", "Cebula - 2 sztuki", "Olej do smażenia - 3 łyżki"],
       "description": "Mięso pokrój w plastry grubości 1 cm. Rozbij tłuczkiem i natrzyj przyprawami. Ogórka i cebulę pokrój w plastry, cebulę obsmaż na patelni. Na każdy płat mięsa nałóż plaster ogórka i łyżkę podsmażonej cebulki. Zawiń brzegi, a następnie zroluj cały płat. Zabezpiecz wykałaczką przed rozwinięciem. Zrazy obsmaż na patelni z obu stron, a następnie zalej bulionem. Duś pod przykryciem przez 15 minut.",
-      "ingredients": ["Wieprzowina", "Cebula", "Ogórek kiszony"],
+      "ingredients": ["Wieprzowina", "Cebula", "OgórekKiszony"],
       "name": "Zrazy schabowe duszone w cebulce",
       "number": 26
     },
@@ -199,84 +199,84 @@
     {
       "composition": ["Polędwiczki wieprzowe - 400 gramów", "Ocet balsamiczny - 200 mililitrów", "Miód - 1 łyżka", "Cukier muscovado - 1 łyżka", "Przyprawa do wieprzowiny - 2 łyżki", "Ketchup pikantny - 2 łyżki"],
       "description": "Mięso oczyść z błon i przerostów tłuszczu, oprósz obficie przyprawą. Mięso odstaw na co najmniej godzinę w chłodne miejsce. W garnku połącz ocet balsamiczny, cukier, miód i ketchup. Całość gotuj około 5 minut aż powstanie gęsta glazura. Powstały sos odstaw na chwilę aby ostygł. Zanurz w nim mięso. Polędwiczki ułóż blasze do pieczenia na pergaminie, wstaw do nagrzanego do 190*C piekarnika na około 10 minut. Po tym czasie mięso przełóż na druga stronę posmaruj ponownie glazura i piecz jeszcze kolejne 10 minut. Czas pieczenia zależy od grubości mięsa. Po upieczeniu polędwiczkę wyjmij z piekarnika odstaw na bok na około 5 minut, po czym mięso pokrój w odpowiednie plastry. Podawaj na purée ziemniaczanym z odrobią chrzanu.",
-      "ingredients": ["Wieprzowina", "Ocet balsamiczny", "Miód"],
+      "ingredients": ["Wieprzowina", "OcetBalsamiczny", "Miod"],
       "name": "Pieczone polędwiczki wieprzowe glazurowane miodem i octem balsamicznym",
       "number": 28
     },
     {
       "composition": ["Mięso mielone - 500 gramów", "Mieszanka przypraw (pieprz, sól, papryka słodka itp.) - 2 płaskie łyżki", "Makaron spaghetti - 1 opakowanie", "Pomidory z puszki - 1 opakowanie", "Olej - 5 łyżek", "Woda - około 150 ml"],
       "description": "Ugotuj makaron. Mięso podsmaż na patelni. Dodaj pomidory, dokładnie wszystko rozdrobnij i doprowadź do wrzenia. Dodaj wodę oraz przyprawy. Gotuj na małym ogniu, aż sos zrobi się idealnie gęsty. Podawaj z makaronem.",
-      "ingredients": ["Mielone", "Makaron", "Pomidory w puszcze"],
+      "ingredients": ["Mielone", "Makaron", "PomidoryZpuszki"],
       "name": "Proste spaghetti bolognese",
       "number": 29
     },
     {
       "composition": ["Makaron tagliatelle - 350 gramów", "Sos serowy - 1 porcja", "Pierś z kurczaka - 1 sztuka", "Brokuły - 0.5 sztuki", "Pomidorki cherry kilka sztuk", "Śmietana 18% - 50 mililitrów", "Olej - 2 łyżki "],
       "description": "Makaron ugotuj al dente w lekko osolonej wodzie i odcedź. Brokuły podziel na różyczki i ugotuj. Na rozgrzanej oliwie przesmaż kurczaka pokrojonego w niedużą kostkę, wlej przygotowany sos serowy i zagotuj. Do sosu dodaj makaron, brokuły oraz pokrojone na połówki pomidorki. Całość wymieszaj, zagotuj i wyłóż na talerze. Tip: Aby wzbogacić smak dania posyp je startym parmezanem." ,
-      "ingredients": ["Makaron", "Pomidory", "Śmietana", "Sos serowy", "Kurczak", "Brokuły"],
+      "ingredients": ["Makaron", "Pomidory", "Smietana", "SosSerowy", "Kurczak", "Brokul"],
       "name": "Kremowe tagliatelle z kurczakiem i brokułami",
       "number": 30
     },
     {
       "composition": ["Filet z kurczaka - 1 sztuka", "Przyprawa do kurczaka", "Mały brokuł - 1 sztuka", "Jajka - 10 sztuk", "Oliwa z oliwek", "Masło"],
       "description": "Rozbij jaja i rozmieszaj je na jednolitą masę. Umyj kurczaka, pokrój go w paski. Następnie przesmaż na oliwie z oliwek. Podziel brokuł na małe różyczki i ugotuj w osolonej wodzie. Rozpuść masło na rozgrzanej patelni, po czym wlej jaja, dodaj kurczaka oraz brokuły. Należy uważać, aby masło nie przypaliło się, inaczej potrawa będzie niezdrowa i niesmaczna. Smaż całość do momentu, kiedy jaja zaczną się ścinać. Posyp omlet z wierzchu Przyprawą do kurczaka i podawaj.",
-      "ingredients": ["Kurczak", "Jajka", "Brokuł"],
+      "ingredients": ["Kurczak", "Jajka", "Brokul"],
       "name": "Omlet z kurczakiem i brokułami",
       "number": 31
     },
     {
       "composition": ["Wołowina - 500 gramów", "Sos do pieczeni instant - 1 sztuka", "Mąka pszenna - 5 łyżek", "Sos pomidorowy - porcja", "Cebula - 2 sztuki", "Ząbek czosnku - 1 sztuka"],
       "description": "Mięso pokrój w plastry i rozbij tłuczkiem. Następnie oprósz mąką i zrumień z obu stron na patelni. Cebulę oraz czosnek pokrój w kostkę i zeszklij w garnku na rozgrzanym tłuszczu. Smaż chwilę razem. Całość zalej 300 ml wrzącej wody, dodaj sos pomidorowy i przykryj garnek. Zmniejsz ogień i duś mięso do momentu, gdy będzie miękkie – ok. 35 minut. Gotowe bitki podawaj z ryżem.",
-      "ingredients": ["Wołowina", "Mąka pszenna", "Cebula", "Czosnek", "Sos pomidorowy"],
+      "ingredients": ["Wolowina", "MakaPszenna", "Cebula", "Czosnek", "SosPomidorowy"],
       "name": "Bitki wołowe w sosie pomidorowym",
       "number": 32
     },
     {
       "composition": ["Twaróg - 300 gramów", "Mąka ziemniaczana - 1 łyżka", "Mąka pszenna - 1/3 szklanki", "Mąka do podsypania ciasta", "Jajko - 1 sztuka", "Cukier wanilinowy - 10 gramów", "Masło - 3 łyżki", "Bułka tarta - 2 łyżki", "Cynamon - 1 łyżka"],
       "description": "Twaróg, przeciśnięty przez praskę, wymieszaj szybko i energicznie z jajkiem, mąką ziemniaczaną oraz pszenną i cukrem waniliowym tworząc zwarte ciasto. Odstaw ciasto na 10 minut. Następnie podsyp delikatnie mąką, podziel ciasto na mniejsze kawałki i z każdego uformuj wałek. Wałki ciasta pokrój nożem w romby i gotuj w wodzie 2-3 minuty. W tym czasie rozpuść na patelni masło i zrumień bułkę tartą wraz z cynamonem. Gotowe leniwe przełóż na talerz i polej cynamonowym masłem.",
-      "ingredients": ["Twaróg", "Mąka ziemniaczana", "Mąka pszenna", "Mąka ziemniaczana", "Jajka",  "Bułka tarta", "Cukier", "Masło", "Cynamon"],
+      "ingredients": ["Twarog", "MakaZiemniaczana", "MakaPszenna", "MakaZiemniaczana", "Jajka",  "BulkaTarta", "Cukier", "Maslo", "Cynamon"],
       "name": "Puszyste leniwe z cynamonem",
       "number": 33
     },
     {
       "composition": ["Ziemniaki - 1 kilogram", "Jajko - 1 sztuka", "Mąka pszenna - 2 łyżki", "Mąka ziemniaczana - 200 gramów", "Oliwa"],
       "description": "Ziemniaki ugotuj. Zmiel ziemniaki, a następnie dodaj pozostałe składniki i wyrób ciasto. Uformuj wałek, odrobinę go spłaszcz i krój ukośnie nożem. Kluski gotuj we wrzącej, osolonej wodzie. Przed podaniem polej masłem z bułką tartą.",
-      "ingredients": ["Ziemniaki", "Jajka", "Mąka ziemniaczana", "Mąka pszenna"],
+      "ingredients": ["Ziemniaki", "Jajka", "MakaZiemniaczana", "MakaPszenna"],
       "name": "Kopytka",
       "number": 34
     },
     {
       "composition": ["Ziemniaki - 1 kilogram", "Cebula - 1 sztuka", "Jajka - 2 sztuki", "Czosnek - 2 ząbki", "Gałka muszkatołowa - 1 szczypta.", "Sól - 1 szczypta", "Mąka ziemniaczana - 3 łyżki "],
       "description": "Obierz ziemniaki, zetrzyj na tarce. Odsącz masę przez sito. Zetrzyj cebulę i czosnek na tarce. Dodaj do ziemniaków cebulę, jajka i gałkę muszkatołową. Wymieszaj wszystko dobrze, dodaj mąkę, aby nadać masie odpowiednią konsystencję. Rozgrzej na patelni olej, nakładaj masę łyżką. Smaż placki z obu stron na złoty brąz i od razu podawaj.",
-      "ingredients": ["Ziemniaki", "Jajka", "Mąka ziemniaczana", "Cebula", "Czosnek"],
+      "ingredients": ["Ziemniaki", "Jajka", "MakaZiemniaczana", "Cebula", "Czosnek"],
       "name": "Placki ziemniaczane",
       "number": 35
     },
     {
       "composition": ["Mąka pszenna - 150 gramów", "Zimne mleko - 200 mililitrów", "Jajko - 1 sztuka", "Cukier waniliowy - 1 sztuka", "Cynamon - 1 łyżeczka", "Proszek do pieczenia - 1 łyżeczka", "Jabłka - 2 sztuki", "Olej - 100 mililitrów"],
       "description": "W misce wymieszaj mąkę, cukier, cynamon, proszek do pieczenia, jajo z zimnym mlekiem. Jabłko obierz, pokrój w małe kawałki i wymieszaj z ciastem. Placki smaż na rozgrzanej patelni, z 2 łyżkami oleju, z obu stron na złoty kolor.",
-      "ingredients": ["Ziemniaki", "Jajka", "MakaPszenna", "Jabłka", "Cukier", "Mleko"],
+      "ingredients": ["Ziemniaki", "Jajka", "MakaPszenna", "Jablka", "Cukier", "Mleko"],
       "name": "Puszyste placki z jabłkami",
       "number": 36
     },
     {
       "composition": ["Duże ziemniaki - 4 sztuki", "Brokuł - 1 sztuka", "Kukurydza z puszki - 200 gramów", "Sos serowy - porcja", "Jajka - 2 sztuki", "Starty ser żółty - 150 gramów", "Olej - 5 łyżek", "Czerwona papryka - 1 sztuka", "Posiekana natka pietruszki - 2 łyżki"],
       "description": "Ziemniaki ugotuj na półtwardo. Wystudź, a następnie zetrzyj na tarce na dużych oczkach. W ten sposób powstanie ciasto na placki ziemniaczane. Dodaj sos serowy, jajka i posiekaną natkę pietruszki. Dokładnie wymieszaj ciasto. Samodzielnie usmaż placki. Ugotuj różyczki brokułów. Wymieszać kukurydzę z serem i ugotowanymi wcześniej przez Ciebie różyczkami brokuła. Przygotowaną masę układaj wspólnie na plackach. Zapiecz w piekarniku rozgrzanym do 190 stopni, do czasu, gdy ser się lekko rozpuści. Potrawę możesz udekorować krążkami z czerwonej papryki. ",
-      "ingredients": ["Ziemniaki", "Jajka", "Brokuł", "Ser żółty", "Kukurydza", "Sos serowy", "Papryka", "Natka pietruszki"],
+      "ingredients": ["Ziemniaki", "Jajka", "Brokul", "SerZolty", "Kukurydza", "Sos serowy", "Papryka", "NatkaPietruszki"],
       "name": "Placki ",
       "number": 37
     },
     {
       "composition": ["Ser feta - 200 gramów", "Czosnek - 2 ząbki", "Jajka - 6 sztuk", "Przyprawy (własna mieszanka)", "Masło"],
       "description": "Pokrój ser feta w kostkę. Rozmąć jaja. Dojac przeciśnity przez praskę czosnek, dopraw do smaku. Dodaj ser feta do masy jajecznej. Na patelni rozgrzej masło. Należy uważać, aby masło nie przypaliło się, inaczej potrawa będzie niesmaczna i niezdrowa. Smaż całość przez kilka minut.",
-      "ingredients": ["Ser feta", "Czosnek", "Jajka", "Masło"],
+      "ingredients": ["SerFeta", "Czosnek", "Jajka", "Maslo"],
       "name": "Jajecznica z serem feta",
       "number": 38
     },
     {
       "composition": ["Cukinia - 1 sztuka", "Przyprawy (własna mieszanka)", "Olej słonecznikowy", "Natka pietruszki - 2 łyżki"],
       "description": "Umyj i pokrój cukinię w plastry 1-1,5 centymetrowe. Usmaż na oleju. Odsącz na ręczniku papierowym. Dopraw i posyp posiekaną natką pietruszki.",
-      "ingredients": ["Cukinia", "Natka pietruszki"],
+      "ingredients": ["Cukinia", "NatkaPietruszki"],
       "name": "Cukinia smażona",
       "number": 39
     },

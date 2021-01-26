@@ -1,12 +1,19 @@
+
+
+a {
+    color: white;
+}
+
+a:hover {
+    text-decoration: none !important;
+}
+
 .description {
     text-align: center;
     margin-left: 250px;
     margin-right: 250px;
 }
 
-a {
-    color: white;
-}
 
 .seekbutton {
     text-align: center;
@@ -22,7 +29,12 @@ a {
     color: red;
 }
 
-a:hover {
-    text-decoration: none !important;
+.cards {
+    margin-top: 40px;
+    maxWidth: 'lg';
+}
+
+card {
+    marginBottom: 30px;
 }
 

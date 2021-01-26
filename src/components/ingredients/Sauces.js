@@ -1,7 +1,5 @@
-import React, {useState, useEffect} from 'react'
-import {getRecipes} from '../../Api'
+import React from 'react'
 import {Link} from "react-router-dom";
-
 
 const Sauces = () => {
     return (
@@ -26,6 +24,5 @@ const Sauces = () => {
         </>
     )
 }
-
 
 export default Sauces
