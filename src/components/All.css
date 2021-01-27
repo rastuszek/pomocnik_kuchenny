@@ -30,11 +30,12 @@ a:hover {
 }
 
 .cards {
-    margin-top: 40px;
-    maxWidth: 'lg';
+    marginTop: 40px;
+    maxWidth: 'sm';
 }
 
-card {
-    marginBottom: 30px;
+.card {
+    marginBottom: 10320px;
+    width: 1020%;
 }
 

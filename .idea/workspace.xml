@@ -1,17 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="ca7d999f-2173-4b68-b612-f7220dbb22eb" name="Default Changelist" comment="poprawienie - ponowny push">
+    <list default="true" id="ca7d999f-2173-4b68-b612-f7220dbb22eb" name="Default Changelist" comment="poprawienie skladnikow i ich kategorii">
       <change beforePath="$PROJECT_DIR$/.eslintcache" beforeDir="false" afterPath="$PROJECT_DIR$/.eslintcache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/All.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/All.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Functions.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Header.js" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/Seek.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Seek.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/ingredients/Sauces.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/ingredients/Sauces.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/example.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/example.json" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -126,7 +122,10 @@
       <workItem from="1611493178483" duration="597000" />
       <workItem from="1611581093609" duration="4761000" />
       <workItem from="1611614822524" duration="15597000" />
-      <workItem from="1611668438669" duration="16734000" />
+      <workItem from="1611668438669" duration="17485000" />
+      <workItem from="1611770977378" duration="404000" />
+      <workItem from="1611771433369" duration="935000" />
+      <workItem from="1611784553897" duration="3503000" />
     </task>
     <task id="LOCAL-00001" summary="ok">
       <created>1608942873427</created>
@@ -240,7 +239,14 @@
       <option name="project" value="LOCAL" />
       <updated>1611673422056</updated>
     </task>
-    <option name="localTasksCounter" value="17" />
+    <task id="LOCAL-00017" summary="poprawienie skladnikow i ich kategorii">
+      <created>1611704090842</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1611704090842</updated>
+    </task>
+    <option name="localTasksCounter" value="18" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -280,6 +286,7 @@
     <MESSAGE value="funkcja glowna" />
     <MESSAGE value="poprawienie" />
     <MESSAGE value="poprawienie - ponowny push" />
-    <option name="LAST_COMMIT_MESSAGE" value="poprawienie - ponowny push" />
+    <MESSAGE value="poprawienie skladnikow i ich kategorii" />
+    <option name="LAST_COMMIT_MESSAGE" value="poprawienie skladnikow i ich kategorii" />
   </component>
 </project>
