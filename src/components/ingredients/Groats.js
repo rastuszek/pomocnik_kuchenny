@@ -3,6 +3,8 @@ import {getGroats} from '../../Api';
 import {Link} from "react-router-dom";
 import How from "../How";
 import "../All.css";
+import {Card} from "@material-ui/core";
+import Container from "@material-ui/core/Container";
 
 const Groats = () => {
     const [groats, setGroats] = useState([]);
@@ -16,14 +18,16 @@ const Groats = () => {
     },[])
 
     return (
-        <div>
+        <Container maxWidth={'sm'} >
             <How/>
+            <Card className="cards">
             <ul>
                 {groats && groats.map((data, index) => (<Link key={index} to={"/funkcje/jak/kasze/" + data.number}>
                     <li>{data.name}</li>
                 </Link>))}
             </ul>
-        </div>
+            </Card>
+        </Container>
     )
 }
 

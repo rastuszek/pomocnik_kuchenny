@@ -30,15 +30,13 @@ const App = () => {
     return (
         <>
             <NavBar/>
-            <div className="header">
+            <div>
 
                 {/*<div>*/}
                 {/*    <Route path='/logowanie'  component={Login}/>*/}
                 {/*    <Route path='/rejestracja'  component={Register}/>*/}
                 {/*</div>*/}
 
-
-                <div>
                     <Switch>
                         <PrivateRoute exact path='/' component={Intro}/>
                         <PrivateRoute path='/inne' component={Other}/>
@@ -55,9 +53,8 @@ const App = () => {
                         <PrivateRoute exact path='/funkcje/jak/kasze' component={Groats}/>
                         <PrivateRoute path='/funkcje/jak/kasze/:slug' component={SingleGroat}/>
                         <PrivateRoute exact path='/funkcje/znajdz/sosy' component={Sauces}/>
-
                     </Switch>
-                </div>
+
 
 
             </div>

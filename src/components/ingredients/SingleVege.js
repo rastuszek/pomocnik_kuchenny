@@ -20,4 +20,20 @@ const SingleVege = (props) => {
     )
 }
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 export default SingleVege;

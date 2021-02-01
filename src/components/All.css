@@ -1,5 +1,4 @@
 
-
 a {
     color: white;
 }
@@ -14,28 +13,56 @@ a:hover {
     margin-right: 250px;
 }
 
-
-.seekbutton {
+.buttons {
     text-align: center;
-
+    margin-bottom: 10px;
 }
 
-.header {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    font-size: calc(10px + 2vmin);
-    color: red;
+.how {
+    text-align: center;
+    font-family: cursive, Georgia;
+    font-size: 30px;
+    color: #0000ff;
+    margin-top: 30px;
+
 }
 
 .cards {
-    marginTop: 40px;
-    maxWidth: 'sm';
+    margin-top: 20px;
+    width: 550px;
+    background-color: #c69720; /*  ?????? */
+    text-align: center;
 }
 
 .card {
-    marginBottom: 10320px;
-    width: 1020%;
+    width: 100%;
+    background-color: #601224;
+    margin-bottom: 10px;
+    margin-top: 10px;
+
+}
+
+.center {
+    text-align: center;
+}
+
+.typo {
+    margin-top: 30px;
+    text-align: center;
+    background-color: #c620c6;
+    margin-bottom: 1000px;
+    font-family: cursive, Georgia; /* WTF czemu to nie dziala? cos nadpisuje? */
+}
+
+.text {
+    margin-bottom: 10px;
+    text-align: center;
+    font-family: cursive, Georgia;
+    font-size: 30px;
+    color: #0000ff;
+}
+
+li {
+    list-style-type: none;
 }
 

@@ -281,7 +281,7 @@
       "number": 39
     },
     {
-      "composition": ["Mięso wieprzowe- 500 gramów", "Mieszanka przypraw do gulaszu (papryka suszona, pieprz, sól itp.)", "Papryka - sztuka", "Cebula - 2 sztuki", "Olej - 3 łyżki", "Woda "],
+      "composition": ["Mięso wieprzowe - 500 gramów", "Mieszanka przypraw do gulaszu (papryka suszona, pieprz, sól itp.)", "Papryka - sztuka", "Cebula - 2 sztuki", "Olej - 3 łyżki", "Woda "],
       "description": "Mięso, cebulę i paprykę pokrój w kostkę. Smaż w garnku, aż mięso nabierze lekko rumianego koloru. Wlej 2 szklanki wody, doprowadź do wrzenia, a następnie dodaj mieszankę przypraw. Gotuj na małym ogniu przez około godzinę, aż mięso będzie miękkie.",
       "ingredients": ["Wieprzowina", "Papryka", "Cebula"],
       "name": "Gulasz wieprzowy",
@@ -292,7 +292,7 @@
     {
       "name": "Ziemniaki",
       "number": 0,
-      "description": "Do gotowania, należy dobrać ziemniaki tej samej wielkości lub pokroić je na podobne kawałki. Następnie trzeba je opłukać pod zimną wodą i wrzucić do gotującej się wody. Najlepiej gotować ziemniaki na średnim ogniu – gotowanie ma trwać od 20 do 30 minutPo 20 minutach sprawdzić nożem czy są już miękkie, jeżeli nóż gładko wchodzi w ziemniaki to znak, że są już gotowe. Po ugotowaniu ziemniaków, należy je odcedzić i ewentualnie opłukać"
+      "description": "Do gotowania, należy dobrać ziemniaki tej samej wielkości lub pokroić je na podobne kawałki. Następnie trzeba je opłukać pod zimną wodą i wrzucić do gotującej się wody. Najlepiej gotować ziemniaki na średnim ogniu – gotowanie ma trwać od 20 do 30 minut. Po 20 minutach sprawdzić nożem czy są już miękkie, jeżeli nóż gładko wchodzi w ziemniaki to znak, że są już gotowe. Po ugotowaniu ziemniaków, należy je odcedzić i ewentualnie opłukać."
     },
     {
       "name": "Fasolka szparagowa",
@@ -352,7 +352,7 @@
     {
       "name": "Jarmuż",
       "number": 12,
-      "description": "Liście jarmużu myjemy i wycinamy z nich grube, łykowate łodygi. Kroimy je na kawałki i obgotujemy kilka minut w osolonej wodzie. Nie dłużej, bo straci swój piękny kolor i wartości. Tak przygotowane obsmażamy na maśle z ulubionymi dodatkami- czosnkiem, jajkiem, czy suszonymi pomidorami"
+      "description": "Liście jarmużu myjemy i wycinamy z nich grube, łykowate łodygi. Kroimy je na kawałki i obgotujemy kilka minut w osolonej wodzie. Nie dłużej, bo straci swój piękny kolor i wartości. Tak przygotowane obsmażamy na maśle z ulubionymi dodatkami - czosnkiem, jajkiem, czy suszonymi pomidorami."
     }
   ],
   "other" : [

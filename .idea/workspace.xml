@@ -1,13 +1,20 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="ca7d999f-2173-4b68-b612-f7220dbb22eb" name="Default Changelist" comment="poprawienie skladnikow i ich kategorii">
+    <list default="true" id="ca7d999f-2173-4b68-b612-f7220dbb22eb" name="Default Changelist" comment="nie wiem co z tymi css">
       <change beforePath="$PROJECT_DIR$/.eslintcache" beforeDir="false" afterPath="$PROJECT_DIR$/.eslintcache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/All.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/All.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/How.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/How.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/Seek.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Seek.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/ingredients/Groats.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/ingredients/Groats.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/ingredients/Pasta.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/ingredients/Pasta.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/ingredients/Sauces.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/ingredients/Sauces.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/ingredients/Various.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/ingredients/Various.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/ingredients/Vegetables.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/ingredients/Vegetables.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/example.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/example.json" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -53,6 +60,7 @@
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="nodejs_interpreter_path" value="node" />
     <property name="nodejs_package_manager_path" value="npm" />
+    <property name="settings.editor.selected.configurable" value="Errors" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RecentsManager">
@@ -125,7 +133,9 @@
       <workItem from="1611668438669" duration="17485000" />
       <workItem from="1611770977378" duration="404000" />
       <workItem from="1611771433369" duration="935000" />
-      <workItem from="1611784553897" duration="3503000" />
+      <workItem from="1611784553897" duration="4326000" />
+      <workItem from="1612098487774" duration="3234000" />
+      <workItem from="1612115958959" duration="16376000" />
     </task>
     <task id="LOCAL-00001" summary="ok">
       <created>1608942873427</created>
@@ -246,7 +256,14 @@
       <option name="project" value="LOCAL" />
       <updated>1611704090842</updated>
     </task>
-    <option name="localTasksCounter" value="18" />
+    <task id="LOCAL-00018" summary="nie wiem co z tymi css">
+      <created>1611788461784</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1611788461784</updated>
+    </task>
+    <option name="localTasksCounter" value="19" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -287,6 +304,7 @@
     <MESSAGE value="poprawienie" />
     <MESSAGE value="poprawienie - ponowny push" />
     <MESSAGE value="poprawienie skladnikow i ich kategorii" />
-    <option name="LAST_COMMIT_MESSAGE" value="poprawienie skladnikow i ich kategorii" />
+    <MESSAGE value="nie wiem co z tymi css" />
+    <option name="LAST_COMMIT_MESSAGE" value="nie wiem co z tymi css" />
   </component>
 </project>
