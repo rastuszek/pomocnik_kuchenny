@@ -17,7 +17,7 @@ const Various = () => {
     return (
         <Container maxWidth={'sm'} >
             <How/>
-            <Card className="cards">
+            <Card className="list">
                 <ul>
                     {various.map((data, index) => (<Link key={index} to={"/funkcje/jak/inne/" + data.number}>
                         <li>{data.name}</li>

@@ -16,7 +16,7 @@ const Pasta = () => {
     return (
         <Container maxWidth={'sm'} >
             <How/>
-            <Card className="cards">
+            <Card className="list">
                 <ul>
                     {pasta.map((data, index) => (<Link key={index} to={"/funkcje/jak/makarony/" + data.number}>
                         <li>{data.name}</li>

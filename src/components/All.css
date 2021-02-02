@@ -7,10 +7,16 @@ a:hover {
     text-decoration: none !important;
 }
 
+.single {
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-bottom: 20px;
+}
+
 .description {
+    margin-top: 20px;
     text-align: center;
-    margin-left: 250px;
-    margin-right: 250px;
+
 }
 
 .buttons {
@@ -29,12 +35,11 @@ a:hover {
 
 .cards {
     margin-top: 20px;
-    width: 550px;
     background-color: #c69720; /*  ?????? */
-    text-align: center;
+    font-size: 18px;
 }
 
-.card {
+.ingre {
     width: 100%;
     background-color: #601224;
     margin-bottom: 10px;
@@ -42,8 +47,10 @@ a:hover {
 
 }
 
-.center {
+.list{
     text-align: center;
+    margin-top: 10px;
+    font-size: 18px;
 }
 
 .typo {
@@ -56,8 +63,8 @@ a:hover {
 
 .text {
     margin-bottom: 10px;
-    text-align: center;
     font-family: cursive, Georgia;
+    text-align: center;
     font-size: 30px;
     color: #0000ff;
 }

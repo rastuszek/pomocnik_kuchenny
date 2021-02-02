@@ -4,7 +4,7 @@ import {Link} from "react-router-dom";
 import How from "../How";
 import "../All.css";
 import {Card} from "@material-ui/core";
-import Container from "@material-ui/core/Container";
+import Container from '@material-ui/core/Container';
 
 const Vegetables = () => {
     const [vegetables, setVegetables] = useState([]);
@@ -20,7 +20,7 @@ const Vegetables = () => {
     return (
         <Container maxWidth={'sm'}  >
             <How/>
-            <Card className="cards">
+            <Card className="list">
             <ul>
                 {vegetables && vegetables.map((data, index) => (<Link key={index} to={"/funkcje/jak/warzywa/" + data.number}>
                     <li>{data.name}</li>

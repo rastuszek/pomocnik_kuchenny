@@ -20,7 +20,7 @@ const Groats = () => {
     return (
         <Container maxWidth={'sm'} >
             <How/>
-            <Card className="cards">
+            <Card className="list">
             <ul>
                 {groats && groats.map((data, index) => (<Link key={index} to={"/funkcje/jak/kasze/" + data.number}>
                     <li>{data.name}</li>

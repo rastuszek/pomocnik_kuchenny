@@ -292,67 +292,92 @@
     {
       "name": "Ziemniaki",
       "number": 0,
-      "description": "Do gotowania, należy dobrać ziemniaki tej samej wielkości lub pokroić je na podobne kawałki. Następnie trzeba je opłukać pod zimną wodą i wrzucić do gotującej się wody. Najlepiej gotować ziemniaki na średnim ogniu – gotowanie ma trwać od 20 do 30 minut. Po 20 minutach sprawdzić nożem czy są już miękkie, jeżeli nóż gładko wchodzi w ziemniaki to znak, że są już gotowe. Po ugotowaniu ziemniaków, należy je odcedzić i ewentualnie opłukać."
+      "description": "Do gotowania, należy dobrać ziemniaki tej samej wielkości lub pokroić je na podobne kawałki. Następnie trzeba je opłukać pod zimną wodą i wrzucić do gotującej się wody. Najlepiej gotować ziemniaki na średnim ogniu – gotowanie ma trwać od 20 do 30 minut. Po 20 minutach sprawdzić nożem czy są już miękkie, jeżeli nóż gładko wchodzi w ziemniaki to znak, że są już gotowe. Po ugotowaniu ziemniaków, należy je odcedzić i ewentualnie opłukać.",
+      "image": "JAK TUTAJ DODAC ZDJECIE???",
+      "values": "Ziemniaki obfitują w potas obniżający ciśnienie krwi oraz magnez, który jest budulcem zębów i kości, poprawia przemianę materii, łagodzi stany zmęczenia i stres. Mają też nieco wapnia, żelaza i fosforu. Dostarczają także niemal wszystkich witamin – najwięcej jest w nich witaminy C."
     },
     {
       "name": "Fasolka szparagowa",
       "number": 1,
-      "description": "Aby fasolka zachowała jak największą liczbę składników odżywczych, witamin oraz minerałów – zaleca się gotować ją na parze. Dzięki gotowaniu w ten sposób, zachowa ona również pyszny smak, chrupkość, soczystość oraz kolor. Z powodzeniem można ugotować ją także we wrzącej wodzie. Przygotowaną i umytą fasolkę należy wrzucić do garnka z zimną wodą. Na 500 g fasolki potrzebne będą 2 litry wody, 1 łyżka cukru i 1 płaska łyżeczka soli. Czas gotowania fasolki szparagowej uzależniony jest od jej gatunku oraz czy jest młoda lub starsza. Krótszego czasu gotowania wymagać będzie oczywiście młodsza żółta fasolka: 5 – 15 minut. Zielona fasolka wymaga dłuższego czasu gotowania: ok. 15 – 20 minut. Fasolkę szparagową starszą, należy gotować kilka minut dłużej. W trakcie gotowania, warto sprawdzać jej miękkość. Ugotowaną fasolkę szparagową należy odcedzić na sitku."
+      "description": "Aby fasolka zachowała jak największą liczbę składników odżywczych, witamin oraz minerałów – zaleca się gotować ją na parze. Dzięki gotowaniu w ten sposób, zachowa ona również pyszny smak, chrupkość, soczystość oraz kolor. Z powodzeniem można ugotować ją także we wrzącej wodzie. Przygotowaną i umytą fasolkę należy wrzucić do garnka z zimną wodą. Na 500 g fasolki potrzebne będą 2 litry wody, 1 łyżka cukru i 1 płaska łyżeczka soli. Czas gotowania fasolki szparagowej uzależniony jest od jej gatunku oraz czy jest młoda lub starsza. Krótszego czasu gotowania wymagać będzie oczywiście młodsza żółta fasolka: 5 – 15 minut. Zielona fasolka wymaga dłuższego czasu gotowania: ok. 15 – 20 minut. Fasolkę szparagową starszą, należy gotować kilka minut dłużej. W trakcie gotowania, warto sprawdzać jej miękkość. Ugotowaną fasolkę szparagową należy odcedzić na sitku.",
+      "values": "Zielona szparagówka zawiera więcej witaminy A i kwasu foliowego niż żółta, dlatego jest zalecana kobietom w ciąży, cukrzykom, a także osobom z niedoborem żelaza. Natomiast żółta jest bogatsza w potas i fosfor.",
+      "values2": "Dzięki zawartości witaminy C szparagówka wzmacnia system odpornościowy, który w organizmie stanowi ochronę przed większością chorób, w tym chorób nowotworowych. Świeża fasolka zawiera aglutyninę, która pełni ważną rolę w budowaniu odporności organizmu."
     },
     {
       "name": "Kalafior",
       "number": 2,
-      "description": "Średniej wielkości kalafior, należy gotować bez przykrycia, mniej więcej 15 minut. Po 15 minutowym gotowaniu, należy sprawdzić czy kalafior jest wystarczająco miękki. Można to zrobić wbijając widelec w różyczki – jeżeli łatwo wchodzi oznacza, że już jest ugotowany. Jeżeli wolisz bardziej al dente – skróć czas gotowania."
+      "description": "Średniej wielkości kalafior, należy gotować bez przykrycia, mniej więcej 15 minut. Po 15 minutowym gotowaniu, należy sprawdzić czy kalafior jest wystarczająco miękki. Można to zrobić wbijając widelec w różyczki – jeżeli łatwo wchodzi oznacza, że już jest ugotowany. Jeżeli wolisz bardziej al dente – skróć czas gotowania.",
+      "values": "Kalafior należy do grupy pokarmów roślinnych o najsilniejszym potencjale antynowotworowym. Potwierdzają to badania naukowe. Spożywanie kalafiora, a także brokułów, może zmniejszyć ryzyko rozwoju agresywnego raka prostaty - przekonują naukowcy z Ameryki Północnej i Kanady na łamach pisma \"Journal of the National Cancer Institute\". Ich zdaniem kalafiory i brokuły zawierają wiele substancji, które mogą mieć działanie przeciwnowotworowe.",
+      "values2": "Również badacze z Rutgers' Ernest Mario School of Pharmac są zdania, że kalafior to skuteczna broń w profilaktyce raka prostaty, zwłaszcza w połączeniu z curry. Jak wynika z badań, występująca w tej popularnej przyprawie substancja - kurkumina - może zapobiegać rozwojowi nowotworów, zwłaszcza w połączeniu z izotiocyjanianem fenetylowym (PEITC) - substancją, która występuje w warzywach, takich jak kapusta, brukselka, kalafior, brokuły czy  rzepa."
     },
     {
       "name": "Kukurydza",
       "number": 3,
-      "description": "Przygotowaną kukurydzę należy wrzucić do garnka z wrzątkiem i gotować ok. 15 minut, aż ziarna staną się miękkie. Dłuższy czas gotowania, sprawi że ziarna kukurydzy staną się twarde, łykowate i niesmaczne. Z tego samego powodu, nie należy solić wrzątku. Za to warto dodać do gotującego się wody jedną łyżeczkę cukru aby uzyskać słodszy smak kukurydzy. Ugotowaną kukurydzę należy odsączyć z wody na durszlaku i przełożyć na talerz."
+      "description": "Przygotowaną kukurydzę należy wrzucić do garnka z wrzątkiem i gotować ok. 15 minut, aż ziarna staną się miękkie. Dłuższy czas gotowania, sprawi że ziarna kukurydzy staną się twarde, łykowate i niesmaczne. Z tego samego powodu, nie należy solić wrzątku. Za to warto dodać do gotującego się wody jedną łyżeczkę cukru aby uzyskać słodszy smak kukurydzy. Ugotowaną kukurydzę należy odsączyć z wody na durszlaku i przełożyć na talerz.",
+      "values": "100 g świeżych ziaren kukurydzy dostarcza organizmowi 365 kcal, a kukurydza konserwowa - ok. 100 kcal (w zależności od ilości soli i cukru w roztworze wodnym). Kukurydza ma 60-70 proc. skrobi, sporo błonnika, białko, witaminy z grupy B, a także D, E, K oraz prowitaminę A. Kukurydza to również dobre źródło składników mineralnych.",
+      "values2": "Selen wraz z witaminą E i beta-karotenem broni nas przed działaniem wolnych rodników, zwiększa odporność i przedłuża młodość. Ma dwa silne antyoksydanty należące do karotenoidów: luteinę i zeaksantynę, które pomagają chronić plamkę żółtą oka przed zwyrodnieniem."
     },
     {
       "name": "Brokuł",
       "number": 4,
-      "description": "W garnku zagotowujemy sporą ilość wody, którą solimy i doprawiamy odrobiną cukru (na 2,5l wody płaska łyżeczka soli i spora szczypta cukru). Na wrzątek wrzucamy umyte różyczki brokuła. Warzywa gotujemy ok 5-7 min (liczone od momentu aż woda zacznie wrzeć)."
+      "description": "W garnku zagotowujemy sporą ilość wody, którą solimy i doprawiamy odrobiną cukru (na 2,5l wody płaska łyżeczka soli i spora szczypta cukru). Na wrzątek wrzucamy umyte różyczki brokuła. Warzywa gotujemy ok 5-7 min (liczone od momentu aż woda zacznie wrzeć).",
+      "values": "Brokuły wykazują właściwości antynowotworowe dzięki zwartości sulforafanu - silnego przeciwutleniacza, który blokuje powstawanie nowotworowych mutacji DNA oraz ułatwia likwidację komórek tworzącego się nowotworu. Sulforafan może uchronić m.in. przed rakiem prostaty, piersi, płuc i jelita grubego, jednak tylko pod warunkiem, że brokuły będą odpowiednio ugotowane - zaznaczają naukowcy z University of Illinois na łamach \"Journal of Food Science\".",
+      "values2": "Brokuły mogą na jakiś czas złagodzić objawy autyzmu - przekonują naukowcy ze Szpitala Dziecięcego MassGeneral i Uniwersytetu Medycznego Johna Hopkinsa (USA) na łamach czasopisma \"PNAS\". Wszystko dzięki zawartości sulforafanu, który chroni przed stanem zapalnym wywoływanym przez stres oksydacyjny, charakterystyczny dla osób z autyzmem. Jak twierdzą badacze, terapia z zastosowaniem tej substancji poprawia ogólne funkcjonowanie chorych. Jak wynika z badań, pacjenci, którzy do tej pory nie porozumiewali się głosem, mową ani gestem, stali się bardziej komunikatywni (np. podają drugiemu człowiekowi rękę). Ograniczone zostały także ich dziwne zachowania. Niestety, efekty terapii są tylko czasowe i ustępują wraz z jej zakończeniem."
     },
     {
       "name": "Kapusta",
       "number": 5,
-      "description": "Pokrojoną kapustę wkładamy do małej ilości zimnej wody, jeżeli zależy nam na tym, żeby jej smak i aromat przeszły do wywaru (np. gotując zupę lub barszcz). Jeżeli gotujemy kapustę jako osobne danie, wrzucamy poszatkowaną kapustę do gotującej się wody – dzięki temu zachowa najwięcej swoich soków. Kapustę gotujemy przez 15–25 minut. Czas zaczynamy odliczać od momentu ponownego zagotowania się wody. Zaraz po nastawieniu solimy (ok. 2 łyżeczki na 1 litr wody). Warto również lekko posłodzić (ok. 1 łyżeczka na 1 litr wody). Po zagotowaniu odkrywamy garnek, żeby ulotniły się olejki o nieprzyjemnym zapachu, potem dogotowujemy pod przykryciem. Aby sprawdzić, czy kapusta jest już ugotowana, można wbić widelec lub nóż. Jeżeli wchodzi miękko, jest gotowa."
+      "description": "Pokrojoną kapustę wkładamy do małej ilości zimnej wody, jeżeli zależy nam na tym, żeby jej smak i aromat przeszły do wywaru (np. gotując zupę lub barszcz). Jeżeli gotujemy kapustę jako osobne danie, wrzucamy poszatkowaną kapustę do gotującej się wody – dzięki temu zachowa najwięcej swoich soków. Kapustę gotujemy przez 15–25 minut. Czas zaczynamy odliczać od momentu ponownego zagotowania się wody. Zaraz po nastawieniu solimy (ok. 2 łyżeczki na 1 litr wody). Warto również lekko posłodzić (ok. 1 łyżeczka na 1 litr wody). Po zagotowaniu odkrywamy garnek, żeby ulotniły się olejki o nieprzyjemnym zapachu, potem dogotowujemy pod przykryciem. Aby sprawdzić, czy kapusta jest już ugotowana, można wbić widelec lub nóż. Jeżeli wchodzi miękko, jest gotowa.",
+      "values": "Szczególne właściwości lecznicze ma sok z kapusty. Picie go wzmacnia odporność, pomaga na anemię i obrzęki spowodowane nadmiernym zatrzymywaniem płynów w organizmie. Po trzech tygodniach codziennej szklanki soku te ostatnie znikają bez śladu.",
+      "values2": "Kapuściany sok to także uznawane nawet przez medycynę lekarstwo na wrzody żołądka. W ludowej praktyce stosuje się okłady z soku lub liści na bóle reumatyczne i neuralgiczne oraz przy leczeniu ranek i wrzodów. Coraz głośniej mówi się o właściwościach przeciwnowotworowych kapusty - obecne w niej związki chemiczne (indole) pomagają w profilaktyce raka o podłożu hormonalnym: raka jajników, piersi, prostaty i jąder."
     },
     {
       "name": "Kapusta kiszona",
       "number": 6,
-      "description": "Kapustę kiszoną włożyć do garnka, zalać niewielką ilością wody, dodać listek laurowy, angielskie ziele, owoce jałowca i gotować pod przykryciem około 15 minut."
+      "description": "Kapustę kiszoną włożyć do garnka, zalać niewielką ilością wody, dodać listek laurowy, angielskie ziele, owoce jałowca i gotować pod przykryciem około 15 minut.",
+      "values": "Kapusta kiszona zawiera witaminę C, magnez, potas, żelazo i wapń. Jest także świetnym źródłem witamin z grupy B, witaminy A, E oraz K. Z uwagi na obecność bakterii kwasu mlekowego, powstających w procesie fermentacji, jest produktem bardzo zdrowym, zalecanym w profilaktyce chorób układu pokarmowego i dla zachowania właściwej flory bakteryjnej jelit. Jest również źródłem błonnika pokarmowego, co szczególnie przydatne jest dla osób odchudzających się lub cierpiących na zaparcia. Błonnik pozwala również obniżyć poziom cholesterolu we krwi, co zapobiega rozwojowi miażdżycy i chorób serca. ",
+      "values2": "Kapustę kiszoną jest świetna dla osób mających problemy z wrzodami i nadżerkami żołądka. Wynika to z faktu, że sok z kiszonej kapusty łagodzi działanie kwasów oraz soli, dzięki czemu łagodzi tym samym dolegliwości bólowe. Sok z kiszonej kapusty działa również detoksykująco, dzięki czemu pozwala na usunięcie szkodliwych substancji z organizmu. "
     },
     {
       "name": "Burak",
       "number": 7,
-      "description": "Bez obierania układam buraki w dużym garnku i dopełniam wodą. Całe buraki powinny być przykryte. Gotuję przez około 40-60 minut zależnie od wielkości. Małe buraki będą ugotowane po 30 minutach duże i bardzo duże wymagają więcej czasu."
+      "description": "Bez obierania układam buraki w dużym garnku i dopełniam wodą. Całe buraki powinny być przykryte. Gotuję przez około 40-60 minut zależnie od wielkości. Małe buraki będą ugotowane po 30 minutach duże i bardzo duże wymagają więcej czasu.",
+      "values": "Mimo że buraki nie są bogatym źródłem żelaza, to wspaniały środek krwiotwórczy, dawno uznany przez medycynę naturalną. Zapobiega anemii, co więcej, wspomaga leczenie białaczki. Zawarte w burakach barwniki należą do bardzo silnych przeciwutleniaczy i czterokrotnie zwiększają przyswajanie tlenu przez komórki. Wspomagają więc układ krwionośny.",
+      "values2": "Kwas foliowy, w który obfitują buraki, nie tylko warunkuje prawidłowy rozwój płodu, ale też pomaga usunąć z krwiobiegu homocysteinę - jej wysoki poziom może wywołać choroby serca. Buraki pomagają unormować poziom cholesterolu, przeciwdziałają też zwapnieniom naczyń krwionośnych."
     },
     {
       "name": "Marchew w całości",
       "number": 8,
-      "description": "Młode marchewki gotujemy w całości, w osolonym wrzątku nie dłużej niż 10 minut (nie obieramy ich). Większe okazy pozbawiamy skórki i kroimy na 4 lub więcej części, a dopiero potem wrzucamy do gotującej się wody. Wyjmujemy, gdy są „trochę” miękkie."
+      "description": "Młode marchewki gotujemy w całości, w osolonym wrzątku nie dłużej niż 10 minut (nie obieramy ich). Większe okazy pozbawiamy skórki i kroimy na 4 lub więcej części, a dopiero potem wrzucamy do gotującej się wody. Wyjmujemy, gdy są „trochę” miękkie.",
+      "values": "Beta-karoten zapewnia prawidłowe funkcjonowanie wzroku, wzmacnia odporność, a także wspomaga leczenie trądziku i opóźnia pojawianie się zmarszczek. Jednak najbardziej jest znany z tego, że przyśpiesza opalanie i przedłuża efekty kąpieli słonecznych. Powszechnie uważa się, że codziennie należy pić 2 szklanki soku z marchwi, by cieszyć się skórą muśniętą słońcem. Nie należy jednak przesadzać z jego ilością, gdyż wówczas nie osiągnie się pięknej opalenizny, lecz skóra z czasem zyska marchewkowy kolor (tzw. karotenoza lub karotenemia). Poza tym nadmierne spożycie beta-karotenu oznacza, że w organizmie dochodzi do nadmiernej produkcji witaminy A, co nie jest korzystne dla zdrowia. Witamina A w zbyt dużych ilościach jest toksyczna i może doprowadzić do powiększenia wątroby, nadmiernej pobudliwości, chorób skóry oraz zaburzeń ze strony wzroku."
     },
     {
       "name": "Bób",
       "number": 9,
-      "description": "Umyty pod bieżącą wodą bób umieść w garnku i zalej wodą (której powinno być dwa razy więcej niż bobu). Dosyp płaską łyżeczkę cukru. Gdy woda zacznie się gotować, dosyp szczyptę soli i gotuj pod przykryciem na średnim ogniu około 15–20 minut (aż ziarna bobu zmiękną, a skórka stanie się pomarszczona)."
+      "description": "Umyty pod bieżącą wodą bób umieść w garnku i zalej wodą (której powinno być dwa razy więcej niż bobu). Dosyp płaską łyżeczkę cukru. Gdy woda zacznie się gotować, dosyp szczyptę soli i gotuj pod przykryciem na średnim ogniu około 15–20 minut (aż ziarna bobu zmiękną, a skórka stanie się pomarszczona).",
+      "values": "Bób może pomóc kontrolować wagę, ponieważ spowalnia proces trawienia i na długo daje uczucie sytości. Ponadto jest bogaty w kwas foliowy i witaminy z grupy B - substancje niezbędne do prawidłowego funkcjonowania układu nerwowego. W związku z tym bób pomoże przetrwać kryzys w czasie odchudzania.",
+      "values2": "Bób jest pomocny w leczeniu zarówno niedokrwistości mikrocytarnej - będącej konsekwencją niedoboru żelaza, jak i i anemii megaloblastycznej, spowodowanej niedoborem kwasu foliowego i witaminy B12."
     },
     {
       "name": "Fasola",
       "number": 10,
-      "description": "Nasiona moczymy 1–2 godziny w bardzo gorącej wodzie, w tym czasie kilka razy dolewamy wrzątku. Następnie wylewamy wodę, fasolę zalewamy świeżą wodą i gotujemy dopóki nie zmięknie. Fasolę można też zalać zimną wodą, szybko zagotować, odcedzić, znów zalać wodą i gotować na średnim ogniu dopóki nie będzie gotowa."
+      "description": "Nasiona moczymy 1–2 godziny w bardzo gorącej wodzie, w tym czasie kilka razy dolewamy wrzątku. Następnie wylewamy wodę, fasolę zalewamy świeżą wodą i gotujemy dopóki nie zmięknie. Fasolę można też zalać zimną wodą, szybko zagotować, odcedzić, znów zalać wodą i gotować na średnim ogniu dopóki nie będzie gotowa.",
+      "values": "Fasola ma też lekkostrawną skrobię i substancje hamujące rozrost tkanek nowotworowych (inhibitory proteazy), a także rozpuszczalny błonnik, który pomaga usuwać z organizmu nadmiar cholesterolu. Niestety ma także wady - powoduje wzdęcia i gazy.",
+      "values2": "Niestety fasola z puszki, podobnie jak groszek czy kukurydza, to niezbyt zdrowy wybór. Wnętrze puszek pokrywane jest bisfenolem (BPA). BPA ma budowę zbliżoną do żeńskiego hormonu płciowego – estrogenu, dlatego może oddziaływać na funkcjonowanie układu hormonalnego."
     },
     {
       "name": "Groch",
       "number": 11,
-      "description": "Groch zagotowujemy, zdejmujemy pianę, zmniejszamy granie. Gotujemy ok 25 min dla grochu wcześniej moczonego lub ok 45 min dla grochu suchego – do momentu aż groch zacznie się rozpadać. Groch cały gotujemy dwa razy dłużej postępują ze wszystkim jak wyżej."
+      "description": "Groch zagotowujemy, zdejmujemy pianę, zmniejszamy granie. Gotujemy ok 25 min dla grochu wcześniej moczonego lub ok 45 min dla grochu suchego – do momentu aż groch zacznie się rozpadać. Groch cały gotujemy dwa razy dłużej postępują ze wszystkim jak wyżej.",
+      "values": "Groch jest przede wszystkim dobrym źródłem białka. Dostarcza też składniki mineralne, takie jak żelazo, wapń, fosfor, magnez, potas. Poza tym zawiera witaminy z grupy B, które chronią układ nerwowy i pomagają zapobiegać stanom lękowym i depresji oraz łagodzą skutki stresu.",
+      "values2": "Groch, a konkretnie proteiny (białka) w nim zawarte, mogą pomóc osobom zmagającym się z nadciśnieniem tętniczym i przewlekłą chorobą nerek, przekonują kanadyjscy naukowcy z University of Manitoba. Jak czytamy na łamach \"Journal of Agricultural and Food Chemistry\"³, białko zawarte w grochu może opóźnić lub zapobiec zaburzeniom funkcji nerek u osób z nadciśnieniem. Z kolei tym, którzy cierpią na przewlekłą chorobę nerek, białko pomoże uregulować ciśnienie, dzięki czemu osoby te będą mogły żyć dłużej."
     },
     {
       "name": "Jarmuż",
       "number": 12,
-      "description": "Liście jarmużu myjemy i wycinamy z nich grube, łykowate łodygi. Kroimy je na kawałki i obgotujemy kilka minut w osolonej wodzie. Nie dłużej, bo straci swój piękny kolor i wartości. Tak przygotowane obsmażamy na maśle z ulubionymi dodatkami - czosnkiem, jajkiem, czy suszonymi pomidorami."
+      "description": "Liście jarmużu myjemy i wycinamy z nich grube, łykowate łodygi. Kroimy je na kawałki i obgotujemy kilka minut w osolonej wodzie. Nie dłużej, bo straci swój piękny kolor i wartości. Tak przygotowane obsmażamy na maśle z ulubionymi dodatkami - czosnkiem, jajkiem, czy suszonymi pomidorami.",
+      "values": "Jarmuż zwiera karotenoidy (beta karoten, luteinę, zeaksantynę) - przeciwutleniacze, które również hamują szkodliwe procesy oksydacyjne, a co za tym idzie - mogą zapobiegać rozwojowi chorób nowotworowych. Dowiedziono, że spożycie karotenoidów może obniżyć występowanie takich nowotworów, jak: rak jamy ustnej, krtani, przełyku i pęcherza moczowego.",
+      "values2": "Jarmuż jest także skarbnicą innej antynowotworowej substancji - witaminy K, która również hamuje rozwój niektórych nowotworów, m.in. nowotworów piersi, nowotworów jajnika, okrężnicy, pęcherzyka żółciowego, wątroby. Jak przekonują specjaliści z Instytutu Żywności i Żywienia, jej niedobór może być przyczyną zwiększonego ryzyka rozwoju nowotworów."
     }
   ],
   "other" : [

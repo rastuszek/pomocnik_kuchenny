@@ -5,13 +5,12 @@
       <change beforePath="$PROJECT_DIR$/.eslintcache" beforeDir="false" afterPath="$PROJECT_DIR$/.eslintcache" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/All.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/All.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/How.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/How.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/Seek.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Seek.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/ingredients/Groats.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/ingredients/Groats.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/ingredients/Pasta.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/ingredients/Pasta.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/ingredients/Sauces.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/ingredients/Sauces.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/ingredients/SingleVege.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/ingredients/SingleVege.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/ingredients/Various.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/ingredients/Various.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/ingredients/Vegetables.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/ingredients/Vegetables.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/example.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/example.json" afterDir="false" />
@@ -136,6 +135,7 @@
       <workItem from="1611784553897" duration="4326000" />
       <workItem from="1612098487774" duration="3234000" />
       <workItem from="1612115958959" duration="16376000" />
+      <workItem from="1612208014104" duration="11743000" />
     </task>
     <task id="LOCAL-00001" summary="ok">
       <created>1608942873427</created>
@@ -282,11 +282,41 @@
   <component name="Vcs.Log.Tabs.Properties">
     <option name="TAB_STATES">
       <map>
+        <entry key="1">
+          <value>
+            <State>
+              <option name="SHOW_ONLY_AFFECTED_CHANGES" value="true" />
+              <option name="FILTERS">
+                <map>
+                  <entry key="branch">
+                    <value>
+                      <list>
+                        <option value="HEAD" />
+                      </list>
+                    </value>
+                  </entry>
+                  <entry key="roots">
+                    <value>
+                      <list>
+                        <option value="$PROJECT_DIR$" />
+                      </list>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+            </State>
+          </value>
+        </entry>
         <entry key="MAIN">
           <value>
             <State />
           </value>
         </entry>
+      </map>
+    </option>
+    <option name="OPEN_GENERIC_TABS">
+      <map>
+        <entry key="1" value="TOOL_WINDOW" />
       </map>
     </option>
     <option name="oldMeFiltersMigrated" value="true" />
