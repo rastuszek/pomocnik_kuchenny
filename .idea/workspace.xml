@@ -1,18 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="ca7d999f-2173-4b68-b612-f7220dbb22eb" name="Default Changelist" comment="nie wiem co z tymi css">
+    <list default="true" id="ca7d999f-2173-4b68-b612-f7220dbb22eb" name="Default Changelist" comment="widok jak ugotowac">
       <change beforePath="$PROJECT_DIR$/.eslintcache" beforeDir="false" afterPath="$PROJECT_DIR$/.eslintcache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/All.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/All.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Seek.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Seek.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/ingredients/Groats.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/ingredients/Groats.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/NavBar/index.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/NavBar/index.jsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/ingredients/Pasta.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/ingredients/Pasta.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/ingredients/RecipesAll.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/ingredients/RecipesAll.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/ingredients/SingleVege.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/ingredients/SingleVege.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/ingredients/Various.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/ingredients/Various.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/ingredients/Vegetables.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/ingredients/Vegetables.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/example.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/example.json" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -135,7 +131,8 @@
       <workItem from="1611784553897" duration="4326000" />
       <workItem from="1612098487774" duration="3234000" />
       <workItem from="1612115958959" duration="16376000" />
-      <workItem from="1612208014104" duration="11743000" />
+      <workItem from="1612208014104" duration="12247000" />
+      <workItem from="1612285400164" duration="3862000" />
     </task>
     <task id="LOCAL-00001" summary="ok">
       <created>1608942873427</created>
@@ -263,7 +260,14 @@
       <option name="project" value="LOCAL" />
       <updated>1611788461784</updated>
     </task>
-    <option name="localTasksCounter" value="19" />
+    <task id="LOCAL-00019" summary="widok jak ugotowac">
+      <created>1612224739786</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1612224739786</updated>
+    </task>
+    <option name="localTasksCounter" value="20" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -335,6 +339,7 @@
     <MESSAGE value="poprawienie - ponowny push" />
     <MESSAGE value="poprawienie skladnikow i ich kategorii" />
     <MESSAGE value="nie wiem co z tymi css" />
-    <option name="LAST_COMMIT_MESSAGE" value="nie wiem co z tymi css" />
+    <MESSAGE value="widok jak ugotowac" />
+    <option name="LAST_COMMIT_MESSAGE" value="widok jak ugotowac" />
   </component>
 </project>

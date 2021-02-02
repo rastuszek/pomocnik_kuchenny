@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React, { useEffect, useState } from "react";
 import { makeStyles } from "@material-ui/core/styles";
 import AppBar from "@material-ui/core/AppBar";
 import Toolbar from "@material-ui/core/Toolbar";
@@ -8,8 +8,8 @@ import IconButton from "@material-ui/core/IconButton";
 import MenuIcon from "@material-ui/icons/Menu";
 import Menu from "@material-ui/core/Menu";
 import MenuItem from "@material-ui/core/MenuItem";
-import {Link} from "react-router-dom";
-import Container from "@material-ui/core/Container";
+import { Link } from "react-router-dom";
+import Drawer from "@material-ui/core/Drawer";
 
 const useStyles = makeStyles((theme) => ({
     root: {
@@ -32,61 +32,111 @@ const useStyles = makeStyles((theme) => ({
 const NavBar = () => {
     const classes = useStyles();
     const [anchorEl, setAnchorEl] = useState(null);
-    const [smallScreen, setSmallScreen] = useState(null);
+    const [mobileView, setMobileView] = useState(false);
+    const [open, setOpen] = useState(false);
+
+    useEffect(() => {
+        const setResponsive = () => {
+            return window.innerWidth < 900
+                ? setMobileView(true)
+                : setMobileView(false);
+        };
+        setResponsive();
+        window.addEventListener("resize", () => setResponsive());
+    }, []);
 
     const handleClick = (event) => {
         setAnchorEl(event.currentTarget);
-        setSmallScreen(true);
     };
 
     const handleClose = () => {
         setAnchorEl(null);
     };
 
+    const handleDrawerOpen = () => {
+        setOpen(true);
+    };
+
+    const handleDrawerClose = () => {
+        setOpen(false);
+    };
+
+    const displayMobile = () => {
+        return (
+            <Toolbar>
+                <div className={classes.menu}>
+                    <IconButton
+                        edge="start"
+                        className={classes.menuButton}
+                        color="inherit"
+                        onClick={handleDrawerOpen}
+                        aria-label="menu"
+                    >
+                        <MenuIcon onClick={handleClick} />
+                    </IconButton>
+                    <Drawer variant="persistent"  anchor="top" open={open}>
+                        <Link to="/funkcje/znajdz">
+                            <MenuItem  onClick={handleDrawerClose}>Znajdź przepis</MenuItem>
+                        </Link>
+                        <Link to="/funkcje/jak">
+                            <MenuItem   onClick={handleDrawerClose}>Jak ugotować</MenuItem>
+                        </Link>
+                        <Link to="/funkcje/znajdz/przepisy">
+                            <MenuItem   onClick={handleDrawerClose}>
+                                Wszystkie przepisy
+                            </MenuItem>
+                        </Link>
+                        <Link to="/logowanie">
+                            <MenuItem   onClick={handleDrawerClose}>Zaloguj</MenuItem>
+                        </Link>
+                        <Link to="/rejestracja">
+                            <MenuItem   onClick={handleDrawerClose}>Zarejestruj</MenuItem>
+                        </Link>
+                    </Drawer>
+                </div>
+            </Toolbar>
+        );
+    };
+
+    const displayDesktop = () => {
+        return (
+            <Toolbar>
+                <Typography variant="h6" className={classes.title}>
+                    <Link to="/funkcje/znajdz">
+                        <Button style={{ color: "white" }} variant="primary">
+                            Znajdź przepis
+                        </Button>
+                    </Link>
+                </Typography>
+                <Typography variant="h6" className={classes.title}>
+                    <Link to="/funkcje/jak">
+                        <Button style={{ color: "white" }} variant="primary">
+                            Jak ugotować
+                        </Button>
+                    </Link>
+                </Typography>
+                <Typography variant="h6" className={classes.title}>
+                    <Link to="/funkcje/znajdz/przepisy">
+                        <Button style={{ color: "white" }} color="primary">
+                            Wszystkie przepisy
+                        </Button>
+                    </Link>
+                </Typography>
+
+                <Button style={{ color: "white" }} component={Link} to="/logowanie">
+                    Logowanie
+                </Button>
+                <Button style={{ color: "white" }} component={Link} to="/rejestracja">
+                    Rejestracja
+                </Button>
+            </Toolbar>
+        );
+    };
+
     return (
         <div className={classes.root}>
             <AppBar position="static">
-                <Toolbar>
-                    <div className={classes.menu}>
-                        <IconButton
-                            edge="start"
-                            className={classes.menuButton}
-                            color="inherit"
-                            aria-label="menu"
-                        >
-                            <MenuIcon onClick={handleClick} />
-                        </IconButton>
-                        <Typography variant="h6" className={classes.title}>
-                            <Link to="/funkcje/znajdz"> <Button style={{color: "white"}} variant="primary">Znajdź przepis</Button></Link>
-                        </Typography>
-                        <Typography variant="h6" className={classes.title}>
-                            <Link to="/funkcje/jak"> <Button style={{color: "white"}} variant="primary">Jak ugotować</Button></Link>
-
-                        </Typography>
-                        <Typography variant="h6" className={classes.title}>
-                            <Link to="/funkcje/znajdz/przepisy"> <Button style={{color: "white"}}  color="primary">Wszystkie
-                                przepisy</Button></Link>
-                        </Typography>
-                    </div>
-                    <Button style={{color: "white"}} component={Link} to="/logowanie">Logowanie </Button>
-                    <Button style={{color: "white"}} component={Link} to="/rejestracja" >Rejestracja </Button>
-
-                </Toolbar>
-                {smallScreen && (
-                    <Menu
-                        id="simple-menu"
-                        anchorEl={anchorEl}
-                        keepMounted
-                        open={Boolean(anchorEl)}
-                        onClose={handleClose}
-                    >
-                        <MenuItem onClick={handleClose}>Znajdź przepis</MenuItem>
-                        <MenuItem onClick={handleClose}>Ugotuj</MenuItem>
-                        <MenuItem onClick={handleClose}>Top 10</MenuItem>
-                        <MenuItem onClick={handleClose}>Login</MenuItem>
-                        <MenuItem onClick={handleClose}>Register</MenuItem>
-                    </Menu>
-                )}
+                {mobileView ? displayMobile() : displayDesktop()}
             </AppBar>
         </div>
     );

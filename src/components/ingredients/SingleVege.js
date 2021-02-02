@@ -53,6 +53,7 @@ const SingleVege = (props) => {
                             <div>
                                 <h1>{vege.name}</h1>
                                 <h6>Sposób przygotowania:</h6>
+                                <img width="400px" src={vege.image}/>
                                 <div className="single">
                                     {vege.description}
                                 </div>

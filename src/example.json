@@ -293,8 +293,8 @@
       "name": "Ziemniaki",
       "number": 0,
       "description": "Do gotowania, należy dobrać ziemniaki tej samej wielkości lub pokroić je na podobne kawałki. Następnie trzeba je opłukać pod zimną wodą i wrzucić do gotującej się wody. Najlepiej gotować ziemniaki na średnim ogniu – gotowanie ma trwać od 20 do 30 minut. Po 20 minutach sprawdzić nożem czy są już miękkie, jeżeli nóż gładko wchodzi w ziemniaki to znak, że są już gotowe. Po ugotowaniu ziemniaków, należy je odcedzić i ewentualnie opłukać.",
-      "image": "JAK TUTAJ DODAC ZDJECIE???",
-      "values": "Ziemniaki obfitują w potas obniżający ciśnienie krwi oraz magnez, który jest budulcem zębów i kości, poprawia przemianę materii, łagodzi stany zmęczenia i stres. Mają też nieco wapnia, żelaza i fosforu. Dostarczają także niemal wszystkich witamin – najwięcej jest w nich witaminy C."
+      "values": "Ziemniaki obfitują w potas obniżający ciśnienie krwi oraz magnez, który jest budulcem zębów i kości, poprawia przemianę materii, łagodzi stany zmęczenia i stres. Mają też nieco wapnia, żelaza i fosforu. Dostarczają także niemal wszystkich witamin – najwięcej jest w nich witaminy C.",
+      "image": "https://www.sadowniczy.pl/pol_pl_Ziemniaki-Sunita-1kg-158462_1.jpg"
     },
     {
       "name": "Fasolka szparagowa",
@@ -363,7 +363,8 @@
       "number": 10,
       "description": "Nasiona moczymy 1–2 godziny w bardzo gorącej wodzie, w tym czasie kilka razy dolewamy wrzątku. Następnie wylewamy wodę, fasolę zalewamy świeżą wodą i gotujemy dopóki nie zmięknie. Fasolę można też zalać zimną wodą, szybko zagotować, odcedzić, znów zalać wodą i gotować na średnim ogniu dopóki nie będzie gotowa.",
       "values": "Fasola ma też lekkostrawną skrobię i substancje hamujące rozrost tkanek nowotworowych (inhibitory proteazy), a także rozpuszczalny błonnik, który pomaga usuwać z organizmu nadmiar cholesterolu. Niestety ma także wady - powoduje wzdęcia i gazy.",
-      "values2": "Niestety fasola z puszki, podobnie jak groszek czy kukurydza, to niezbyt zdrowy wybór. Wnętrze puszek pokrywane jest bisfenolem (BPA). BPA ma budowę zbliżoną do żeńskiego hormonu płciowego – estrogenu, dlatego może oddziaływać na funkcjonowanie układu hormonalnego."
+      "values2": "Niestety fasola z puszki, podobnie jak groszek czy kukurydza, to niezbyt zdrowy wybór. Wnętrze puszek pokrywane jest bisfenolem (BPA). BPA ma budowę zbliżoną do żeńskiego hormonu płciowego – estrogenu, dlatego może oddziaływać na funkcjonowanie układu hormonalnego.",
+      "image": "https://www.sadowniczy.pl/pol_pl_Ziemniaki-Sunita-1kg-158462_1.jpg"
     },
     {
       "name": "Groch",
