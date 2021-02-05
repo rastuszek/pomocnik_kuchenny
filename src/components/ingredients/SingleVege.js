@@ -52,8 +52,8 @@ const SingleVege = (props) => {
                         <Card className='description'>
                             <div>
                                 <h1>{vege.name}</h1>
-                                <h6>Sposób przygotowania:</h6>
                                 <img width="400px" src={vege.image}/>
+                                <h6 className="h6" >Sposób przygotowania:</h6>
                                 <div className="single">
                                     {vege.description}
                                 </div>

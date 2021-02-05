@@ -4,6 +4,9 @@ import {Link} from "react-router-dom";
 import How from "../How";
 import Container from "@material-ui/core/Container";
 import {Card} from "@material-ui/core";
+import List from "@material-ui/core/List";
+import ListItemText from "@material-ui/core/ListItemText";
+import ListItem from "@material-ui/core/ListItem";
 
 
 const Various = () => {
@@ -18,14 +21,18 @@ const Various = () => {
         <Container maxWidth={'sm'} >
             <How/>
             <Card className="list">
-                <ul>
-                    {various.map((data, index) => (<Link key={index} to={"/funkcje/jak/inne/" + data.number}>
-                        <li>{data.name}</li>
-                    </Link>))}
-                </ul>
+                <List component="nav" aria-label="main mailbox folders">
+                    {various.map((data, index) => (
+                        <Link key={index} to={"/funkcje/jak/inne/" + data.number}>
+                            <ListItem button>
+                                <ListItemText primary={data.name}/>
+                            </ListItem>
+                    </Link>
+                    ))}
+                </List>
             </Card>
         </Container>
-    )
-}
+    );
+};
 
 export default Various

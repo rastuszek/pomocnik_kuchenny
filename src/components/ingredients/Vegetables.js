@@ -5,6 +5,9 @@ import How from "../How";
 import "../All.css";
 import {Card} from "@material-ui/core";
 import Container from '@material-ui/core/Container';
+import List from "@material-ui/core/List";
+import ListItemText from "@material-ui/core/ListItemText";
+import ListItem from "@material-ui/core/ListItem";
 
 const Vegetables = () => {
     const [vegetables, setVegetables] = useState([]);
@@ -14,21 +17,26 @@ const Vegetables = () => {
             let result = await getVegetables();
             setVegetables(result);
         }
+
         fetchData();
-    },[])
+    }, [])
 
     return (
-        <Container maxWidth={'sm'}  >
+        <Container maxWidth={'sm'}>
             <How/>
             <Card className="list">
-            <ul>
-                {vegetables && vegetables.map((data, index) => (<Link key={index} to={"/funkcje/jak/warzywa/" + data.number}>
-                    <li>{data.name}</li>
-                </Link>))}
-            </ul>
+                <List component="nav" aria-label="main mailbox folders">
+                    {vegetables.map((data, index) => (
+                        <Link key={index} to={"/funkcje/jak/warzywa/" + data.number}>
+                            <ListItem button>
+                                <ListItemText primary={data.name}/>
+                            </ListItem>
+                        </Link>
+                    ))}
+                </List>
             </Card>
         </Container>
-    )
-}
+    );
+};
 
 export default Vegetables

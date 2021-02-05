@@ -1,14 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="ca7d999f-2173-4b68-b612-f7220dbb22eb" name="Default Changelist" comment="widok jak ugotowac">
+    <list default="true" id="ca7d999f-2173-4b68-b612-f7220dbb22eb" name="Default Changelist" comment="wspolne poprawki">
       <change beforePath="$PROJECT_DIR$/.eslintcache" beforeDir="false" afterPath="$PROJECT_DIR$/.eslintcache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/All.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/All.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/NavBar/index.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/NavBar/index.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/ingredients/Pasta.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/ingredients/Pasta.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/ingredients/RecipesAll.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/ingredients/RecipesAll.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/ingredients/Groats.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/ingredients/Groats.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/ingredients/SingleGroat.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/ingredients/SingleGroat.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/ingredients/SinglePasta.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/ingredients/SinglePasta.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/ingredients/SingleVarious.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/ingredients/SingleVarious.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/ingredients/SingleVege.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/ingredients/SingleVege.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/ingredients/Various.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/ingredients/Various.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/ingredients/Vegetables.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/ingredients/Vegetables.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/example.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/example.json" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -132,7 +136,9 @@
       <workItem from="1612098487774" duration="3234000" />
       <workItem from="1612115958959" duration="16376000" />
       <workItem from="1612208014104" duration="12247000" />
-      <workItem from="1612285400164" duration="3862000" />
+      <workItem from="1612285400164" duration="11545000" />
+      <workItem from="1612388724953" duration="2724000" />
+      <workItem from="1612465981148" duration="5567000" />
     </task>
     <task id="LOCAL-00001" summary="ok">
       <created>1608942873427</created>
@@ -267,7 +273,14 @@
       <option name="project" value="LOCAL" />
       <updated>1612224739786</updated>
     </task>
-    <option name="localTasksCounter" value="20" />
+    <task id="LOCAL-00020" summary="wspolne poprawki">
+      <created>1612301398862</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1612301398863</updated>
+    </task>
+    <option name="localTasksCounter" value="21" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -340,6 +353,7 @@
     <MESSAGE value="poprawienie skladnikow i ich kategorii" />
     <MESSAGE value="nie wiem co z tymi css" />
     <MESSAGE value="widok jak ugotowac" />
-    <option name="LAST_COMMIT_MESSAGE" value="widok jak ugotowac" />
+    <MESSAGE value="wspolne poprawki" />
+    <option name="LAST_COMMIT_MESSAGE" value="wspolne poprawki" />
   </component>
 </project>

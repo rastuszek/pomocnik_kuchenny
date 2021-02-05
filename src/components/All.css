@@ -3,6 +3,10 @@ a {
     color: white;
 }
 
+.h6{
+    margin-top: 10px;
+}
+
 a:hover {
     text-decoration: none !important;
 }
@@ -29,7 +33,7 @@ a:hover {
     font-family: cursive, Georgia;
     font-size: 30px;
     color: #0000ff;
-    margin-top: 30px;
+    margin-top: 20px;
 
 }
 
@@ -49,7 +53,6 @@ a:hover {
 
 .list{
     text-align: center;
-    margin-top: 10px;
     font-size: 18px;
 }
 
@@ -70,13 +73,13 @@ a:hover {
 }
 
 li {
-    list-style-type: none;
+
 }
 
 .MuiListItem-root {
     text-align: center !important;
     justify-content: center !important;
-    margin-top: 20px !important;
+    margin-top: 10px !important;
     font-size: 20px !important;
     color: black !important;
 }
@@ -88,3 +91,7 @@ button {
     outline: none !important;
 }
 
+.tips {
+    text-align: left;
+    list-style-type: circle;
+}

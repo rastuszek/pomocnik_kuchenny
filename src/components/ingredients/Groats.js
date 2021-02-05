@@ -5,6 +5,9 @@ import How from "../How";
 import "../All.css";
 import {Card} from "@material-ui/core";
 import Container from "@material-ui/core/Container";
+import List from "@material-ui/core/List";
+import ListItemText from "@material-ui/core/ListItemText";
+import ListItem from "@material-ui/core/ListItem";
 
 const Groats = () => {
     const [groats, setGroats] = useState([]);
@@ -21,14 +24,18 @@ const Groats = () => {
         <Container maxWidth={'sm'} >
             <How/>
             <Card className="list">
-            <ul>
-                {groats && groats.map((data, index) => (<Link key={index} to={"/funkcje/jak/kasze/" + data.number}>
-                    <li>{data.name}</li>
-                </Link>))}
-            </ul>
+                <List component="nav" aria-label="main mailbox folders">
+                    {groats.map((data, index) => (
+                        <Link key={index} to={"/funkcje/jak/kasze/" + data.number}>
+                            <ListItem button>
+                                <ListItemText primary={data.name}/>
+                            </ListItem>
+                </Link>
+                    ))}
+                </List>
             </Card>
         </Container>
-    )
-}
+    );
+};
 
 export default Groats
