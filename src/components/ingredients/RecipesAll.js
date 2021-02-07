@@ -36,6 +36,9 @@ const RecipesAll = (props) => {
 
     return (
         <Container maxWidth="md">
+            <div className='how'>
+            <h1 > Lista wszystkich przepisów: </h1>
+            </div>
             <Card className="list">
                 <List component="nav" aria-label="main mailbox folders">
                     {recipes &&
