@@ -1,27 +1,30 @@
 import firebase from "firebase";
-import firebaseConfig from "./firebaseIndex"
+import firebaseConfig from "./firebaseIndex";
 
 export const authMethods = {
     singin: (email, password, setToken, setErrors) => {
-        firebase.auth().signInWithEmailAndPassword(email, password)
-            .then(async res => {
-                const token = await Object.entries(res.user)[5][1].b
-                await localStorage.setItem('token', token)
+        firebase
+            .auth()
+            .signInWithEmailAndPassword(email, password)
+            .then(async (res) => {
+                const token = await Object.entries(res.user)[5][1].b;
+                await localStorage.setItem("token", token);
                 setToken(token);
+                window.location.replace('http://localhost:3000/funkcje/znajdz')
             })
-            .catch(e => setErrors(e));
+            .catch((e) => setErrors(e));
     },
-    singout: (email, password) => {
-
-    },
+    singout: (email, password) => {},
     singup: (email, password, setToken, setErrors) => {
-        firebase.auth().createUserWithEmailAndPassword(email, password)
-            .then(async res => {
-                    const token = await Object.entries(res.user)[5][1].b
-                    await localStorage.setItem('token', token)
-                    setToken(token);
-                }
-            )
-            .catch(e => setErrors(e));
-    }
-}
+        firebase
+            .auth()
+            .createUserWithEmailAndPassword(email, password)
+            .then(async (res) => {
+                const token = await Object.entries(res.user)[5][1].b;
+                await localStorage.setItem("token", token);
+                setToken(token);
+                window.location.replace('http://localhost:3000/logowanie')
+            })
+            .catch((e) => setErrors(e));
+    },
+};

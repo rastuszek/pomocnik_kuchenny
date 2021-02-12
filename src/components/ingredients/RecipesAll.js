@@ -35,7 +35,7 @@ const RecipesAll = (props) => {
     }, []);
 
     return (
-        <Container maxWidth="md">
+        <Container maxWidth="sm">
             <div className='how'>
             <h1 > Lista wszystkich przepisów: </h1>
             </div>

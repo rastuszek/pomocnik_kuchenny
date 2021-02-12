@@ -204,7 +204,7 @@
       "number": 28
     },
     {
-      "composition": ["Mięso mielone - 500 gramów", "Mieszanka przypraw (pieprz, sól, papryka słodka itp.) - 2 płaskie łyżki", "Makaron spaghetti - 1 opakowanie", "Pomidory z puszki - 1 opakowanie", "Olej - 5 łyżek", "Woda - około 150 ml"],
+      "composition": ["Mięso mielone - 500 gramów", "Mieszanka przypraw (pieprz, sól, papryka itp.) - 2 płaskie łyżki", "Makaron spaghetti - 1 opakowanie", "Pomidory z puszki - 1 opakowanie", "Olej - 5 łyżek", "Woda - około 150 ml"],
       "description": "Ugotuj makaron. Mięso podsmaż na patelni. Dodaj pomidory, dokładnie wszystko rozdrobnij i doprowadź do wrzenia. Dodaj wodę oraz przyprawy. Gotuj na małym ogniu, aż sos zrobi się idealnie gęsty. Podawaj z makaronem.",
       "ingredients": ["Mielone", "Makaron", "PomidoryZpuszki"],
       "name": "Proste spaghetti bolognese",

@@ -1,13 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="ca7d999f-2173-4b68-b612-f7220dbb22eb" name="Default Changelist" comment="poprawki - tresc &quot;jak ugotowac&quot;">
+    <list default="true" id="ca7d999f-2173-4b68-b612-f7220dbb22eb" name="Default Changelist" comment="poprawki - tresc przepisu">
       <change beforePath="$PROJECT_DIR$/.eslintcache" beforeDir="false" afterPath="$PROJECT_DIR$/.eslintcache" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/All.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/All.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Login.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Login.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Register.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Register.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Seek.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Seek.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/ingredients/RecipesAll.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/ingredients/RecipesAll.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/ingredients/SingleRecipe.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/ingredients/SingleRecipe.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/example.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/example.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/firebase/authMethods.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/firebase/authMethods.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -136,7 +140,12 @@
       <workItem from="1612550829304" duration="2011000" />
       <workItem from="1612700493612" duration="10669000" />
       <workItem from="1612715436396" duration="1853000" />
-      <workItem from="1612728997149" duration="1140000" />
+      <workItem from="1612728997149" duration="1406000" />
+      <workItem from="1612735514406" duration="596000" />
+      <workItem from="1612739811796" duration="55000" />
+      <workItem from="1612812796844" duration="1858000" />
+      <workItem from="1613055184124" duration="5661000" />
+      <workItem from="1613127236845" duration="594000" />
     </task>
     <task id="LOCAL-00001" summary="ok">
       <created>1608942873427</created>
@@ -285,7 +294,14 @@
       <option name="project" value="LOCAL" />
       <updated>1612551033449</updated>
     </task>
-    <option name="localTasksCounter" value="22" />
+    <task id="LOCAL-00022" summary="poprawki - tresc przepisu">
+      <created>1612732258134</created>
+      <option name="number" value="00022" />
+      <option name="presentableId" value="LOCAL-00022" />
+      <option name="project" value="LOCAL" />
+      <updated>1612732258134</updated>
+    </task>
+    <option name="localTasksCounter" value="23" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -360,6 +376,7 @@
     <MESSAGE value="widok jak ugotowac" />
     <MESSAGE value="wspolne poprawki" />
     <MESSAGE value="poprawki - tresc &quot;jak ugotowac&quot;" />
-    <option name="LAST_COMMIT_MESSAGE" value="poprawki - tresc &quot;jak ugotowac&quot;" />
+    <MESSAGE value="poprawki - tresc przepisu" />
+    <option name="LAST_COMMIT_MESSAGE" value="poprawki - tresc przepisu" />
   </component>
 </project>

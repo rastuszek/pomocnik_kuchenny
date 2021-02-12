@@ -45,6 +45,7 @@ const Seek = () => {
         PomidoryZpuszki: false,
         Cukinia: false,
         Kukurydza: false,
+        FasolaCzerwona: false,
     });
     const [recipes, setRecipes] = useState([]);
     const [alert, setAlert] = useState(false);
@@ -97,28 +98,23 @@ const Seek = () => {
                 Prosze wybrać składniki, z których zamierzasz stworzyć danie:
             </div>
 
-            <FormGroup row>
+            <FormGroup  row>
 
                 <Card className="ingre">
                     <CardContent>
                         <Typography className="typo" variant="h5">
                             Warzywa
                         </Typography>
-                        <Grid container spacing={3}>
+                        <Grid container spacing={2}>
 
-                            <Grid item xs={4}>
-                                <FormControlLabel
-                                    control={<Checkbox checked={state.Ziemniaki} onChange={handleChange} name="Ziemniaki"/>}
-                                    label="Ziemniaki"
-                                />
-                            </Grid>
-                            <Grid item xs={4}>
+                            <Grid item xs={6}>
                                 <FormControlLabel
                                     control={<Checkbox checked={state.Brokul} onChange={handleChange} name="Brokul"/>}
                                     label="Brokuł"
                                 />
                             </Grid>
-                            <Grid item xs={4}>
+
+                            <Grid item xs={6}>
                                 <FormControlLabel
                                     control={<Checkbox checked={state.Papryka} onChange={handleChange} name="Papryka"/>}
                                     label="Papryka"
@@ -126,30 +122,24 @@ const Seek = () => {
 
                             </Grid>
                         </Grid>
-                        <Grid container spacing={3}>
-                            <Grid item xs={4}>
+                        <Grid container spacing={2}>
+                            <Grid item xs={6}>
                                 <FormControlLabel
                                     control={<Checkbox checked={state.Czosnek} onChange={handleChange} name="Czosnek"/>}
                                     label="Czosnek"
                                 />
                             </Grid>
-                            <Grid item xs={4}>
+                            <Grid item xs={6}>
                                 <FormControlLabel
                                     control={<Checkbox checked={state.Cebula} onChange={handleChange} name="Cebula"/>}
                                     label="Cebula"
                                 />
                             </Grid>
 
-                            <Grid item xs={4}>
-                                <FormControlLabel
-                                    control={<Checkbox checked={state.Marchew} onChange={handleChange} name="Marchew"/>}
-                                    label="Marchew"
-                                />
-                            </Grid>
                         </Grid>
-                        <Grid container spacing={3}>
+                        <Grid container spacing={2}>
 
-                            <Grid item xs={4}>
+                            <Grid item xs={6}>
                                 <FormControlLabel
                                     control={<Checkbox checked={state.PomidoryZpuszki} onChange={handleChange}
                                                        name="PomidoryZpuszki"/>}
@@ -157,21 +147,48 @@ const Seek = () => {
                                 />
                             </Grid>
 
-                            <Grid item xs={4}>
+                            <Grid item xs={6}>
                                 <FormControlLabel
                                     control={<Checkbox checked={state.Cukinia} onChange={handleChange} name="Cukinia"/>}
                                     label="Cukinia"
                                 />
                             </Grid>
 
-                            <Grid item xs={4}>
+                        </Grid>
+
+                        <Grid container spacing={2}>
+
+                            <Grid item xs={6}>
+                                <FormControlLabel
+                                    control={<Checkbox checked={state.Marchew} onChange={handleChange} name="Marchew"/>}
+                                    label="Marchew"
+                                />
+                            </Grid>
+
+                            <Grid item xs={6}>
+                                <FormControlLabel
+                                    control={<Checkbox checked={state.Ziemniaki} onChange={handleChange} name="Ziemniaki"/>}
+                                    label="Ziemniaki"
+                                />
+                            </Grid>
+                        </Grid>
+
+                        <Grid container spacing={2}>
+                            <Grid item xs={6}>
                                 <FormControlLabel
                                     control={<Checkbox checked={state.Kukurydza} onChange={handleChange} name="Kukurydza"/>}
                                     label="Kukurydza"
                                 />
                             </Grid>
 
+                            <Grid item xs={6}>
+                                <FormControlLabel
+                                    control={<Checkbox checked={state.FasolaCzerwona} onChange={handleChange} name="FasolaCzerwona"/>}
+                                    label="Czerwona fasola"
+                                />
+                            </Grid>
                         </Grid>
+
                     </CardContent>
                 </Card>
 
@@ -181,34 +198,36 @@ const Seek = () => {
                             Mięso
                         </Typography>
 
-                        <Grid container spacing={3}>
-                            <Grid item xs={4}>
+                        <Grid container spacing={2}>
+                            <Grid item xs={6}>
                                 <FormControlLabel
                                     control={<Checkbox checked={state.Wolowina} onChange={handleChange} name="Wolowina"/>}
                                     label="Wołowina"
                                 />
                             </Grid>
-                            <Grid item xs={4}>
+                            <Grid item xs={6}>
                                 <FormControlLabel
                                     control={<Checkbox checked={state.Wieprzowina} onChange={handleChange} name="Wieprzowina"/>}
                                     label="Wieprzowina"
                                 />
                             </Grid>
-                            <Grid item xs={4}>
-                                <FormControlLabel
-                                    control={<Checkbox checked={state.Mielone} onChange={handleChange} name="Mielone"/>}
-                                    label="Mięso mielone"
-                                />
-                            </Grid>
                         </Grid>
-                        <Grid container spacing={3}>
+                        <Grid container spacing={2}>
 
-                            <Grid item xs={4}>
+                            <Grid item xs={6}>
                                 <FormControlLabel
                                     control={<Checkbox checked={state.Kurczak} onChange={handleChange} name="Kurczak"/>}
                                     label="Pierś z kurczaka"
                                 />
                             </Grid>
+
+                            <Grid item xs={6}>
+                                <FormControlLabel
+                                    control={<Checkbox checked={state.Mielone} onChange={handleChange} name="Mielone"/>}
+                                    label="Mięso mielone"
+                                />
+                            </Grid>
+
 
                         </Grid>
 
@@ -222,20 +241,15 @@ const Seek = () => {
                             Inne
                         </Typography>
 
-                        <Grid container spacing={4}>
-                            <Grid item xs={4}>
+                        <Grid container spacing={2}>
+                            <Grid item xs={6}>
                                 <FormControlLabel
                                     control={<Checkbox checked={state.Jajka} onChange={handleChange} name="Jajka"/>}
                                     label="Jajka"
                                 />
                             </Grid>
-                            <Grid item xs={4}>
-                                <FormControlLabel
-                                    control={<Checkbox checked={state.SerFeta} onChange={handleChange} name="SerFeta"/>}
-                                    label="Ser feta"
-                                />
-                            </Grid>
-                            <Grid item xs={4}>
+
+                            <Grid item xs={6}>
                                 <FormControlLabel
                                     control={<Checkbox checked={state.SerZolty} onChange={handleChange} name="SerZolty"/>}
                                     label="Ser żółty"
@@ -244,26 +258,41 @@ const Seek = () => {
 
                         </Grid>
 
-                        <Grid container spacing={4}>
-                            <Grid item xs={4}>
+                        <Grid container spacing={2}>
+                            <Grid item xs={6}>
                                 <FormControlLabel
                                     control={<Checkbox checked={state.MakaPszenna} onChange={handleChange} name="MakaPszenna"/>}
                                     label="Mąka pszenna"
                                 />
                             </Grid>
-                            <Grid item xs={4}>
-                                <FormControlLabel
-                                    control={<Checkbox checked={state.Twarog} onChange={handleChange} name="Twarog"/>}
-                                    label="Twaróg"
-                                />
-                            </Grid>
-                            <Grid item xs={4}>
+
+                            <Grid item xs={6}>
                                 <FormControlLabel
                                     control={<Checkbox checked={state.MakaZiemniaczana} onChange={handleChange} name="MakaZiemniaczana"/>}
                                     label="Mąka ziemniaczana"
                                 />
                             </Grid>
                         </Grid>
+
+                        <Grid container spacing={2}>
+                            <Grid item xs={6}>
+                                <FormControlLabel
+                                    control={<Checkbox checked={state.Twarog} onChange={handleChange} name="Twarog"/>}
+                                    label="Twaróg"
+                                />
+                            </Grid>
+
+                            <Grid item xs={6}>
+                                <FormControlLabel
+                                    control={<Checkbox checked={state.SerFeta} onChange={handleChange} name="SerFeta"/>}
+                                    label="Ser feta"
+                                />
+                            </Grid>
+
+
+
+                        </Grid>
+
                     </CardContent>
                 </Card>
             </FormGroup>

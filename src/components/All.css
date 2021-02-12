@@ -34,20 +34,26 @@ a:hover {
     font-size: 30px;
     color: #0000ff;
     margin-top: 20px;
-
+    background-color: #ffc5ea;
+    box-shadow: 0 0 300px 200px #ffc5f2;
+}
+header {
+    background-color: blue;
 }
 
 .cards {
     margin-top: 20px;
-    background-color: #c69720; /*  ?????? */
+    background-color: #c5e3ff; /*  ?????? */
     font-size: 18px;
+    box-shadow: 0 0 300px 200px #c5e3ff;
 }
 
 .ingre {
     width: 100%;
-    background-color: #601224;
+
     margin-bottom: 10px;
     margin-top: 10px;
+
 
 }
 
@@ -59,9 +65,10 @@ a:hover {
 .typo {
     margin-top: 30px;
     text-align: center;
-    background-color: #c620c6;
+    background-color: #88a4f8;
     margin-bottom: 1000px;
-    font-family: cursive, Georgia; /* WTF czemu to nie dziala? cos nadpisuje? */
+    font-family: cursive, Georgia !important; /* WTF czemu to nie dziala? cos nadpisuje? */
+    border-radius: 30px;
 }
 
 .text {
@@ -93,4 +100,8 @@ button {
 
 .tips {
     text-align: left;
+}
+
+.lol {
+    box-shadow: 0 0 300px 200px #c5e3ff;
 }
