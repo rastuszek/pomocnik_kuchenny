@@ -22,20 +22,22 @@ const Vegetables = () => {
     }, [])
 
     return (
-        <Container maxWidth={'sm'}>
+        <>
             <How/>
-            <Card className="list">
-                <List component="nav" aria-label="main mailbox folders">
-                    {vegetables.map((data, index) => (
-                        <Link key={index} to={"/funkcje/jak/warzywa/" + data.number}>
-                            <ListItem button>
-                                <ListItemText primary={data.name}/>
-                            </ListItem>
-                        </Link>
-                    ))}
-                </List>
-            </Card>
-        </Container>
+            <Container maxWidth={"sm"}>
+                <Card className="list">
+                    <List component="nav" aria-label="main mailbox folders">
+                        {vegetables.map((data, index) => (
+                            <Link key={index} to={"/funkcje/jak/warzywa/" + data.number}>
+                                <ListItem button>
+                                    <ListItemText primary={data.name}/>
+                                </ListItem>
+                            </Link>
+                        ))}
+                    </List>
+                </Card>
+            </Container>
+        </>
     );
 };
 

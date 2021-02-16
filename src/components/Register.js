@@ -29,7 +29,7 @@ const Register = () => {
     };
 
     return (
-        <Container maxWidth="md" style={{ marginTop: 50 }}>
+        <Container maxWidth="sm" className='cards'>
             <Card className="list">
                 <form className={classes.root} noValidate autoComplete="off">
                     <Grid container spacing={3}>

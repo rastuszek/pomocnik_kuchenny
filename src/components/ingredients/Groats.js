@@ -21,8 +21,9 @@ const Groats = () => {
     },[])
 
     return (
-        <Container maxWidth={'sm'} >
+   <>
             <How/>
+            <Container maxWidth={"sm"} >
             <Card className="list">
                 <List component="nav" aria-label="main mailbox folders">
                     {groats.map((data, index) => (
@@ -35,6 +36,7 @@ const Groats = () => {
                 </List>
             </Card>
         </Container>
+</>
     );
 };
 

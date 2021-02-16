@@ -6,6 +6,7 @@ import { firebaseAuth } from "../provider/authProvider";
 import { Button, Container, Grid } from "@material-ui/core";
 import { Card } from "@material-ui/core";
 
+
 const useStyles = makeStyles((theme) => ({
     root: {
         "& .MuiTextField-root": {
@@ -36,7 +37,7 @@ const Login = () => {
     };
 
     return (
-        <Container maxWidth="md" style={{ marginTop: 50 }}>
+        <Container className='cards' maxWidth="sm" >
             <Card className="list">
                 <form className={classes.root} noValidate autoComplete="off">
                     <Grid container spacing={3}>

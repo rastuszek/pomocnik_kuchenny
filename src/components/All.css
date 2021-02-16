@@ -26,6 +26,7 @@ a:hover {
 .buttons {
     text-align: center;
     margin-bottom: 10px;
+    margin-right: 50px;
 }
 
 .how {
@@ -34,27 +35,23 @@ a:hover {
     font-size: 30px;
     color: #0000ff;
     margin-top: 20px;
-    background-color: #ffc5ea;
-    box-shadow: 0 0 300px 200px #ffc5f2;
-}
-header {
-    background-color: blue;
+    background-color: #c5e3ff;
+    margin-right: 0 !important;
+    margin-bottom: 20px;
+
 }
 
 .cards {
-    margin-top: 20px;
+    margin-top: 40px;
     background-color: #c5e3ff; /*  ?????? */
     font-size: 18px;
-    box-shadow: 0 0 300px 200px #c5e3ff;
+    border-radius: 50px;
 }
 
 .ingre {
     width: 100%;
-
     margin-bottom: 10px;
     margin-top: 10px;
-
-
 }
 
 .list{
@@ -79,9 +76,6 @@ header {
     color: #0000ff;
 }
 
-li {
-
-}
 
 .MuiListItem-root {
     text-align: center !important;
@@ -102,6 +96,26 @@ button {
     text-align: left;
 }
 
-.lol {
-    box-shadow: 0 0 300px 200px #c5e3ff;
+.all {
+    background-color: #c5e3ff;
 }
+
+html {
+    background-color: #c5e3ff;;
+}
+
+.intro {
+    background-color: #c5e3ff;;
+    font-family: cursive, Georgia;
+    text-align: center;
+    font-size: 30px;
+    color: #0000ff;
+    margin-top: 20px;
+}
+
+.foto {
+    height: 100px;
+    width: 150px;
+    border-radius: 5px;
+}
+

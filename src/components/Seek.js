@@ -95,10 +95,10 @@ const Seek = () => {
         <Container className="cards" maxWidth={'sm'}>
 
             <div className="text">
-                Prosze wybrać składniki, z których zamierzasz stworzyć danie:
+                Proszę wybrać składniki, z których zamierzasz stworzyć danie:
             </div>
 
-            <FormGroup  row>
+            <FormGroup row>
 
                 <Card className="ingre">
                     <CardContent>

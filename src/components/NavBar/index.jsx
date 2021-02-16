@@ -10,6 +10,8 @@ import Menu from "@material-ui/core/Menu";
 import MenuItem from "@material-ui/core/MenuItem";
 import { Link } from "react-router-dom";
 import Drawer from "@material-ui/core/Drawer";
+import '../All.css';
+
 
 const useStyles = makeStyles((theme) => ({
     root: {
@@ -63,7 +65,7 @@ const NavBar = () => {
 
     const displayMobile = () => {
         return (
-            <Toolbar>
+            <Toolbar className="tool">
                 <div className={classes.menu}>
                     <IconButton
                         edge="start"
