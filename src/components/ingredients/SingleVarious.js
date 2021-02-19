@@ -37,7 +37,7 @@ const SingleVarious = (props) => {
     const [various, setVarious] = useState([]);
     let slug = parseInt(props.match.params.slug);
 
-    useEffect(async() => {
+    useEffect(async () => {
         let result = await getVarious();
         setVarious(result);
     }, [])
@@ -46,44 +46,43 @@ const SingleVarious = (props) => {
         <div>
             {various.filter(various => various.number === slug).map(various => {
                 return (
-
-                    <Container maxWidth={'sm'}>
+                    <>
                         <How/>
-                        <Card className='description'>
-                            <div>
-                                <h1>{various.name}</h1>
-                                <img width="400px" src={various.image}/>
-                                <h6 className="h6" >Sposób przygotowania:</h6>
-                                <div className="single">
-                                    {various.description}
+                        <Container maxWidth={'sm'}>
+                            <Card className='description'>
+                                <div>
+                                    <h1>{various.name}</h1>
+                                    <img width="400px" src={various.image}/>
+                                    <h6 className="h6">Sposób przygotowania:</h6>
+                                    <div className="single">
+                                        {various.description}
+                                    </div>
+                                    <IconButton
+                                        className={clsx(classes.expand, {
+                                            [classes.expandOpen]: expanded,
+                                        })}
+                                        onClick={handleExpandClick}
+                                        aria-expanded={expanded}
+                                        aria-label="show more"
+                                    >
+                                        <ExpandMoreIcon/>
+                                    </IconButton>
+
+                                    <Collapse in={expanded} timeout="auto" unmountOnExit>
+                                        <CardContent>
+                                            <h6>Wartości zdrowotne:</h6>
+                                            <Typography paragraph>
+                                                {various.values}
+                                            </Typography>
+                                            <Typography paragraph>
+                                                {various.values2}
+                                            </Typography>
+                                        </CardContent>
+                                    </Collapse>
                                 </div>
-                                <IconButton
-                                    className={clsx(classes.expand, {
-                                        [classes.expandOpen]: expanded,
-                                    })}
-                                    onClick={handleExpandClick}
-                                    aria-expanded={expanded}
-                                    aria-label="show more"
-                                >
-                                    <ExpandMoreIcon/>
-                                </IconButton>
-
-                                <Collapse in={expanded} timeout="auto" unmountOnExit>
-                                    <CardContent>
-                                        <h6>Wartości zdrowotne:</h6>
-                                        <Typography paragraph>
-                                            {various.values}
-                                        </Typography>
-                                        <Typography paragraph>
-                                            {various.values2}
-                                        </Typography>
-                                    </CardContent>
-                                </Collapse>
-
-                            </div>
-                        </Card>
-                    </Container>
-
+                            </Card>
+                        </Container>
+                    </>
                 )
             })}
         </div>

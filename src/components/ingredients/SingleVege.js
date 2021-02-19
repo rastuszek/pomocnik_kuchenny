@@ -46,9 +46,10 @@ const SingleVege = (props) => {
         <div>
             {vegetables.filter(vege => vege.number === slug).map(vege => {
                 return (
-
+                    <>
+                    <How/>
                     <Container maxWidth={'sm'}>
-                        <How/>
+
                         <Card className='description'>
                             <div>
                                 <h1>{vege.name}</h1>
@@ -69,9 +70,9 @@ const SingleVege = (props) => {
                                     </IconButton>
 
                                 <Collapse in={expanded} timeout="auto" unmountOnExit>
-                                    <CardContent>
+                                    <CardContent >
                                         <h6>Wartości zdrowotne:</h6>
-                                        <Typography paragraph>
+                                        <Typography  paragraph>
                                             {vege.values}
                                         </Typography>
                                         <Typography paragraph>
@@ -83,7 +84,7 @@ const SingleVege = (props) => {
                             </div>
                         </Card>
                     </Container>
-
+            </>
                 )
             })}
         </div>

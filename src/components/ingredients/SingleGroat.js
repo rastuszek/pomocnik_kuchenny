@@ -37,7 +37,7 @@ const SingleGroat = (props) => {
     const [groats, setGroats] = useState([]);
     let slug = parseInt(props.match.params.slug);
 
-    useEffect(async() => {
+    useEffect(async () => {
         let result = await getGroats();
         setGroats(result);
     }, [])
@@ -46,55 +46,77 @@ const SingleGroat = (props) => {
         <div>
             {groats.filter(groat => groat.number === slug).map(groat => {
                 return (
-
-                    <Container maxWidth={'sm'}>
+                    <>
                         <How/>
-                        <Card className='description'>
-                            <div>
-                                <h1>{groat.name}</h1>
-                                <img width="400px" src={groat.image}/>
-                                <h6 className="h6">Sposób przygotowania:</h6>
-                                <div className="single">
-                                    {groat.description}
+                        <Container maxWidth={'sm'}>
+                            <Card className='description'>
+                                <div>
+                                    <h1>{groat.name}</h1>
+                                    <img width="400px" src={groat.image}/>
+                                    <h6 className="h6">Sposób przygotowania:</h6>
+                                    <div className="single">
+                                        {groat.description}
+                                    </div>
+                                    <IconButton
+                                        className={clsx(classes.expand, {
+                                            [classes.expandOpen]: expanded,
+                                        })}
+                                        onClick={handleExpandClick}
+                                        aria-expanded={expanded}
+                                        aria-label="show more"
+                                    >
+                                        <ExpandMoreIcon/>
+                                    </IconButton>
+
+                                    <Collapse in={expanded} timeout="auto" unmountOnExit>
+                                        <CardContent>
+                                            <h6>Wartości zdrowotne:</h6>
+                                            <Typography paragraph>
+                                                Pod względem wartości odżywczej kasze przewyższają ryż, makaron i
+                                                ziemniaki. Są bogatym źródłem skrobi, która w organizmie rozkłada się
+                                                powoli na glukozę - paliwo potrzebne do pracy mózgu i wszystkich innych
+                                                komórek. 100 g ugotowanej kaszy manny pokrywa niemal całkowicie dzienne
+                                                zapotrzebowanie na węglowodany.
+                                            </Typography>
+
+                                            <Typography paragraph>
+                                                W skład kasz wchodzą witaminy z grupy B: B1 (tiamina), B2 (ryboflawina),
+                                                PP (niacyna), B6 (pirydoksyna), kwas foliowy i witamina E. Sporo jest
+                                                również składników mineralnych, głównie potasu obniżającego ciśnienie,
+                                                żelaza zapobiegającego niedokrwistości oraz magnezu korzystnie
+                                                działającego na układ nerwowy i pracę mięśni (w tym sercowego). Kasze są
+                                                też całkiem dobrym źródłem wapnia, miedzi, cynku, manganu i krzemu.
+                                            </Typography>
+
+                                            <h6>Kaszę powinni jeść:</h6>
+                                            <ul className="tips">
+                                                <li>nadciśnieniowcy i cierpiący na choroby serca i układu krążenia -
+                                                    kasze mają dużo potasu i bardzo mało sodu (o ile w ogóle ich nie
+                                                    solimy),
+                                                </li>
+                                                <li>osoby zagrożone anemią - np. kasza jaglana i gryczana zawierają
+                                                    żelazo, kwas foliowy i witaminę E zapobiegające niedokrwistości,
+                                                </li>
+                                                <li>osoby żyjące w ciągłym napięciu i mające skłonności do depresji -
+                                                    zawarte w ziarnach witaminy z grupy B łagodzą objawy stresu,
+                                                    wspomagają pracę układu nerwowego, poprawiają pamięć, polepszają
+                                                    nastrój,
+                                                </li>
+                                                <li>diabetycy - kasze zawierają dużo skrobi, która łagodnie podnosi
+                                                    poziom glukozy i insuliny we krwi,
+                                                </li>
+                                                <li>dzieci, kobiety w ciąży i karmiące, osoby starsze, rekonwalescenci -
+                                                    kasze gotowane na sypko lub rozklejane są lekko strawne.
+                                                </li>
+                                            </ul>
+
+                                        </CardContent>
+                                    </Collapse>
+
                                 </div>
-                                <IconButton
-                                    className={clsx(classes.expand, {
-                                        [classes.expandOpen]: expanded,
-                                    })}
-                                    onClick={handleExpandClick}
-                                    aria-expanded={expanded}
-                                    aria-label="show more"
-                                >
-                                    <ExpandMoreIcon/>
-                                </IconButton>
-
-                                <Collapse in={expanded} timeout="auto" unmountOnExit>
-                                    <CardContent>
-                                        <h6>Wartości zdrowotne:</h6>
-                                        <Typography paragraph>
-                                            Pod względem wartości odżywczej kasze przewyższają ryż, makaron i ziemniaki. Są bogatym źródłem skrobi, która w organizmie rozkłada się powoli na glukozę - paliwo potrzebne do pracy mózgu i wszystkich innych komórek. 100 g ugotowanej kaszy manny pokrywa niemal całkowicie dzienne zapotrzebowanie na węglowodany.
-                                        </Typography>
-
-                                        <Typography paragraph>
-                                            W skład kasz wchodzą witaminy z grupy B: B1 (tiamina), B2 (ryboflawina), PP (niacyna), B6 (pirydoksyna), kwas foliowy i witamina E. Sporo jest również składników mineralnych, głównie potasu obniżającego ciśnienie, żelaza zapobiegającego niedokrwistości oraz magnezu korzystnie działającego na układ nerwowy i pracę mięśni (w tym sercowego). Kasze są też całkiem dobrym źródłem wapnia, miedzi, cynku, manganu i krzemu.
-                                        </Typography>
-
-                                        <h6>Kaszę powinni jeść:</h6>
-                                        <ul className="tips">
-                                        <li>nadciśnieniowcy i cierpiący na choroby serca i układu krążenia - kasze mają dużo potasu i bardzo mało sodu (o ile w ogóle ich nie solimy),</li>
-                                        <li>osoby zagrożone anemią - np. kasza jaglana i gryczana zawierają żelazo, kwas foliowy i witaminę E zapobiegające niedokrwistości,</li>
-                                        <li>osoby żyjące w ciągłym napięciu i mające skłonności do depresji - zawarte w ziarnach witaminy z grupy B łagodzą objawy stresu, wspomagają pracę układu nerwowego, poprawiają pamięć, polepszają nastrój,</li>
-                                        <li>diabetycy - kasze zawierają dużo skrobi, która łagodnie podnosi poziom glukozy i insuliny we krwi,</li>
-                                        <li>dzieci, kobiety w ciąży i karmiące, osoby starsze, rekonwalescenci - kasze gotowane na sypko lub rozklejane są lekko strawne.</li>
-                                        </ul>
-
-                                    </CardContent>
-                                </Collapse>
-
-                            </div>
-                        </Card>
-                    </Container>
-
+                            </Card>
+                        </Container>
+                    </>
                 )
             })}
         </div>

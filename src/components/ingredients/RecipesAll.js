@@ -36,7 +36,7 @@ const RecipesAll = (props) => {
 
     return (
         <Container maxWidth="sm">
-            <div className='how'>
+            <div className='text'>
             <h1 > Lista wszystkich przepisów: </h1>
             </div>
             <Card className="list">

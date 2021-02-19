@@ -37,7 +37,7 @@ const SinglePasta = (props) => {
     const [pasta, setPasta] = useState([]);
     let slug = parseInt(props.match.params.slug);
 
-    useEffect(async() => {
+    useEffect(async () => {
         let result = await getPasta();
         setPasta(result);
     }, [])
@@ -46,53 +46,54 @@ const SinglePasta = (props) => {
         <div>
             {pasta.filter(pasta => pasta.number === slug).map(pasta => {
                 return (
-
-                    <Container maxWidth={'sm'}>
+                    <>
                         <How/>
-                        <Card className='description'>
-                            <div>
-                                <h1>{pasta.name}</h1>
-                                <img width="400px" src={pasta.image}/>
-                                <h6 className="h6">Sposób przygotowania:</h6>
-                                <div className="single">
-                                    {pasta.description}
+                        <Container maxWidth={'sm'}>
+                            <Card className='description'>
+                                <div>
+                                    <h1>{pasta.name}</h1>
+                                    <img width="400px" src={pasta.image}/>
+                                    <h6 className="h6">Sposób przygotowania:</h6>
+                                    <div className="single">
+                                        {pasta.description}
+                                    </div>
+                                    <IconButton
+                                        className={clsx(classes.expand, {
+                                            [classes.expandOpen]: expanded,
+                                        })}
+                                        onClick={handleExpandClick}
+                                        aria-expanded={expanded}
+                                        aria-label="show more"
+                                    >
+                                        <ExpandMoreIcon/>
+                                    </IconButton>
+
+                                    <Collapse in={expanded} timeout="auto" unmountOnExit>
+                                        <CardContent>
+                                            <h6>Wskazówki:</h6>
+                                            <Typography paragraph>
+                                                {pasta.values}
+                                            </Typography>
+                                            <Typography paragraph>
+                                                <ul className="tips">
+                                                    <li>nie dodawaj oliwy do wody!</li>
+                                                    <li>makaron wrzucaj jedynie do wrzącej wody!</li>
+                                                    <li>sól dorzuć dopiero wówczas, kiedy woda zacznie wrzeć!</li>
+                                                    <li>nie gotuj makaronu na wolnym ogniu!</li>
+                                                    <li>nie łam suchego makaronu w krótsze nitki!</li>
+                                                    <li>aby dowiedzieć się, czy makaron się ugotował po prostu go ugryź
+                                                        i sprawdź!
+                                                    </li>
+                                                    <li>nie przepłukuj makaronu zimną wodą!</li>
+                                                    <li>nie zwlekaj z podawaniem!</li>
+                                                </ul>
+                                            </Typography>
+                                        </CardContent>
+                                    </Collapse>
                                 </div>
-                                <IconButton
-                                    className={clsx(classes.expand, {
-                                        [classes.expandOpen]: expanded,
-                                    })}
-                                    onClick={handleExpandClick}
-                                    aria-expanded={expanded}
-                                    aria-label="show more"
-                                >
-                                    <ExpandMoreIcon/>
-                                </IconButton>
-
-                                <Collapse in={expanded} timeout="auto" unmountOnExit>
-                                    <CardContent>
-                                        <h6>Wskazówki:</h6>
-                                        <Typography paragraph>
-                                            {pasta.values}
-                                        </Typography>
-                                        <Typography paragraph>
-                                            <ul className="tips">
-                                                <li>nie dodawaj oliwy do wody! </li>
-                                                <li>makaron wrzucaj jedynie do wrzącej wody! </li>
-                                                <li>sól dorzuć dopiero wówczas, kiedy woda zacznie wrzeć!</li>
-                                                <li>nie gotuj makaronu na wolnym ogniu! </li>
-                                                <li>nie łam suchego makaronu w krótsze nitki! </li>
-                                                <li>aby dowiedzieć się, czy makaron się ugotował po prostu go ugryź i sprawdź! </li>
-                                                <li>nie przepłukuj makaronu zimną wodą! </li>
-                                                <li>nie zwlekaj z podawaniem! </li>
-                                            </ul>
-                                        </Typography>
-                                    </CardContent>
-                                </Collapse>
-
-                            </div>
-                        </Card>
-                    </Container>
-
+                            </Card>
+                        </Container>
+                    </>
                 )
             })}
         </div>

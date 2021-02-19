@@ -108,7 +108,7 @@
     {
       "composition": ["Pierś z kurczaka - 400 gramów", "Sos serowy - porcja", "Ziemniaki - 400 gramów", "Śmietana - 18% - 200 ml", "Żółty ser - 100 gramów", "Olej - 80 ml", "Cebula - 1 sztuka", "Natka pietruszki - 1 sztuka" ],
       "description": "Cebulę pokrój w piórka, podsmaż ją w garnku, dodaj pokrojonego w kostkę kurczaka, smaż chwilę, dodaj pokrojone w plastry ziemniaki. Całość smaż mieszając co jakiś czas, aż ziemniaki delikatnie się rozkleją. Dodaj wtedy śmietanę wymieszaną z sosem serowym, całość zagotuj, a następnie przełóż w żaroodporne naczynie uciskając wszystkie składniki razem. Zapiekankę z wierzchu posyp serem, zawiń w folię aluminiową, wstaw do nagrzanego do 190°C piekarnika na 40 minut. Dziesięć minut przed końcem pieczenia usuń folię, aby ser mógł się zapiec. Podawaj z posiekaną natką pietruszki.",
-      "ingredients": ["Kurczak", "SosSerowy", "Ziemniaki", "Smietana", "ZoltySer", "Cebula"],
+      "ingredients": ["Kurczak", "SosSerowy", "Ziemniaki", "Smietana", "SerZolty", "Cebula"],
       "name": "Ziemniaczana zapiekanka z kurczakiem",
       "number": 15
     },
@@ -286,6 +286,76 @@
       "ingredients": ["Wieprzowina", "Papryka", "Cebula"],
       "name": "Gulasz wieprzowy",
       "number": 40
+    },
+    {
+      "composition": ["Cukinia - 1 sztuka", "Papryka czerwona - 1 sztuka", "Papryka zielona - 1 sztuka", "Papryka żółta - 1 sztuka", "Własna mieszkanka przypraw - 1 łyżka", "Cebula - 1 sztuka", "Pomidor - 1 sztuka", "Czosnek - 3 ząbki", "Olej lub inny tłuszcz do smażenia - 4 łyżki"],
+      "description": "Na patelni rozgrzej olej i duś drobno pokrojoną cebulę z posiekanym czosnkiem. Następnie dodaj cukinię pokrojoną w średnią kostkę. Gdy cukinia będzie miękka, dodaj oczyszczone z nasion i pokrojone w kawałki papryki. Pomidory sparz wrzątkiem. Obierz ze skórki i pokrój w kostkę. Gdy papryka będzie miękka, dodaj pomidory i smaż 5 minut. Dodaj przyprawy i dokładnie wymieszaj. Tak przygotowane leczo możesz podawać z pieczywem lub np. z purée ziemniaczanym na obiad.",
+      "ingredients": ["Papryka", "Cebula", "Pomidor", "Cukinia", "Czosnek"],
+      "name": "Leczo warzywne",
+      "number": 41
+    },
+    {
+      "composition": ["Cukinia - 1 sztuka", "Ser feta - 100 gramów", "Czosnek - 2 ząbki", "Sos winegret - 1 porcja", "Pomidorki koktajlowe - 100 gramów", "Świeży tymianek - 3 gałązki"],
+      "description": "Cukinię umyj i osusz. Pokrój w plastry. Czosnek posiekaj drobno. Pomidorki koktajlowe umyj i osusz, przekrój na pół. Listki tymianku oberwij z łodyżek. Rozgrzej na patelni oliwę z oliwek, zeszklij czosnek, dodaj plastry cukinii i oprósz listkami tymianku. Po chwili smażenia odstaw do ostygnięcia. Do przestudzonej cukinii dodaj pomidorki, pokruszony ser feta i sos winegret. Delikatnie wymieszaj.",
+      "ingredients": ["Pomidor", "Cukinia", "Czosnek", "SerFeta", "SosWinegret"],
+      "name": "Sałatka z cukinią i serem feta",
+      "number": 42
+    },
+    {
+      "composition": ["Mięso mielone z indyka - 400 gramów", "Własna mieszanka przypraw do mięsa - 3 łyżki", "Olej - 2 łyżki", "Papryka czerwona - 1 sztuka", "Cukinia - 1 sztuka", "Cebula - 1 sztuka", "Pomidory w puszce - 1 sztuka", "Ryż - 200 gramów"],
+      "description": "Ryż ugotuj zgodnie z instrukcją na opakowaniu. Warzywa pokrój w kostkę 2 x 2 cm. 2 łyżki Fixu wymieszaj z mięsem mielonym i dodaj szczyptę pieprzu. Uformuj małe kulki i podsmaż je na gorącym oleju przez ok. 2 minuty, przełóż mięso do garnka. Na tym samym oleju podsmaż cebulę, cukinię i paprykę, aż do uzyskania złotego koloru. Podsmażone warzywa, pomidory oraz przyprawy wymieszaj z 150 ml wody i połącz z mięsem. Wszystko razem doprowadź do wrzenia i gotuj ok. 5 min, aż sos zgęstnieje. Gotowe klopsiki podawaj z ryżem.",
+      "ingredients": ["Mielone", "PomidoryZpuszki", "Cukinia", "Papryka", "Cebula", "Ryż"  ],
+      "name": "Klopsiki w sosie pomidorowym z warzywami",
+      "number": 43
+    },
+    {
+      "composition": ["Piersi z kurczaka - 3 sztuki", "Sos serowy - 1 porcja", "Cukinia - 1 sztuka", "Cebula - 1 sztuka", "Śmietana 18% - 2 łyżki", "Oliwa - 1 łyżka"],
+      "description": "Piersi z kurczaka pokrój w grubą kostkę – około 1,5-2 cm. Cukinię oraz cebulę pokrój w podobnej wielkości kawałki. Na rozgrzanej dużej patelni przesmaż mięso, a następnie dodaj warzywa. Smaż razem 2 minuty. Na patelnię z kurczakiem i warzywami wlej sos serowy i gotuj jeszcze 5 minut. Pod koniec dodaj śmietanę i wymieszaj. Gotowe danie podawaj najlepiej z makaronem – szerokimi wstążkami. ",
+      "ingredients": ["Kurczak", "Cukinia", "SosSerowy", "Cebula", "Śmietana"],
+      "name": "Cukinia z kurczakiem w sosie serowym",
+      "number": 44
+    },
+    {
+      "composition": ["Schab - 150 gramów", "Własna mieszanka ostrych przypraw - 4 łyżki", "Żółta papryka - 100 gramów", "Cukinia - 50 gramów", "Kukurydza z puszki - 50 gramów", "Czosnek - 1 ząbek", "Ryż - 200 gramów", "Olej - 1 łyżka"],
+      "description": "Pokrój mięso w paski i podsmaż na rozgrzanej patelni. Paprykę oraz cukinię pokrój w paski, a czosnek rozetrzyj. Następnie dodaj je do mięsa, wraz z kukurydzą, i duś razem przez kilka minut. Rozmieszaj przyprawy w 250 mililitrach zimnej wody, po czym wlej do mięsa. Gotuj jeszcze przez 10 minut. Podawaj danie z ryżem.",
+      "ingredients": ["Cukinia", "Kukurydza", "Czosnek", "Wieprzowina", "Ryż", "Papryka"],
+      "name": "Schab po meksykańsku",
+      "number": 45
+    },
+    {
+      "composition": ["Ciasto francuskie - 1 opakowanie", "Własna mieszanka przypraw - 1 łyżka", "Parówki - 8 sztuk", "Cukinia - 1 sztuka", "Papryka czerwona - 1 sztuka", "Pieczarki - 4 sztuki", "Zółty ser - 8 plastrów", "Jajko - 1 sztuka"],
+      "description": "Ciasto francuskie pokrój na 8 jednakowych pasków. Cukinię oraz pieczarki umyj i pokrój w cienkie paski, a paprykę w cienkie piórka. Na każdy kawałek ciasta wyłóż plasterki pieczarek oraz cukinii. Posyp je przyprawami, a następnie połóż paprykę i plasterek sera. Parówki połóż na wierzchu tak, aby wystawały za ciasto i zawiń. Na blachę do pieczenia wyłóż papier pergaminowy i przełóż roladki. Posmaruj je roztrzepanym jajkiem i piecz w piekarniku w 180 °C przez 20 minut. Takie danie doskonale smakuje jako letnia przekąska na świeżym powietrzu.",
+      "ingredients": ["Parowki", "SerZolty", "Cukinia", "Jajka", "Papryka", "Pieczarki"],
+      "name": "Parówki w cieście francuskim z warzywami",
+      "number": 46
+    },
+    {
+      "composition": ["Mieso mielone - 300 gramów", "Ser feta - 100 gramów", "Sos pomidorowy - 1/2 porcji", "Własna mieszanka przypraw - 1 łyżka", "Świeża bazylia - parę listków", "Papryka - 5 sztuk", "Cebula - 1 sztuka", "Kuskus - 100 gramów", "Natka pietruszka - 1 pęczek", "Ser żółty - 20 gramów"],
+      "description": "Kuskus przygotuj według wskazówek umieszczonych na opakowaniu. 4 papryki umyj i odetnij z każdej z nich wierzch grubości ok 1 cm. Ostatnią paprykę pokrój w drobną kostkę. Mięso przesmaż z pokrojoną w kostkę cebulą na oliwie. Sos pomidorowy wymieszaj z 50 ml wody i wlej do mięsa – duś na wolnym ogniu ok. 10 minut. Do mięsa dołóż posiekaną paprykę, kuskus oraz pokruszoną fetę – wymieszaj. Następnie farsz nałóż do każdej z papryk. Natkę posiekaj drobno. Ser żółty zetrzyj na tarce i wymieszaj z natką – posyp wierzch nafaszerowanych papryk. Gotowe papryki ułóż w naczyniu żaroodpornym i wstaw do nagrzanego piekarnika. Zapiekaj w temp 180 °C przez ok. 45 minut. Udekoruj listkami bazylii.",
+      "ingredients": ["Mielone", "SerFeta", "Papryka", "Cebula", "SerZolty"],
+      "name": "Papryka faszerowana mięsem",
+      "number": 47
+    },
+    {
+      "composition": ["Parówki cielęce - 8 sztuk", "Własna mieszanka przypraw - 1 łyżka", "Żółty ser - 8 plastrów", "Mąka pszenna", "Woda gazowana - 100 mililitrów", "Mleko - 250 mililitrów", "Bułka tarta - 0.5 szklaki", "Jajka - 3 sztuki", "Olej - mililitrów"],
+      "description": "Mąkę wsyp do miseczki, dodaj 2 jajka, wodę i 200 ml mleka, po czym energicznie wymieszaj, tak aby powstała jednolita płynna gęsta masa. Na dużej patelni usmaż naleśniki. 1 jajko zmieszaj z 50 ml mleka i przyprawami. Na naleśniki ułóż plastry sera i parówki, obtaczaj w jajku i kolejno w bułce tartej. Na patelnie wlej olej rozgrzej go i smaż parówki w cieście do zrumienienia. Gotowe danie podawaj z ulubioną surówką.",
+      "ingredients": ["Parówki", "Mleko", "Jajka", "MakaPszenna", "SerZolty"],
+      "name": "Parówki w cieście naleśnikowym z serem",
+      "number": 48
+    },
+    {
+      "composition": ["Parówki - 6 sztuk", "Boczek wędzony - 12 platrów", "Pomidory z puszki - 600 gramów", "Cebula - 1 sztuka", "Cukinia - 1 sztuka", "Papryka czerwona - 1 sztuka", "Czosnek - 1 ząbek", "Oliwa - 3 łyżki", "Bulionetka - sztuka"],
+      "description": "Parówki przekrój na pół, a następnie każdą z połówek zawiń w boczek i ułóż na blasze wyłożonej pergaminem. Cebulę, cukinię i paprykę pokrój w 2-3 cm kawałki i przesmaż wraz z czosnkiem na rozgrzanej oliwie. Dodaj pomidory z puszki oraz Bulionetkę – całość duś na małym ogniu 5 minut. Dopraw do smaku, jeśli uważasz to za konieczne. Parówki wstaw do nagrzanego do 180 °C piekarnika i piecz ok. 10 minut – do momentu, gdy boczek się zapiecze. Gotowy pomidorowy sos przelej do żaroodpornego naczynia, następnie ułóż na nim zapieczone parówki i udekoruj listkami pietruszki. Podawaj natychmiast.",
+      "ingredients": ["Parówki", "Boczek", "PomidoryZpuszki", "Cukinia", "Cebula", "Czosnek", "Papryka"],
+      "name": "Zapiekane parówki w sosie pomidorowym",
+      "number": 49
+    },
+    {
+      "composition": ["Parówki - 3 sztuki", "Sos pomidorowy - 1 porcja", "Starty żółty ser - 50 gramów", "Papryka mielona - 1 łyżka"],
+      "description": "Przygotuj Sos pomidorowy. Pozbaw parówki osłonek, następnie pokrój w plasterki. Pod koniec gotowania dodaj parówki oraz żółty ser. Dopraw do smaku mieloną papryką. Sos pomidorowy z parówkami podawaj do makaronu, ryżu, mięsa.",
+      "ingredients": ["Parówki", "SosPomidorowy", "SerZolty"],
+      "name": "Sos pomidorowy z parówkami",
+      "number": 50
     }
   ],
   "vegetables" : [

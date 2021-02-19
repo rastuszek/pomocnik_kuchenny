@@ -95,13 +95,14 @@ const Seek = () => {
         <Container className="cards" maxWidth={'sm'}>
 
             <div className="text">
-                Proszę wybrać składniki, z których zamierzasz stworzyć danie:
+                <h2> Proszę wybrać składniki, z których zamierzasz stworzyć danie:</h2>
             </div>
 
             <FormGroup row>
 
                 <Card className="ingre">
                     <CardContent>
+                        <img className="photos" src="https://images.unsplash.com/photo-1542223189-67a03fa0f0bd?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=2104&q=80" />
                         <Typography className="typo" variant="h5">
                             Warzywa
                         </Typography>
@@ -194,10 +195,10 @@ const Seek = () => {
 
                 <Card className="ingre">
                     <CardContent>
+                        <img className="photos" src="https://images.unsplash.com/photo-1607623814075-e51df1bdc82f?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1050&q=80" />
                         <Typography className="typo" variant="h5" component="h2">
                             Mięso
                         </Typography>
-
                         <Grid container spacing={2}>
                             <Grid item xs={6}>
                                 <FormControlLabel
@@ -237,6 +238,7 @@ const Seek = () => {
 
                 <Card className="ingre">
                     <CardContent>
+                        <img className="photos" src="https://images.unsplash.com/photo-1591981131950-2ed961d0490e?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1050&q=80" />
                         <Typography className="typo" variant="h5" component="h2">
                             Inne
                         </Typography>
