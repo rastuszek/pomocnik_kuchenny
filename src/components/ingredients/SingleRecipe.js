@@ -26,13 +26,13 @@ const SingleRecipe = (props) => {
                 return (
                     <Container maxWidth={'sm'}>
                         <Card className='description'>
-                            <h1>{recipe.name}</h1>
+                            <h1><b>{recipe.name}</b></h1>
                             <div className="single">
-                                <h6>Składniki:</h6>
+                                <h6><b>Składniki:</b></h6>
                                 <ul className="tips">
                                     {recipe.composition.map(ingredient => <li key={ingredient}>{ingredient}</li>)}
                                 </ul>
-                                <h6>Sposób przygotowania:</h6>
+                                <h6><b> Sposób przygotowania:</b></h6>
                                 {recipe.description}
                             </div>
 

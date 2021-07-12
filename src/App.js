@@ -22,6 +22,8 @@ import SingleGroat from "./components/ingredients/SingleGroat";
 import RecipesAll from "./components/ingredients/RecipesAll";
 import Sauces from "./components/ingredients/Sauces";
 import NavBar from "./components/NavBar";
+import {CounterDown} from "./components/CounterDown";
+
 import "./components/All.css";
 
 const App = () => {
@@ -56,6 +58,7 @@ const App = () => {
                     <PrivateRoute exact path="/funkcje/jak/kasze" component={Groats}/>
                     <PrivateRoute path="/funkcje/jak/kasze/:slug" component={SingleGroat}
                     />
+                    <PrivateRoute exact path="/minutnik" component={CounterDown} />
                     <PrivateRoute exact path="/funkcje/znajdz/sosy" component={Sauces}/>
                 </Switch>
             </div>

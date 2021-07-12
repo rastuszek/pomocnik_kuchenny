@@ -1,17 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="ca7d999f-2173-4b68-b612-f7220dbb22eb" name="Default Changelist" comment="poprawki - wyglad jak ugotowac">
+    <list default="true" id="ca7d999f-2173-4b68-b612-f7220dbb22eb" name="Default Changelist" comment="poprawki">
+      <change afterPath="$PROJECT_DIR$/src/components/CounterDown/index.jsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.eslintcache" beforeDir="false" afterPath="$PROJECT_DIR$/.eslintcache" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/All.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/All.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/How.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/How.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Intro.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Intro.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Login.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Login.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/NavBar/index.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/NavBar/index.jsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/Seek.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Seek.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/ingredients/RecipesAll.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/ingredients/RecipesAll.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/ingredients/Sauces.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/ingredients/Sauces.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/ingredients/SingleGroat.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/ingredients/SingleGroat.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/ingredients/SinglePasta.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/ingredients/SinglePasta.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/ingredients/SingleVarious.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/ingredients/SingleVarious.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/ingredients/SingleRecipe.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/ingredients/SingleRecipe.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/ingredients/SingleVege.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/ingredients/SingleVege.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/example.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/example.json" afterDir="false" />
     </list>
@@ -157,7 +159,39 @@
       <workItem from="1613590082369" duration="4146000" />
       <workItem from="1613749536910" duration="7786000" />
       <workItem from="1613759299509" duration="1335000" />
-      <workItem from="1613764777717" duration="6222000" />
+      <workItem from="1613764777717" duration="6423000" />
+      <workItem from="1613933532912" duration="1224000" />
+      <workItem from="1614120358773" duration="440000" />
+      <workItem from="1614423302119" duration="1847000" />
+      <workItem from="1615313110376" duration="618000" />
+      <workItem from="1615750517099" duration="4581000" />
+      <workItem from="1615838580221" duration="3362000" />
+      <workItem from="1616187860570" duration="5373000" />
+      <workItem from="1616356698130" duration="70000" />
+      <workItem from="1616356817447" duration="2796000" />
+      <workItem from="1616608335946" duration="2917000" />
+      <workItem from="1616786672256" duration="783000" />
+      <workItem from="1617037798872" duration="308000" />
+      <workItem from="1617129608207" duration="4055000" />
+      <workItem from="1618436531816" duration="611000" />
+      <workItem from="1623267174768" duration="2488000" />
+      <workItem from="1623705163842" duration="1252000" />
+      <workItem from="1624056886389" duration="9000" />
+      <workItem from="1624220082211" duration="2659000" />
+      <workItem from="1624311605905" duration="1847000" />
+      <workItem from="1624398138872" duration="817000" />
+      <workItem from="1624753513389" duration="1521000" />
+      <workItem from="1624798051537" duration="962000" />
+      <workItem from="1624820101821" duration="635000" />
+      <workItem from="1624921891151" duration="912000" />
+      <workItem from="1625000349037" duration="1313000" />
+      <workItem from="1625101969990" duration="575000" />
+      <workItem from="1625337721049" duration="946000" />
+      <workItem from="1625339270463" duration="861000" />
+      <workItem from="1625689602957" duration="1194000" />
+      <workItem from="1625771817532" duration="1477000" />
+      <workItem from="1626003431016" duration="647000" />
+      <workItem from="1626106864140" duration="1195000" />
     </task>
     <task id="LOCAL-00001" summary="ok">
       <created>1608942873427</created>
@@ -327,7 +361,14 @@
       <option name="project" value="LOCAL" />
       <updated>1613510137494</updated>
     </task>
-    <option name="localTasksCounter" value="25" />
+    <task id="LOCAL-00025" summary="poprawki">
+      <created>1613779188271</created>
+      <option name="number" value="00025" />
+      <option name="presentableId" value="LOCAL-00025" />
+      <option name="project" value="LOCAL" />
+      <updated>1613779188271</updated>
+    </task>
+    <option name="localTasksCounter" value="26" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -405,6 +446,7 @@
     <MESSAGE value="poprawki - tresc przepisu" />
     <MESSAGE value="poprawki - wyglad i logowanie" />
     <MESSAGE value="poprawki - wyglad jak ugotowac" />
-    <option name="LAST_COMMIT_MESSAGE" value="poprawki - wyglad jak ugotowac" />
+    <MESSAGE value="poprawki" />
+    <option name="LAST_COMMIT_MESSAGE" value="poprawki" />
   </component>
 </project>

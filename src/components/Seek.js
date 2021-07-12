@@ -24,6 +24,7 @@ const GreenCheckbox = withStyles({
     },
     checked: {},
 })((props) => <Checkbox color="default" {...props} />);
+
 const Seek = () => {
     const [state, setState] = useState({
         Jajka: false,
@@ -95,15 +96,17 @@ const Seek = () => {
         <Container className="cards" maxWidth={'sm'}>
 
             <div className="text">
-                <h2> Proszę wybrać składniki, z których zamierzasz stworzyć danie:</h2>
+                <h2> Proszę wybrać co najmniej 3 składniki, z których zamierzasz stworzyć danie:</h2>
             </div>
 
             <FormGroup row>
 
                 <Card className="ingre">
                     <CardContent>
-                        <img className="photos" src="https://images.unsplash.com/photo-1542223189-67a03fa0f0bd?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=2104&q=80" />
-                        <Typography className="typo" variant="h5">
+                    <img className="photos" src="https://images.unsplash.com/photo-1542223189-67a03fa0f0bd?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=2104&q=80" />
+                    {/* te zdjecia powinny byc responsywne*/}
+
+                        <Typography className="typo" variant="h5" component="h2">
                             Warzywa
                         </Typography>
                         <Grid container spacing={2}>
@@ -301,7 +304,7 @@ const Seek = () => {
 
             {recipesShow &&
             <Recipes recipes={recipesShow}/>}
-            {alert && window.alert('Za mało składników')}
+            {alert && window.alert('Zbyt mała ilość zaznaczonych składników!')}
 
             <div className="buttons">
                 <Button variant="contained" onClick={handleClick} color="primary">
@@ -311,7 +314,7 @@ const Seek = () => {
 
             <div className="buttons">
                 <Link to='/funkcje/znajdz/sosy'> <Button variant="contained" color="primary">
-                    Sosy, ktore czesto wystepuja jako baza w przepisach</Button></Link>
+                    Sosy, które często wystepują w przepisach</Button></Link>
             </div>
 
         </Container>

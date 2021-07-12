@@ -70,7 +70,7 @@ const Login = () => {
                             </Grid>
                             <Grid item xs={3}>
                                 <Button onClick={handleRedirect} variant="contained">
-                                    Zarejestruj
+                                    Rejestracja
                                 </Button>
                             </Grid>
                             <Grid item xs={3}></Grid>

@@ -71,7 +71,7 @@ const SingleVege = (props) => {
 
                                 <Collapse in={expanded} timeout="auto" unmountOnExit>
                                     <CardContent >
-                                        <h6>Wartości zdrowotne:</h6>
+                                        <h6>Wartości zdrowotne oraz ciekawostki:</h6>
                                         <Typography  paragraph>
                                             {vege.values}
                                         </Typography>
